@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-24T12:24:57+00:00",
+ "generated_utc": "2026-10-24T15:01:53.063687+00:00",
  "overall_status": "PENDING - EXTERNALLY BLOCKED",
  "status_reason": "No Codabench submission ID: the submission platform has been unreachable since 2026-10-23. Not delivered, not closed.",
  "competition": {
@@ -204,9 +204,9 @@
    "how to handle the submission ID field",
    "what to prepare now"
   ],
-  "reply_received": false,
+  "reply_received": true,
   "note": "Sending this email is not an acceptance and does not substitute the normal submission flow.",
-  "reply_rechecked_utc": "2026-10-24T09:35:59+00:00",
+  "reply_rechecked_utc": "2026-10-24T15:01:53.063687+00:00",
   "material_deposit": {
    "sent": true,
    "sent_utc": "2026-10-24T09:40:08Z",
@@ -229,7 +229,22 @@
     }
    ],
    "primary_candidate": "submission_original.zip",
-   "eligibility_or_acceptance_confirmed": false
+   "eligibility_or_acceptance_confirmed": false,
+   "recipient_attachment_delivery_caveat": "The reply includes a Stanford mail-system notice that an attachment was removed. The notice does not identify the exact removed file; Sent-folder presence does not prove all attachments arrived."
+  },
+  "reply_summary": "Organisers are monitoring the Codabench outage and will consider alternative mechanisms if it continues. Updates are directed to the AI Measurement Science Discord.",
+  "alternative_route_authorised": false,
+  "evidence": "docs/evidence/organiser_reply_20261024.json",
+  "public_download_links_followup": {
+   "sent": true,
+   "verified_in_gmail_ui": true,
+   "sent_local_time": "2026-10-24 17:00 Europe/Madrid",
+   "recipients": [
+    "kabirma@stanford.edu",
+    "aimslab@cs.stanford.edu"
+   ],
+   "same_thread": true,
+   "screenshot_local": "aims_enlaces_enviados.png"
   }
  },
  "results_claimed": {

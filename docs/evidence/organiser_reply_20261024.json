@@ -1,0 +1,44 @@
+{
+  "recorded_utc": "2026-10-24T15:01:53.063687+00:00",
+  "organiser_reply_received_utc": "2026-10-24T14:20:17Z",
+  "outage_acknowledged": true,
+  "alternative_route_authorised": false,
+  "competition_submission_accepted": false,
+  "reply_summary": "Organisers are monitoring the Codabench outage and will consider alternative mechanisms if it continues. Updates are directed to the AI Measurement Science Discord.",
+  "discord_invitation": "https://discord.gg/UFCtTnC8g",
+  "attachment_delivery_caveat": "The reply includes a Stanford mail-system notice that an attachment was removed. The notice does not identify the exact removed file; Sent-folder presence does not prove all attachments arrived.",
+  "download_links_followup": {
+    "sent": true,
+    "verified_in_gmail_ui": true,
+    "sent_local_time": "2026-10-24 17:00 Europe/Madrid",
+    "recipients": [
+      "kabirma@stanford.edu",
+      "aimslab@cs.stanford.edu"
+    ],
+    "same_thread": true,
+    "screenshot_local": "aims_enlaces_enviados.png"
+  },
+  "verified_public_artifacts": [
+    {
+      "path": "submissions/submission_original.zip",
+      "url": "https://raw.githubusercontent.com/Agnuxo1/AIMS-PAIEC-2026/16bc039/submissions/submission_original.zip",
+      "bytes": 1596,
+      "sha256": "895c3a9f693947ab096fb3c75120858416594b95c69261b5fc67207fa79722f8",
+      "authenticated": false
+    },
+    {
+      "path": "submissions/submission_context_experimental.zip",
+      "url": "https://raw.githubusercontent.com/Agnuxo1/AIMS-PAIEC-2026/16bc039/submissions/submission_context_experimental.zip",
+      "bytes": 736,
+      "sha256": "eb52cd786875533e0f506723ed7d5ed06ec0d7d09f05c96dd8512a3ad630a94b",
+      "authenticated": false
+    },
+    {
+      "path": "report/informe_v2.pdf",
+      "url": "https://raw.githubusercontent.com/Agnuxo1/AIMS-PAIEC-2026/16bc039/report/informe_v2.pdf",
+      "bytes": 181781,
+      "sha256": "5510cd7318090db52ae8ec1bf92fd9b8561171cc8b7dad1f18a2ea87ab9aaea1",
+      "authenticated": false
+    }
+  ]
+}
