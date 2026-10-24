@@ -1,0 +1,79 @@
+{
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "total_seconds": 277.3,
+ "segments": [
+  {
+   "index": 1,
+   "title": "1 — The problem",
+   "file": "seg01.mp3",
+   "seconds": 32.928,
+   "words": 85,
+   "text": "Here is the question. You are handed an AI system and a benchmark item it has never been scored on. Predict the probability that it answers correctly. You may be shown a handful of labels for that system first — zero, one, three, seven, fifteen, or thirty-one — and you are scored by Brier A-L-C, the area under the resulting learning curve. The catch is that the test items come from benchmarks that are entirely absent from training, so nothing benchmark-specific can be carried over."
+  },
+  {
+   "index": 2,
+   "title": "2 — The official reference",
+   "file": "seg02.mp3",
+   "seconds": 28.08,
+   "words": 78,
+   "text": "The competition ships a reference predictor. It returns the raw mean of the labels it has seen, and one half when it has seen none. That sounds reasonable until you look at what happens with a single label. The raw mean is then either zero or one, so one wrong guess costs the maximum possible Brier loss. On our independent re-evaluation its score at one label is point three five, which is worse than ignoring the labels entirely."
+  },
+  {
+   "index": 3,
+   "title": "3 — The method",
+   "file": "seg03.mp3",
+   "seconds": 25.296,
+   "words": 57,
+   "text": "Our submission is a Beta-Binomial posterior mean. A symmetric prior worth three pseudo-observations, updated by whatever labels arrive. With one label it moves from one half to zero point six two five instead of jumping to one. That is the whole method. Four lines of arithmetic, no state, no fitting at run time, no payload, no network."
+  },
+  {
+   "index": 4,
+   "title": "4 — The result",
+   "file": "seg04.mp3",
+   "seconds": 33.672,
+   "words": 89,
+   "text": "Over one hundred and fifty-one benchmarks, thirteen thousand two hundred eligible pairs and eight seeds, the reference scores zero point two three six eight and our predictor zero point two zero six zero. That is a difference of minus zero point zero three zero eight, with a ninety-five percent interval from minus zero point zero three eight four to minus zero point zero two seven two, improving one hundred and thirty-three of one hundred and fifty-one benchmarks. Every one of those numbers is local validation, not an official score."
+  },
+  {
+   "index": 5,
+   "title": "5 — Independent replication and audit",
+   "file": "seg05.mp3",
+   "seconds": 46.344,
+   "words": 113,
+   "text": "Those results were re-derived independently. The original headline pairs were reconstructed straight from the data files, without running the original evaluator, and matched to one part in ten to the sixteenth. That same audit then found four real defects. The leave-one-benchmark-out fit for the richer priors had other headline benchmarks visible during development. Some eligibility filters counted responses where they should have counted distinct items. Caps on subjects and items had quietly changed the population. And an empirical oracle had been described as a noise floor, which a retrospective fit does not establish. All four are corrected in the protocol you are looking at, and all four are written down in the repository."
+  },
+  {
+   "index": 6,
+   "title": "6 — What did not work",
+   "file": "seg06.mp3",
+   "seconds": 37.08,
+   "words": 83,
+   "text": "Seven extensions produced no detectable improvement, and we report them because they bound where the signal is not. A tuned Beta prior: inconclusive. A calibration table: inconclusive. A Ridge prior over subject attributes: clearly worse. Per-budget tuning: identical. And twice we attacked the largest remaining target, predicting how a single item deviates from its own pair, once with hand-built features and once with hashed sparse text. Both made things strictly worse, even when we handed the model the true pair rate for free."
+  },
+  {
+   "index": 7,
+   "title": "7 — The conditional extension",
+   "file": "seg07.mp3",
+   "seconds": 33.24,
+   "words": 84,
+   "text": "One thing did help, conditionally. The scoring interface can supply labels for other subjects on the same benchmark. A variant that mixes that peer evidence into the prior gains a further zero point zero zero two six in a simulated four-subject cohort. It is reported separately and shipped as a separate archive, for an honest reason: whether the real platform supplies peer labels is unverified. If it supplies none, this variant returns the submitted predictor exactly, so it cannot be worse in that case."
+  },
+  {
+   "index": 8,
+   "title": "8 — Reproduction and status",
+   "file": "seg08.mp3",
+   "seconds": 32.664,
+   "words": 77,
+   "text": "Everything is public. The downloader is pinned to a dataset revision with per-file hashes. Continuous integration runs the synthetic checks and validates both submission archives on every push. The figures and animations regenerate from the committed results, so they cannot drift from the evidence. One thing is missing, and we say so plainly: the submission platform has been unreachable, so there is no submission identifier and no official score. No ranking and no acceptance is claimed anywhere."
+  },
+  {
+   "index": 9,
+   "title": "9 — Close",
+   "file": "seg09.mp3",
+   "seconds": 7.992,
+   "words": 19,
+   "text": "The code, the audit, the failures and the report are in the repository linked below. Thank you for watching."
+  }
+ ]
+}
