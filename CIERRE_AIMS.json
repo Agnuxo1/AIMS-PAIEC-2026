@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-24T09:36:43+00:00",
+ "generated_utc": "2026-10-24T09:41:54+00:00",
  "overall_status": "PENDING - EXTERNALLY BLOCKED",
  "status_reason": "No Codabench submission ID: the submission platform has been unreachable since 2026-10-23. Not delivered, not closed.",
  "competition": {
@@ -31,7 +31,7 @@
   "url": "https://github.com/Agnuxo1/AIMS-PAIEC-2026",
   "visibility": "public",
   "verified_logged_out": true,
-  "commit": "3e4fd32f8986408a0a645f7d5cb26c67e0969f81",
+  "commit": "16bc039a7c73b7e98417f17d630e40408f1b3837",
   "release_tag": "v1.0.0",
   "release_url": "https://github.com/Agnuxo1/AIMS-PAIEC-2026/releases/tag/v1.0.0",
   "licence": "MIT",
@@ -42,11 +42,11 @@
    "credentials"
   ],
   "commit_note": "Verified base commit before this closure update; the commit containing this file is visible in Git history.",
-  "local_head_at_generation": "3e4fd32f8986408a0a645f7d5cb26c67e0969f81"
+  "local_head_at_generation": "16bc039a7c73b7e98417f17d630e40408f1b3837"
  },
  "ci": {
-  "last_run_id": 40081323445,
-  "last_run_url": "https://github.com/Agnuxo1/AIMS-PAIEC-2026/actions/runs/40081323445",
+  "last_run_id": 40082766428,
+  "last_run_url": "https://github.com/Agnuxo1/AIMS-PAIEC-2026/actions/runs/40082766428",
   "conclusion": "success",
   "checks": [
    "synthetic metric and inference tests",
@@ -58,7 +58,7 @@
    "cause": "scikit-learn 1.4.0 pins numpy<2; requirements were unsatisfiable from a clean install",
    "fixed_in": "e75745c"
   },
-  "verified_utc": "2026-10-24T09:35:59+00:00",
+  "verified_utc": "2026-10-24T09:41:54+00:00",
   "scope": "Previously published commit; subsequent commits must pass their own run."
  },
  "artifacts": {
@@ -198,7 +198,31 @@
   ],
   "reply_received": false,
   "note": "Sending this email is not an acceptance and does not substitute the normal submission flow.",
-  "reply_rechecked_utc": "2026-10-24T09:35:59+00:00"
+  "reply_rechecked_utc": "2026-10-24T09:35:59+00:00",
+  "material_deposit": {
+   "sent": true,
+   "sent_utc": "2026-10-24T09:40:08Z",
+   "verified_in_sent_folder": true,
+   "attachments": [
+    {
+     "filename": "technical_report_publication.pdf",
+     "bytes": 181781,
+     "sha256": "5510cd7318090db52ae8ec1bf92fd9b8561171cc8b7dad1f18a2ea87ab9aaea1"
+    },
+    {
+     "filename": "submission_original.zip",
+     "bytes": 1596,
+     "sha256": "895c3a9f693947ab096fb3c75120858416594b95c69261b5fc67207fa79722f8"
+    },
+    {
+     "filename": "submission_context_experimental.zip",
+     "bytes": 736,
+     "sha256": "eb52cd786875533e0f506723ed7d5ed06ec0d7d09f05c96dd8512a3ad630a94b"
+    }
+   ],
+   "primary_candidate": "submission_original.zip",
+   "eligibility_or_acceptance_confirmed": false
+  }
  },
  "results_claimed": {
   "protocol": "independent re-evaluation: 151 benchmarks, 13,200 eligible pairs, 105,600 scenarios, 142 components, 8 seeds, 5 outer folds",

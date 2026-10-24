@@ -1,0 +1,29 @@
+{
+  "verified_utc": "2026-10-24T09:41:54+00:00",
+  "route": "existing email thread to aimslab@cs.stanford.edu",
+  "delivery_sent_utc": "2026-10-24T09:40:08Z",
+  "attachments": [
+    {
+      "filename": "technical_report_publication.pdf",
+      "bytes": 181781,
+      "sha256": "5510cd7318090db52ae8ec1bf92fd9b8561171cc8b7dad1f18a2ea87ab9aaea1"
+    },
+    {
+      "filename": "submission_original.zip",
+      "bytes": 1596,
+      "sha256": "895c3a9f693947ab096fb3c75120858416594b95c69261b5fc67207fa79722f8"
+    },
+    {
+      "filename": "submission_context_experimental.zip",
+      "bytes": 736,
+      "sha256": "eb52cd786875533e0f506723ed7d5ed06ec0d7d09f05c96dd8512a3ad630a94b"
+    }
+  ],
+  "accepted_as_official_submission": false,
+  "codabench_submission_id": null,
+  "openreview_submission_id": null,
+  "code_revision": "16bc039a7c73b7e98417f17d630e40408f1b3837",
+  "ci_run": 40082766428,
+  "video_language": "English",
+  "youtube_captions_available": false
+}

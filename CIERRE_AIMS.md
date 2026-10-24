@@ -15,9 +15,9 @@ Plazo oficial: **30-10-2026 23:59 AoE = 31-10-2026 11:59 UTC** (≈ 7,1 días de
 | URL | <https://github.com/Agnuxo1/AIMS-PAIEC-2026> |
 | Visibilidad | **Público** (comprobado sin sesión en un navegador aislado) |
 | Cuenta | `Agnuxo1`, la verificada. No había repositorio previo de esta participación |
-| Commit del cierre | `3e4fd32` (base verificada antes de esta actualización; ver Git para el commit que la contiene) |
+| Commit del cierre | `16bc039` (base verificada antes de esta actualización; ver Git para el commit que la contiene) |
 | Licencia | MIT (`LICENSE`), terceros en `THIRD_PARTY.md` |
-| Contenido | 123 archivos: entrega, auditoría independiente, protocolo, resultados con candidatos desfavorables, informe PDF y LaTeX, descargador fijado, los 34 originales en `legacy_original/` |
+| Contenido | Base inicial de 123 archivos, más la evidencia de cierre: entrega, auditoría independiente, protocolo, resultados con candidatos desfavorables, informe PDF y LaTeX, descargador fijado, los 34 originales en `legacy_original/` |
 | Fuera de Git | datos brutos, cachés, entornos y credenciales |
 
 **Release:** <https://github.com/Agnuxo1/AIMS-PAIEC-2026/releases/tag/v1.0.0>
@@ -34,7 +34,7 @@ El informe de la tabla anterior pertenece a la release inicial, conservada intac
 
 | Dato | Valor |
 |---|---|
-| Último run | [40081323445](https://github.com/Agnuxo1/AIMS-PAIEC-2026/actions/runs/40081323445) · **success** |
+| Último run | [40082766428](https://github.com/Agnuxo1/AIMS-PAIEC-2026/actions/runs/40082766428) · **success** |
 | Qué ejecuta | pruebas sintéticas de métrica e inferencia; validación de los dos ZIP; regeneración de figuras y GIF |
 | Qué NO hace | no descarga los 5,35 GB, no usa credenciales ni servicios de pago |
 
@@ -87,6 +87,8 @@ Los dos GIF están marcados en su propio fotograma como ilustración sintética.
 **Evidencia del bloqueo.** `www.codabench.org` resuelve por DNS a `129.175.8.21` (Paris-Saclay) pero el puerto 443 agota el tiempo. Comprobado **doce veces** entre el 23-10 21:30 UTC y el 24-10 09:09 UTC, desde esta red, desde un verificador HTTP externo independiente y con resolución DNS por 1.1.1.1 y 8.8.8.8. En las mismas máquinas y momentos, `aims.stanford.edu`, Hugging Face y GitHub responden con normalidad.
 
 **Comunicación con los organizadores.** Correo enviado el **24-10-2026 a las 11:12 (Madrid)** a `aimslab@cs.stanford.edu`, asunto *«Codabench unreachable - Predictive AI Evaluation Competition submission route»*, desde `lareliquia.angulo@gmail.com`. Verificado en la carpeta Enviados. Antes se comprobó que **no existía un hilo previo** con los organizadores, para no duplicar. Pregunta por: si la caída es conocida y su previsión, si hay una vía alternativa escrita que conserve la elegibilidad, cómo gestionar el campo del submission ID, y qué conviene preparar. **Enviar ese correo no equivale a una aceptación**: sin respuesta explícita de los organizadores que habilite otra vía, el estado sigue siendo bloqueado.
+
+**Depósito del material final por correo.** El 24-10-2026 a las **09:40:08 UTC (11:40 Madrid)** se respondió en el mismo hilo, adjuntando el PDF actualizado (181.781 bytes) y los dos ZIP (1.596 y 736 bytes), con sus SHA-256 y el enlace al código fijado en `16bc039`. Se identificó `submission_original.zip` como candidatura principal y el contextual como experimental. Los tres adjuntos constan en Enviados. Se solicitó confirmación de recepción y de la posible vía alternativa. **Este depósito está enviado; su aceptación como entrega oficial no está confirmada.**
 
 ## 6. Resultado que se reclama, y el que no
 
