@@ -1,0 +1,207 @@
+[
+  {
+    "method": "tuned_beta",
+    "reference": "original_beta3",
+    "difference_pair_mean": -0.0004491062099210603,
+    "ci95": [
+      -0.005350001723640534,
+      0.0036630895370422757
+    ],
+    "ci98333_three_families": [
+      -0.006004470649431005,
+      0.004123805428833061
+    ],
+    "cluster_sign_flip_p_plus_one": 0.9331066893310669,
+    "difference_benchmark_mean": 0.0020613230320743487,
+    "benchmarks_improved": 63,
+    "benchmarks_tied": 0,
+    "n_benchmarks": 151,
+    "n_pairs": 13200,
+    "n_components": 142,
+    "difference_per_seed": {
+      "17": -0.0004595473127118267,
+      "29": -0.00045207745211803415,
+      "43": -0.0005016316879088438,
+      "71": -0.0004462308093022017,
+      "101": -0.00040771947527854587,
+      "137": -0.0004215817359831476,
+      "181": -0.0004589956540068122,
+      "233": -0.0004450655520590723
+    },
+    "difference_per_fold": {
+      "0": -0.0065485191673849575,
+      "1": 0.0031769235675788527,
+      "2": -0.0013874998155380398,
+      "3": -0.0014713968995783459,
+      "4": 0.00352930362377191
+    },
+    "largest_component": "alignment_faking",
+    "largest_component_pair_count": 4278,
+    "difference_excluding_largest_component": -0.0024417722512243157,
+    "promote": false
+  },
+  {
+    "method": "calibration_table",
+    "reference": "original_beta3",
+    "difference_pair_mean": -0.00010716822051885371,
+    "ci95": [
+      -0.0005220518232032811,
+      0.00010485845241540586
+    ],
+    "ci98333_three_families": [
+      -0.0006881812122059115,
+      0.00016815535286081695
+    ],
+    "cluster_sign_flip_p_plus_one": 0.40335966403359663,
+    "difference_benchmark_mean": -4.67235378422469e-05,
+    "benchmarks_improved": 33,
+    "benchmarks_tied": 90,
+    "n_benchmarks": 151,
+    "n_pairs": 13200,
+    "n_components": 142,
+    "difference_per_seed": {
+      "17": -0.00011102383702556458,
+      "29": -0.00010192120139569834,
+      "43": -0.00010050365454028117,
+      "71": -0.00011208324975248135,
+      "101": -0.00011318032446781665,
+      "137": -0.0001186155330985869,
+      "181": -9.882956080114238e-05,
+      "233": -0.00010118840306925757
+    },
+    "difference_per_fold": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0015950686921084205,
+      "3": -0.00190671237421313,
+      "4": 0.0
+    },
+    "largest_component": "alignment_faking",
+    "largest_component_pair_count": 4278,
+    "difference_excluding_largest_component": -0.00015855419310119577,
+    "promote": false
+  },
+  {
+    "method": "subject_ridge",
+    "reference": "original_beta3",
+    "difference_pair_mean": 0.010565099607636415,
+    "ci95": [
+      0.0012182671277007433,
+      0.01794339742973106
+    ],
+    "ci98333_three_families": [
+      0.0003471136424314303,
+      0.019206290001452433
+    ],
+    "cluster_sign_flip_p_plus_one": 0.030896910308969103,
+    "difference_benchmark_mean": 0.003478283102264293,
+    "benchmarks_improved": 48,
+    "benchmarks_tied": 33,
+    "n_benchmarks": 151,
+    "n_pairs": 13200,
+    "n_components": 142,
+    "difference_per_seed": {
+      "17": 0.010519894817876758,
+      "29": 0.010550892051977456,
+      "43": 0.010647595650230742,
+      "71": 0.010454956175257987,
+      "101": 0.010666717695800491,
+      "137": 0.01061767829391971,
+      "181": 0.010572403728929203,
+      "233": 0.010490658447098986
+    },
+    "difference_per_fold": {
+      "0": 0.021946830913433985,
+      "1": 0.007760124776521189,
+      "2": -0.001520550432063286,
+      "3": 0.0,
+      "4": -0.0007743928461332258
+    },
+    "largest_component": "alignment_faking",
+    "largest_component_pair_count": 4278,
+    "difference_excluding_largest_component": 0.011550708798728966,
+    "promote": false
+  },
+  {
+    "method": "original_beta3",
+    "reference": "empirical_mean",
+    "difference_pair_mean": -0.030830024329043304,
+    "ci95": [
+      -0.03842563119706684,
+      -0.02721422677120799
+    ],
+    "ci98333_three_families": [
+      -0.04014351970984715,
+      -0.026518975111074716
+    ],
+    "cluster_sign_flip_p_plus_one": 9.999000099990002e-05,
+    "difference_benchmark_mean": -0.03432339323196891,
+    "benchmarks_improved": 133,
+    "benchmarks_tied": 0,
+    "n_benchmarks": 151,
+    "n_pairs": 13200,
+    "n_components": 142,
+    "difference_per_seed": {
+      "17": -0.03083265744773964,
+      "29": -0.030711384264572913,
+      "43": -0.030761000112722352,
+      "71": -0.030990230739050804,
+      "101": -0.030819045851801292,
+      "137": -0.03082110049034645,
+      "181": -0.030766233241698974,
+      "233": -0.030938542484414026
+    },
+    "difference_per_fold": {
+      "0": -0.03257009031164595,
+      "1": -0.027238961536361336,
+      "2": -0.023784372100365606,
+      "3": -0.028761323815211383,
+      "4": -0.04778156854452544
+    },
+    "largest_component": "alignment_faking",
+    "largest_component_pair_count": 4278,
+    "difference_excluding_largest_component": -0.03367926919562996,
+    "promote": true
+  },
+  {
+    "method": "original_beta3_first_repeat",
+    "reference": "original_beta3",
+    "difference_pair_mean": 4.589366942472168e-05,
+    "ci95": [
+      3.05935392912822e-06,
+      0.0001504148198779241
+    ],
+    "ci98333_three_families": [
+      -6.415442004014249e-06,
+      0.00018574179558505737
+    ],
+    "cluster_sign_flip_p_plus_one": 0.053394660533946606,
+    "difference_benchmark_mean": 0.00013921184677482884,
+    "benchmarks_improved": 20,
+    "benchmarks_tied": 107,
+    "n_benchmarks": 151,
+    "n_pairs": 13200,
+    "n_components": 142,
+    "difference_per_seed": {
+      "17": 8.629097593896072e-05,
+      "29": 4.2896401963707095e-05,
+      "43": 4.003737018932369e-05,
+      "71": 9.361281317658578e-05,
+      "101": 2.7847467164432738e-05,
+      "137": 5.254408014724328e-05,
+      "181": -2.3018484595466665e-05,
+      "233": 4.6938731412987064e-05
+    },
+    "difference_per_fold": {
+      "0": 1.2558486274906083e-06,
+      "1": 5.3668695993160005e-05,
+      "2": 0.00019766722869538072,
+      "3": 2.1858120425947968e-05,
+      "4": 0.00012931058654997587
+    },
+    "largest_component": "alignment_faking",
+    "largest_component_pair_count": 4278,
+    "difference_excluding_largest_component": 5.998671428768232e-05,
+    "promote": false
+  }
+]

@@ -1,0 +1,24 @@
+{
+ "n_benchmarks": 50,
+ "brier_constante": 0.25,
+ "brier_media_global": 0.25133670668827285,
+ "brier_modelo": 0.24950337921914678,
+ "gana": 18,
+ "p": 0.06490864707227217,
+ "efecto_sobre_alc": -4.966207808532186e-05,
+ "veredicto": "NO se demuestra senal transferible",
+ "coeficientes": {
+  "es_opcion_multiple": 0.8784204664635348,
+  "n_opciones": -0.5344112749192265,
+  "anio_release": 0.2897723770415176,
+  "tiene_codigo": -0.2584701969549196,
+  "log_long": -0.19410106529440357,
+  "prop_digitos": -0.141749049204287,
+  "prop_puntuacion": 0.13582803677393154,
+  "prov_Meta": -0.1257954516611874,
+  "saltos_linea": 0.0991042855258165,
+  "log_palabras": 0.09779015576909533,
+  "tiene_latex": -0.09683340569999263,
+  "prov_DeepSeek": -0.09353189624030615
+ }
+}

@@ -1,0 +1,14 @@
+{
+  "supporting_files_hashed": 501,
+  "mismatches": [],
+  "official_baseline_source_matches": false,
+  "official_baseline_sha256": "1e570641dd9b981baae988779b904ae58ad610a99bd44fb861647c60c93e935e",
+  "checked_at_utc": "2026-10-24T07:14:42.456086+00:00",
+  "official_baseline_normalized_text_matches": true,
+  "official_baseline_ast_matches": true,
+  "frozen_manifest_files_checked_against_hf_records": 890,
+  "frozen_manifest_mismatches": [],
+  "frozen_input_revisions": [
+    "54074453da7b9911be0f48e4c560be547bc84d21"
+  ]
+}

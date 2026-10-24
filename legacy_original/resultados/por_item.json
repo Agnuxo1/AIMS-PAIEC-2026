@@ -1,0 +1,12 @@
+{
+ "alc_por_escala": {
+  "0.0": 0.21708313440739072,
+  "0.5": 0.21776141967047524,
+  "1.0": 0.21895874746638982,
+  "1.5": 0.22067437317461056
+ },
+ "base_constante_por_par": 0.21708313440739072,
+ "mejor_escala": 0.0,
+ "veredicto": "NO MEJORA: la desviacion por item no transfiere a un benchmark nuevo",
+ "n_filas_entrenamiento": 1632578
+}

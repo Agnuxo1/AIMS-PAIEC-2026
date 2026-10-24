@@ -1,0 +1,17 @@
+# Raw data, caches and environments never belong in this repository
+data/
+*.cache/
+.cache/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+# Local scratch
+/tmp/
+*.tmp

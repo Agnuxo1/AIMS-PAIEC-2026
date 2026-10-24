@@ -1,0 +1,9 @@
+numpy==2.2.6
+pandas==2.2.3
+pyarrow==21.0.0
+scipy==1.15.1
+scikit-learn==1.4.0
+huggingface_hub==1.13.0
+# figures and animations (build/)
+matplotlib==3.10.0
+pillow==10.4.0

@@ -1,0 +1,72 @@
+[
+  {
+    "fold": 0,
+    "family": "context",
+    "validation_alc": 0.22036406530054573,
+    "mix": 0.5,
+    "strength": 8
+  },
+  {
+    "fold": 0,
+    "family": "fallback_safe",
+    "validation_alc": 0.2213718493230668,
+    "mix": 0.5,
+    "strength": 3
+  },
+  {
+    "fold": 1,
+    "family": "context",
+    "validation_alc": 0.2279871939053908,
+    "mix": 0.5,
+    "strength": 8
+  },
+  {
+    "fold": 1,
+    "family": "fallback_safe",
+    "validation_alc": 0.22967843665337895,
+    "mix": 0.5,
+    "strength": 3
+  },
+  {
+    "fold": 2,
+    "family": "context",
+    "validation_alc": 0.18495599870948057,
+    "mix": 1,
+    "strength": 3
+  },
+  {
+    "fold": 2,
+    "family": "fallback_safe",
+    "validation_alc": 0.18495599870948057,
+    "mix": 1,
+    "strength": 3
+  },
+  {
+    "fold": 3,
+    "family": "context",
+    "validation_alc": 0.18787546358115048,
+    "mix": 1,
+    "strength": 8
+  },
+  {
+    "fold": 3,
+    "family": "fallback_safe",
+    "validation_alc": 0.18879157130144386,
+    "mix": 1,
+    "strength": 3
+  },
+  {
+    "fold": 4,
+    "family": "context",
+    "validation_alc": 0.19726593572505177,
+    "mix": 0.25,
+    "strength": 3
+  },
+  {
+    "fold": 4,
+    "family": "fallback_safe",
+    "validation_alc": 0.19726593572505177,
+    "mix": 0.25,
+    "strength": 3
+  }
+]

@@ -1,0 +1,17 @@
+{
+ "resultados": {
+  "beta_binomial S=3": 0.21708313440739072,
+  "beta_binomial S=4": 0.2173965148597579,
+  "beta_binomial S=5": 0.2180897963394027,
+  "EB_sujeto": 0.21782959974284977,
+  "EB min_n=80 centrar=None": 0.2186695411868807,
+  "EB min_n=80 centrar=0.5": 0.21782562055605523,
+  "EB min_n=500 centrar=None": 0.21803968233054905,
+  "EB min_n=500 centrar=0.5": 0.2178404353938019,
+  "EB min_n=5000 centrar=None": 0.21831183199827695,
+  "EB min_n=5000 centrar=0.5": 0.21778084280351703,
+  "EB mezcla=0.15 centrar=0.5": 0.2177762916592613,
+  "EB mezcla=0.3 centrar=0.5": 0.21772827203998443
+ },
+ "mejor": "beta_binomial S=3"
+}

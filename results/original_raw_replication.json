@@ -1,0 +1,10 @@
+{
+  "reconstructed_pairs_all": 769,
+  "matched_headline_pairs": 496,
+  "original_headline_pairs": 496,
+  "max_beta_pair_error": 1.1102230246251565e-16,
+  "max_empirical_pair_error": 1.1102230246251565e-16,
+  "reconstructed_beta_mean": 0.21049698272115447,
+  "reconstructed_empirical_mean": 0.2453845123316776,
+  "exact_to_numeric_tolerance": true
+}

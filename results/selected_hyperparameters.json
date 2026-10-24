@@ -1,0 +1,107 @@
+[
+  {
+    "fold": 0,
+    "family": "tuned_beta",
+    "validation_alc": 0.22072149004822636,
+    "mean": 0.6,
+    "strength": 5
+  },
+  {
+    "fold": 0,
+    "family": "calibration_table",
+    "validation_alc": 0.22388406130157246,
+    "mix": 0
+  },
+  {
+    "fold": 0,
+    "family": "subject_ridge",
+    "validation_alc": 0.21865338488856445,
+    "alpha": 10,
+    "mix": 1,
+    "strength": 8
+  },
+  {
+    "fold": 1,
+    "family": "tuned_beta",
+    "validation_alc": 0.22999920693927206,
+    "mean": 0.5,
+    "strength": 5
+  },
+  {
+    "fold": 1,
+    "family": "calibration_table",
+    "validation_alc": 0.23090472184038072,
+    "mix": 0
+  },
+  {
+    "fold": 1,
+    "family": "subject_ridge",
+    "validation_alc": 0.2303373182764838,
+    "alpha": 100,
+    "mix": 0.25,
+    "strength": 8
+  },
+  {
+    "fold": 2,
+    "family": "tuned_beta",
+    "validation_alc": 0.191888228303575,
+    "mean": 0.5,
+    "strength": 2
+  },
+  {
+    "fold": 2,
+    "family": "calibration_table",
+    "validation_alc": 0.1923505748413216,
+    "mix": 1
+  },
+  {
+    "fold": 2,
+    "family": "subject_ridge",
+    "validation_alc": 0.18976785047712105,
+    "alpha": 1,
+    "mix": 1,
+    "strength": 3
+  },
+  {
+    "fold": 3,
+    "family": "tuned_beta",
+    "validation_alc": 0.1910340724228519,
+    "mean": 0.6,
+    "strength": 3
+  },
+  {
+    "fold": 3,
+    "family": "calibration_table",
+    "validation_alc": 0.19481481252591792,
+    "mix": 1
+  },
+  {
+    "fold": 3,
+    "family": "subject_ridge",
+    "validation_alc": 0.19800461723223858,
+    "alpha": 1,
+    "mix": 0,
+    "strength": 3
+  },
+  {
+    "fold": 4,
+    "family": "tuned_beta",
+    "validation_alc": 0.19544215841417445,
+    "mean": 0.4,
+    "strength": 2
+  },
+  {
+    "fold": 4,
+    "family": "calibration_table",
+    "validation_alc": 0.19770700235145294,
+    "mix": 0
+  },
+  {
+    "fold": 4,
+    "family": "subject_ridge",
+    "validation_alc": 0.19745858517909112,
+    "alpha": 100,
+    "mix": 1,
+    "strength": 3
+  }
+]

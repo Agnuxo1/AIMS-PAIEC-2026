@@ -1,0 +1,20 @@
+{
+  "all151": {
+    "benchmarks": 151,
+    "pairs": 13200,
+    "empirical": 0.2368138676404026,
+    "beta": 0.2059838433113593
+  },
+  "all_pairs_original101": {
+    "benchmarks": 101,
+    "pairs": 11639,
+    "empirical": 0.23247993702104489,
+    "beta": 0.20322024571471317
+  },
+  "original496pairs_common_new_protocol": {
+    "benchmarks": 101,
+    "pairs": 496,
+    "empirical": 0.24355747242433914,
+    "beta": 0.2102498466505308
+  }
+}

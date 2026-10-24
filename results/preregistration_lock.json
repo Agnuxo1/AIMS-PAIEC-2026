@@ -1,0 +1,9 @@
+{
+  "locked_at_utc": "2026-10-24T07:00:46.856110+00:00",
+  "files": {
+    "PROTOCOL.md": "9cd62b0e92a841cfe6f8859f7d3b4a0cb4157f75080dc269f5bfe74ade244ef4",
+    "build_independent.py": "d9b832d1378177b26c2bd504d7654615c5e66187c34b35658886b259fd5572fd",
+    "evaluate_independent.py": "62ec3104fb917c865b920073fd0f91e2afc77ea0548a2a6905faa7af671b2df0"
+  },
+  "status": "before external fold results; candidate families fixed"
+}

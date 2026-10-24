@@ -1,0 +1,30 @@
+CORRIDA PRINCIPAL (ejecuta.py final, orden de adquisicion por defecto)
+  fuerza entregada S=3 <- barrido_prior.py: beta_binomial p0=0.5, argmin de desarrollo (S=3: 0.21708, S=4: 0.21740, S=5: 0.21809)
+  oficial=0.24538 entregado=0.21050 abs=0.03489 rel=14.22 %
+  B1 oficial=0.36502
+  suelo(cabecera)=0.17892 repeticion=0.00591 (3.3 %) entre_items=0.17301 (96.7 %)
+  margen capturado=52.49 %
+
+CORRIDA DE ORDEN ALEATORIO (robustez.py, semilla 1) -- NO mezclar con la anterior
+  constante_0.5              por_par=0.25000 por_bench=0.25000
+  media_empirica_OFICIAL     por_par=0.24064 por_bench=0.23928
+  beta_binomial_ENTREGADO    por_par=0.20963 por_bench=0.20883
+  empirico_bayes             por_par=0.20976 por_bench=0.20858
+  empirico_bayes_sujeto      por_par=0.20913 por_bench=0.20809
+  beta_binomial_ENTREGADO_vs_oficial         -0.03101 [-0.03732,-0.02492] p=0.0000
+  empirico_bayes_vs_oficial                  -0.03087 [-0.03658,-0.02528] p=0.0000
+  constante_0.5_vs_oficial                   +0.00936 [-0.00644,+0.02516] p=0.2770
+  empirico_bayes_vs_entregado                +0.00014 [-0.00111,+0.00139] p=0.8100
+  empirico_bayes_sujeto_vs_entregado         -0.00049 [-0.00235,+0.00120] p=0.6430
+
+POR BENCHMARK: mejora 86/101 mediana=-0.04045 p10=-0.07011 p90=+0.01266 mejor=-0.12732 peor=+0.04632 sin_top5=-0.03171
+REPONDERADO: -0.03229 (sin ponderar -0.03470); 11657 elegibles, top5=77.9 %
+SENSIBILIDAD tope: {'25': '14.5%', '50': '14.3%', '100': '14.3%', '150': '14.2%'}
+SENSIBILIDAD pares: {'1': '13.1%', '2': '14.3%', '4': '14.2%', '6': '14.2%'}
+
+DATOS (filas elegibles, >=80 respuestas): n=13289 macro=0.538 por_respuesta=0.3497 sd=0.2726 bajo0.05=8.3% moda=[0.0, 0.05] sujetos>=5bench=16 sd_sujeto=0.1302
+POR_ITEM: {'0.0': 0.21708313440739072, '0.5': 0.21776141967047524, '1.0': 0.21895874746638982, '1.5': 0.22067437317461056} base=0.21708
+
+AUDITORIA dup: 1980/2898062 (0.0683 %) en 11 benchmarks
+AUDITORIA fragiles: 635977/3154268 (20.2 %) mediana=8.3 % en 87 benchmarks
+AUDITORIA suelo (769 pares, NO cabecera): par=0.18226 item=0.00647

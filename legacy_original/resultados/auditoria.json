@@ -1,0 +1,215 @@
+{
+ "A_duplicados_entre_benchmarks": {
+  "veredicto": "CONFIRMADO",
+  "items_totales": 3770701,
+  "hashes_distintos": 2898062,
+  "hashes_en_mas_de_un_benchmark": 1980,
+  "porcentaje_de_hashes_compartidos": 0.0683,
+  "benchmarks_implicados": 11,
+  "pares_de_benchmarks_con_mas_solape": [
+   {
+    "a": "adaptivestep",
+    "b": "prox",
+    "items_compartidos": 1819
+   },
+   {
+    "a": "adaptivestep",
+    "b": "felm",
+    "items_compartidos": 215
+   },
+   {
+    "a": "felm",
+    "b": "prox",
+    "items_compartidos": 215
+   },
+   {
+    "a": "swe_rebench",
+    "b": "swebench_live",
+    "items_compartidos": 91
+   },
+   {
+    "a": "swe_rebench",
+    "b": "swe_smith",
+    "items_compartidos": 39
+   },
+   {
+    "a": "multi_swebench",
+    "b": "swepolybench",
+    "items_compartidos": 13
+   },
+   {
+    "a": "swebench_live",
+    "b": "swepolybench",
+    "items_compartidos": 13
+   },
+   {
+    "a": "swe_smith",
+    "b": "swebench_live",
+    "items_compartidos": 11
+   },
+   {
+    "a": "felm",
+    "b": "ikp",
+    "items_compartidos": 3
+   },
+   {
+    "a": "ikp",
+    "b": "pku_saferlhf",
+    "items_compartidos": 1
+   },
+   {
+    "a": "mergebench",
+    "b": "pku_saferlhf",
+    "items_compartidos": 1
+   },
+   {
+    "a": "swe_rebench",
+    "b": "swepolybench",
+    "items_compartidos": 1
+   }
+  ],
+  "nota": "Mide solapamiento DENTRO del release publico de entrenamiento. No dice nada sobre la frontera con el conjunto privado de test, que no tenemos y que no se puede auditar desde aqui."
+ },
+ "B_fuga_en_campos_entregados": {
+  "veredicto": "INDICIO SIN CONFIRMAR",
+  "benchmarks_revisados": 60,
+  "con_item_features_no_vacio": 51,
+  "benchmarks_con_palabra_clave_en_item_features": 2,
+  "benchmarks_donde_item_features_coincide_con_grading_criterion": 0,
+  "detalle": [
+   {
+    "benchmark": "elicitation_game",
+    "filas_con_palabra_clave": 2960,
+    "de": 2960,
+    "item_features_igual_a_grading_criterion": false
+   },
+   {
+    "benchmark": "exploitgym",
+    "filas_con_palabra_clave": 374,
+    "de": 1737,
+    "item_features_igual_a_grading_criterion": false
+   }
+  ],
+  "ejemplos": [
+   {
+    "benchmark": "elicitation_game",
+    "muestra": "domain=biology;input_scope=Released target question and options only. Per-attempt context is not fully recorded.;shot=0;technique=prefilling"
+   },
+   {
+    "benchmark": "exploitgym",
+    "muestra": "benchmark_revision=06708e1269908c9bad6fc175792d13e8d9328035;domain=kernel;input_scope=released_task_definition_not_recorded_prompt;released_task_metadata={\"entry_name\": \"kernelctf/"
+   }
+  ],
+  "nota": "Una palabra como 'answer' en item_features NO es fuga por si sola: puede describir el formato de respuesta esperado. Solo se marca CONFIRMADO si el campo entregado al predictor coincide con el criterio de correccion, que el predictor no deberia ver.",
+  "campos_no_entregados_al_predictor": [
+   "asset_manifest",
+   "content_hash",
+   "grading_criterion",
+   "item_id",
+   "raw_item_id",
+   "verifier"
+  ]
+ },
+ "C_etiquetas_fragiles": {
+  "veredicto": "CONFIRMADO",
+  "benchmarks_con_repeticiones": 87,
+  "pares_repetidos_totales": 3154268,
+  "pares_que_discrepan_totales": 635977,
+  "tasa_global_de_discrepancia": 0.2016,
+  "tasa_mediana_por_benchmark": 0.0833,
+  "peores": [
+   {
+    "benchmark": "benger",
+    "pares_repetidos": 7,
+    "pares_que_discrepan": 7,
+    "tasa": 1.0,
+    "repeticiones_max": 2
+   },
+   {
+    "benchmark": "adaptivestep",
+    "pares_repetidos": 3638,
+    "pares_que_discrepan": 2670,
+    "tasa": 0.7339,
+    "repeticiones_max": 256
+   },
+   {
+    "benchmark": "aider",
+    "pares_repetidos": 260,
+    "pares_que_discrepan": 173,
+    "tasa": 0.6654,
+    "repeticiones_max": 20
+   },
+   {
+    "benchmark": "monkey_power_laws",
+    "pares_repetidos": 2878,
+    "pares_que_discrepan": 1858,
+    "tasa": 0.6456,
+    "repeticiones_max": 10000
+   },
+   {
+    "benchmark": "edumath",
+    "pares_repetidos": 830,
+    "pares_que_discrepan": 487,
+    "tasa": 0.5867,
+    "repeticiones_max": 33
+   },
+   {
+    "benchmark": "naep_llm_students",
+    "pares_repetidos": 5368,
+    "pares_que_discrepan": 2884,
+    "tasa": 0.5373,
+    "repeticiones_max": 10
+   },
+   {
+    "benchmark": "taubench",
+    "pares_repetidos": 328,
+    "pares_que_discrepan": 172,
+    "tasa": 0.5244,
+    "repeticiones_max": 16
+   },
+   {
+    "benchmark": "live_agent_risk",
+    "pares_repetidos": 32,
+    "pares_que_discrepan": 16,
+    "tasa": 0.5,
+    "repeticiones_max": 2
+   },
+   {
+    "benchmark": "cruxeval",
+    "pares_repetidos": 49600,
+    "pares_que_discrepan": 24006,
+    "tasa": 0.484,
+    "repeticiones_max": 20
+   },
+   {
+    "benchmark": "icpc2_code_selector",
+    "pares_repetidos": 435,
+    "pares_que_discrepan": 190,
+    "tasa": 0.4368,
+    "repeticiones_max": 2
+   },
+   {
+    "benchmark": "auditing_sabotage_bench",
+    "pares_repetidos": 380,
+    "pares_que_discrepan": 160,
+    "tasa": 0.4211,
+    "repeticiones_max": 10
+   },
+   {
+    "benchmark": "kernelbench",
+    "pares_repetidos": 2750,
+    "pares_que_discrepan": 1067,
+    "tasa": 0.388,
+    "repeticiones_max": 100
+   }
+  ],
+  "nota": "Una repeticion discordante NO prueba un fallo del corrector: puede ser muestreo estocastico del propio sistema. Lo relevante para el concurso es que fija un TECHO a la predictibilidad: ninguna prediccion puede acertar ambas respuestas de un par discordante."
+ },
+ "D_techo_de_predictibilidad": {
+  "veredicto": "CONFIRMADO",
+  "conjunto": "LOS 769 PARES del conjunto de validacion completo, no los 496 de cabecera. Las cifras que acompanan a la tabla principal se calculan sobre cabecera en sensibilidad.py; no mezclar.",
+  "brier_oraculo_por_item": 0.00647,
+  "brier_oraculo_por_par": 0.18226,
+  "nota": "Oraculo por item: conoce la tasa verdadera de cada item (suelo absoluto). Oraculo por par: conoce la tasa del par pero predice lo mismo para todos sus items, que es lo maximo que puede lograr cualquier predictor constante por par como el nuestro y como el baseline oficial."
+ }
+}

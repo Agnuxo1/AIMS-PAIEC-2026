@@ -1,0 +1,5 @@
+{
+  "at_utc": "2026-10-24T07:02:48.746511+00:00",
+  "reason": "Convert numpy.int64 test count to Python int for JSON; failure occurred before any external fold was evaluated",
+  "evaluate_sha256": "27e5aa7a3ac09839f55ab389c680c8212eeafcb224a0489198678643da75f172"
+}

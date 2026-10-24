@@ -1,0 +1,32 @@
+{
+  "benchmarks_in_metadata": 281,
+  "included_benchmarks": 151,
+  "eligible_pairs": 13200,
+  "scenarios": 105600,
+  "components": 142,
+  "new_benchmarks_vs_old_filter": [],
+  "shared_content_hashes": 1980,
+  "distinct_content_hashes": 2898123,
+  "full_eligible_pair_weights": {
+    "alignment_faking": 4278,
+    "sib200": 3341,
+    "afrieval": 948,
+    "bridging_gap": 417,
+    "mathvista_mini": 263,
+    "ai2d_test": 254,
+    "hallusionbench": 253,
+    "mmbench_v11": 251,
+    "ikp": 170,
+    "truthfulqa_mc": 150
+  },
+  "cache_revisions": {
+    "54074453da7b9911be0f48e4c560be547bc84d21": 278
+  },
+  "sha_etag_mismatches": [],
+  "elapsed_seconds": 188.99211597442627,
+  "protocol_sha256": "9cd62b0e92a841cfe6f8859f7d3b4a0cb4157f75080dc269f5bfe74ade244ef4",
+  "builder_sha256": "d9b832d1378177b26c2bd504d7654615c5e66187c34b35658886b259fd5572fd",
+  "binary_rows_including_missing": 70193656,
+  "binary_nonmissing_responses": 68840604,
+  "cache_semantics": "count-sum-first-v1"
+}
