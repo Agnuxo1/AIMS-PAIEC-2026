@@ -1,9 +1,9 @@
 # CIERRE_AIMS — estado verificado de cada entregable
 
 **Estado global: PENDIENTE — BLOQUEADO EXTERNAMENTE.**
-El concurso **no** está entregado ni cerrado. Falta el ID de envío de Codabench y, por tanto, el envío a OpenReview. Todo lo demás está publicado y comprobado.
+El concurso **no** está entregado ni cerrado. Falta el ID de envío de Codabench y, por tanto, el envío a OpenReview. El código, los resultados, el informe y el vídeo están publicados. El acceso a OpenReview requiere además iniciar sesión.
 
-Fecha de este documento: **24 de octubre de 2026, 09:20 UTC**.
+Fecha de este documento: **2026-10-24T09:35:59+00:00**.
 Plazo oficial: **30-10-2026 23:59 AoE = 31-10-2026 11:59 UTC** (≈ 7,1 días desde esta fecha). Verificado hoy en la fuente oficial; no ha cambiado.
 
 ---
@@ -15,7 +15,7 @@ Plazo oficial: **30-10-2026 23:59 AoE = 31-10-2026 11:59 UTC** (≈ 7,1 días de
 | URL | <https://github.com/Agnuxo1/AIMS-PAIEC-2026> |
 | Visibilidad | **Público** (comprobado sin sesión en un navegador aislado) |
 | Cuenta | `Agnuxo1`, la verificada. No había repositorio previo de esta participación |
-| Commit del cierre | `1c603c7` |
+| Commit del cierre | `3e4fd32` (base verificada antes de esta actualización; ver Git para el commit que la contiene) |
 | Licencia | MIT (`LICENSE`), terceros en `THIRD_PARTY.md` |
 | Contenido | 123 archivos: entrega, auditoría independiente, protocolo, resultados con candidatos desfavorables, informe PDF y LaTeX, descargador fijado, los 34 originales en `legacy_original/` |
 | Fuera de Git | datos brutos, cachés, entornos y credenciales |
@@ -28,11 +28,13 @@ Plazo oficial: **30-10-2026 23:59 AoE = 31-10-2026 11:59 UTC** (≈ 7,1 días de
 | `submission_context_experimental.zip` | 736 | `eb52cd786875533e0f506723ed7d5ed06ec0d7d09f05c96dd8512a3ad630a94b` |
 | `technical_report_v2.pdf` | 177.611 | `3fc899c8bfe66564711ca29f4a4cbe207df462462b5c62d76ed0cecf2da5a04f` |
 
+El informe de la tabla anterior pertenece a la release inicial, conservada intacta. El [PDF actual](report/informe_v2.pdf) incorpora la URL pública del repositorio: **181781 bytes**, SHA-256 `5510cd7318090db52ae8ec1bf92fd9b8561171cc8b7dad1f18a2ea87ab9aaea1`, cinco páginas. No cambia los resultados científicos.
+
 ## 2. Integración continua — EN VERDE
 
 | Dato | Valor |
 |---|---|
-| Último run | [40081070975](https://github.com/Agnuxo1/AIMS-PAIEC-2026/actions/runs/40081070975) · **success** |
+| Último run | [40081323445](https://github.com/Agnuxo1/AIMS-PAIEC-2026/actions/runs/40081323445) · **success** |
 | Qué ejecuta | pruebas sintéticas de métrica e inferencia; validación de los dos ZIP; regeneración de figuras y GIF |
 | Qué NO hace | no descarga los 5,35 GB, no usa credenciales ni servicios de pago |
 
@@ -54,13 +56,13 @@ Todo se genera desde `results/*.json` y `results/*.csv`; ninguna cifra está esc
 
 Los dos GIF están marcados en su propio fotograma como ilustración sintética. Generadores en `build/`. Comprobado que se reproducen en la página pública de GitHub.
 
-## 4. Vídeo — PUBLICADO, con una limitación
+## 4. Vídeo — PUBLICADO Y CORREGIDO
 
 | Dato | Valor |
 |---|---|
 | URL | <https://youtu.be/dBfUTN5afcQ> |
 | Canal | el verificado de Fran (`UCpmNBgiKW_NxkF1BBZ6v6NQ`) |
-| **Visibilidad** | **Oculto / no listado**, accesible por enlace. Elegida así porque las bases no exigen vídeo |
+| **Visibilidad** | **Público**, observado en la configuración guardada de Studio el 24-10. El cierre anterior lo describía como no listado |
 | Duración | 4:38 · 1920×1080 · H.264 · AAC 48 kHz estéreo · 9,0 MB |
 | Narración | Inglés, voz neural `en-GB-RyanNeural` vía `edge-tts` (gratuito, sin servicio de pago) |
 | Miniatura | Personalizada, aplicada y comprobada |
@@ -69,18 +71,18 @@ Los dos GIF están marcados en su propio fotograma como ilustración sintética.
 
 **Subtítulos.** El MP4 **no tiene ninguna pista de subtítulos** (comprobado con `ffmpeg -i`: 0 pistas) y no hay transcripción incrustada ni rótulos con la narración. Solo hay títulos breves y etiquetas de gráficas, que el encargo permite.
 
-**Limitación que no he podido resolver:** YouTube ha generado **subtítulos automáticos en inglés** y se muestran al reproducir. Intenté retirarlos desde YouTube Studio por tres vías (la fila de la tabla de idiomas, el botón «Editar subtítulos» y la URL directa del editor); la interfaz devolvió «Oops, an error occurred» y no respondió a la automatización. **No afirmo que no existan: existen.** Se pueden quitar a mano desde Studio → Subtítulos, o dejarlos. El idioma del vídeo figura además como «Español» cuando la narración es inglesa; tampoco pude cambiarlo por el mismo fallo de interfaz.
+**Corrección verificada por Codex.** Se guardaron el idioma original y el del título/descripción como **Inglés**. Se eliminó la pista automática desde Idiomas → Detalles de Inglés → Subtítulos automáticos → Eliminar → Actualizar. Al reabrir el diálogo guardado ya no aparece esa pista. El reproductor de la página del vídeo indica **«Subtítulos no disponibles»**. Evidencia: [captura de Studio](docs/evidence/youtube_sin_subtitulos.png).
 
 ## 5. Registro y envío al concurso — BLOQUEADO EXTERNAMENTE
 
 | Hito | Estado |
 |---|---|
 | Cuenta de Codabench | **No confirmada.** Un correo del 7-10-2025 demuestra que Fran **tiene** cuenta en Codabench, pero no revela el nombre de usuario y la plataforma no es accesible para consultarlo. **No lo invento** |
-| Registro del equipo | **No hecho.** El formulario exige el usuario de Codabench |
+| Registro del equipo | **Preparado, sin enviar.** Datos conocidos rellenados; falta confirmar el usuario de Codabench |
 | Envío del ZIP | **No hecho** |
 | **Submission ID** | **NINGUNO** |
 | Puntuación oficial | **NINGUNA** |
-| OpenReview | **No enviado.** El formulario requiere el submission ID elegido |
+| OpenReview | **No enviado.** Requiere iniciar sesión y disponer del submission ID elegido; el formulario completo no se ha podido inspeccionar sin autenticación |
 
 **Evidencia del bloqueo.** `www.codabench.org` resuelve por DNS a `129.175.8.21` (Paris-Saclay) pero el puerto 443 agota el tiempo. Comprobado **doce veces** entre el 23-10 21:30 UTC y el 24-10 09:09 UTC, desde esta red, desde un verificador HTTP externo independiente y con resolución DNS por 1.1.1.1 y 8.8.8.8. En las mismas máquinas y momentos, `aims.stanford.edu`, Hugging Face y GitHub responden con normalidad.
 
@@ -96,7 +98,7 @@ Los dos GIF están marcados en su propio fotograma como ilustración sintética.
 
 ## 7. Obligaciones futuras anunciadas por el concurso
 
-- Sesión del concurso: **viernes 11-12-2026, Sídney, presencial, 08:00–10:15** hora local. Cinco orales de 60 min más póster de 60 min. No consta apoyo a viaje.
+- Sesión del concurso: **viernes 11-12-2026, Sídney, presencial, 08:00–10:15** hora local. Cinco orales que suman 60 min, más una sesión de pósteres de 60 min. No consta apoyo a viaje.
 - Para optar a oral o póster hace falta informe técnico **y** publicar el código usado. El código ya está publicado.
 - Los organizadores reejecutan el método liberado para comprobar reproducibilidad.
 
