@@ -1,0 +1,13 @@
+{
+ "note": "Exact interpreter and library versions used to produce the committed results.",
+ "python": "3.13.7",
+ "platform": "Windows-10-10.0.19045-SP0",
+ "numpy": "2.2.6",
+ "pandas": "2.2.3",
+ "pyarrow": "21.0.0",
+ "scipy": "1.15.1",
+ "scikit_learn": "1.4.0",
+ "huggingface_hub": "1.13.0",
+ "matplotlib": "3.10.0",
+ "pillow": "10.4.0"
+}

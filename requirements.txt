@@ -1,9 +1,19 @@
+# Runtime for the audit, evaluation and figure scripts.
+#
+# Note on scikit-learn: the audit was executed locally with 1.4.0 alongside
+# numpy 2.2.6 (an environment that predates the numpy 2 pin in that release).
+# A clean install of that pair is unsatisfiable, so this file pins the oldest
+# scikit-learn that officially supports numpy 2.x. Only the Ridge prior in
+# audit/evaluate_independent.py depends on it, and that candidate was rejected
+# (+0.010565 Brier ALC), so the submitted result does not rest on it.
+# The exact local versions are recorded in docs/environment_used.json.
 numpy==2.2.6
 pandas==2.2.3
 pyarrow==21.0.0
 scipy==1.15.1
-scikit-learn==1.4.0
+scikit-learn==1.6.1
 huggingface_hub==1.13.0
+
 # figures and animations (build/)
 matplotlib==3.10.0
 pillow==10.4.0
