@@ -56,7 +56,8 @@ inside a region flat over `S ∈ [3, 5]`. The predictor keeps no state, fits
 nothing at run time, needs no network, no files and no payload.
 
 ```python
-from submissions.model import predict           # see submissions/submission_original.zip
+import sys; sys.path.insert(0, "submissions/original")
+from model import predict        # the exact file inside submission_original.zip
 
 subject = {"normalized_name": "Example LM", "provider": "Example",
            "release_date": "2025-01-01", "access_date": "", "harness": "",
@@ -64,7 +65,7 @@ subject = {"normalized_name": "Example LM", "provider": "Example",
 item    = {"item_content": "What is 17 x 24?", "item_features": "",
            "interactors": "", "benchmark_id": "bench_a"}
 
-predict([subject, item], [])                       # 0.5      no evidence
+predict([subject, item], [])                       # 0.5     no evidence
 predict([subject, item], [[[subject, item], 1]])   # 0.625    one success
 predict([subject, item], [[[subject, item], 0]])   # 0.375    one failure
 ```
