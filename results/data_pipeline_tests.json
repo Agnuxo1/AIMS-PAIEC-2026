@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "tests": [
+    "streaming group sum/count/first across batches",
+    "missing responses",
+    "storage order invariant primary scenarios",
+    "8 fixed seeds",
+    "nonbinary witness rejection",
+    "exact Brier identity",
+    "cluster ratio preserves pair weighting"
+  ]
+}

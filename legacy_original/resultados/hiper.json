@@ -1,0 +1,5 @@
+{
+ "fuerza": 3,
+ "mejor_en_dev": "beta_binomial p0=0.5, argmin de desarrollo (S=3: 0.21708, S=4: 0.21740, S=5: 0.21809)",
+ "generado_por": "barrido_prior.py"
+}

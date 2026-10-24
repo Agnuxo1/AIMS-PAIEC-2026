@@ -1,0 +1,1948 @@
+[
+  {
+    "benchmark_id": "abstract_reason",
+    "sha256": "59893c65449b1223ab6a71ba139e63149786d7660ad64c3f3a34dcacaedddfcc",
+    "bytes": 346118,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "adaptivestep",
+    "sha256": "fcc7a28f9e30327cf2af9804b453c87a02ed225cc121f21de8f39bf1ef9dd90f",
+    "bytes": 18906610,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "advprompter",
+    "sha256": "0211545a16febe197ed45877be2d68f4c07626ef88e627f2dc538fe9c273cfa6",
+    "bytes": 8478,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "aegis",
+    "sha256": "924bb0387b0a90b7d2a09248230e5b75326fc939bc925030f87b23874db4da23",
+    "bytes": 439109,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "afrieval",
+    "sha256": "9ef4f721f4fe2d105eaa68c5d895a11e98bff849b20ff8409ac7d103e53482c5",
+    "bytes": 32763498,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "afrimedqa",
+    "sha256": "c8e24b3c79de1a7160a2b43fa77bc61f953db6aeaa1d91b32280d5f65e1c3c64",
+    "bytes": 10809179,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "agc_bench",
+    "sha256": "9a9c13cc343a83e5b5ec195a2b245960ca8f51fbcbdb122e5d7ea21011fe3a53",
+    "bytes": 11201916,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "agentdojo",
+    "sha256": "9a982ab42ec8f56ff5fc75b84398de93ff63cb0694f500d784c9681e8ff452c8",
+    "bytes": 1437613,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "agentic_review_perturbation",
+    "sha256": "e4ff1e47348981f9e32c2d919d0e85a87aa1a28e55a0b2d3aaed61d3c58295de",
+    "bytes": 13673,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "agi_elo",
+    "sha256": "e10fdd1ce2c39483dc5c878394e3b9f3561cecd2f2480e773b6a0996b867a0f7",
+    "bytes": 10391446,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "ai2d_test",
+    "sha256": "dc0853abdefe687251f6118c2c17f5cb4b982fe315e34b0709477205ff08234f",
+    "bytes": 19856672,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "aider",
+    "sha256": "9e3e6e231242d33053373d635919d6c3aaaa74694d988ecf1ade333ae2369100",
+    "bytes": 106716,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "algotune",
+    "sha256": "66454f671fb545f99d012d212dcd82156c2943fced9c5be82318fc674142097f",
+    "bytes": 60286,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "alignment_faking",
+    "sha256": "944469057d9c5499e5d24ee00804b3652a217d7cf5fbffa8d20f747e3cb1769b",
+    "bytes": 42954219,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "alpacaeval",
+    "sha256": "22b145dc82c164d2f7404a54d5b202f3bb202b93a504859c8bed8b148c220f4e",
+    "bytes": 4825110,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "alpha_sql",
+    "sha256": "772a7fd827e50a4d89504c4605a2b5e2b917dc30ff1d8385d7072ff691cce609",
+    "bytes": 62474,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "annotating_errors_wcf",
+    "sha256": "4d61e1636dbad11399bebf0109e9547e591227e47c8ba17abac66e49927e4945",
+    "bytes": 583433,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "appworld",
+    "sha256": "a15f0c5f85d435d9fa90ee17b9e2cf303e9439dd2b85e0f151534173e21f1f14",
+    "bytes": 229064,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "arcagi",
+    "sha256": "3c8527847233d207fe7418cf308585b85234c9545c83065fa1481f81cfd38587",
+    "bytes": 716709,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "atmossci_bench",
+    "sha256": "58fc82199faa293ba7e85040ace046025e19b0853a1066b4249dc5824a37214e",
+    "bytes": 842263,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "auditing_sabotage_bench",
+    "sha256": "5c4ba281202a468c4b930eaa67a0640defe269ab14a8f97d8fb58c6fbac1de88",
+    "bytes": 42946,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "autoresearchbench",
+    "sha256": "e0eb804abbe8535ec637daf105d85073c914150878d1f1b34841720598b9807f",
+    "bytes": 8811,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "averimatec",
+    "sha256": "af1d2805e3505d9a489357c1a875f761c85585c7b58c6df880f86f6852bc226c",
+    "bytes": 11136,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "babilong",
+    "sha256": "4239cdb64fbd26be2b7bfd4ba4b7c1f806658b9080126c797913b36bdfaf6efd",
+    "bytes": 75589828,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "bbq",
+    "sha256": "4b1ad142c0652475e807369f87d94f1d19d07a2e1d1b5b3c357f270faa3256d0",
+    "bytes": 14243974,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "beavertails",
+    "sha256": "7367901e99aadfde4e9c6ad444413fbb97cabdb097bfb8454793817dad67c158",
+    "bytes": 45008,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "bedd_basalt",
+    "sha256": "c89d556c2d8b3d4ee9ddc0354d45d4094c3454291b05e810b0c8e26430bdcb81",
+    "bytes": 2753773,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "benger",
+    "sha256": "ef3e19ea78134dfe20d1a86bf3559531ae33292a2611c52a79414b7dec7f41b4",
+    "bytes": 208497,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "bertaqa",
+    "sha256": "bdd7c044e384ea1db7c9a234076ae024db39f3f7691fb52caabd5761b910c80e",
+    "bytes": 2143408,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "bigfinancebench",
+    "sha256": "73fd1d1fbcf8a2c8213f21d4e08c73a83ef6e943b9bd5e3008835a97cde61211",
+    "bytes": 205191,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "biggen",
+    "sha256": "70f75da5de9d4668ed5dcad2619e1ff4146c30faebeb63f9879c052b24d8c70d",
+    "bytes": 20617172,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "bird_sql",
+    "sha256": "a6d47ab7cb8b5f654b9ffcf8653890c8272cf2094696b7917ed97e9ed2e73493",
+    "bytes": 857770,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "brace",
+    "sha256": "f87ba5941185ef220f3c08b127382dff114fb03eba0bb9a0b83a157765c28620",
+    "bytes": 5785374,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "braveguard",
+    "sha256": "2080ecfc8c8152d5e1fb6383b0a0ff916e15b2cb9cff55568a73acc1a35e823c",
+    "bytes": 25755,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "bridging_gap",
+    "sha256": "552362a9d2f2d02ad95e19e942580bad2861f76be152837e4b985ef10c1dffd4",
+    "bytes": 165534304,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "care_enzymes",
+    "sha256": "fa3fc13a1512242126cf83c4788539b8b10ff85e4e793c21a49323fbd0a67368",
+    "bytes": 424026,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "causal_axioms",
+    "sha256": "743ff26e695e7e297723a0ae90d9ef26b188e0bb104d3f7deee98daafe4980b7",
+    "bytes": 265395,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "cellverse",
+    "sha256": "b3876e4bf8949da97607b37df8df063358d611b749d285e3227f31e5bb389d23",
+    "bytes": 33360,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "ceobench",
+    "sha256": "5474c6f1479f9925d5afc666d82d74fa728f4c1036b4e77cba7d8165c60839f8",
+    "bytes": 9377,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "ceval",
+    "sha256": "306c1a7b5b16b5286ea0d5f4d7ce53909936f1bf06d81b856ba8d4cbd37c3c28",
+    "bytes": 351210,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "chartmuseum",
+    "sha256": "3b8378afd4a93809d2c4539fe1b229be0677dc67072597904fa82aeccf49ec85",
+    "bytes": 11489,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "chatgpt_drift",
+    "sha256": "88ab3a406def68a4c68e9bcc289172fced2a2ac6d52f77d9e03a1e8f897ebb82",
+    "bytes": 1446721,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "chi_bench",
+    "sha256": "eec0c23474da86e5a1c5272235c9f1240716e18b0ee5c9ff53b300c2e6513ac9",
+    "bytes": 176015,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "chipbench",
+    "sha256": "4cf1e2d570517ef5c0a7025b5679442920eb183698d9396acac5e6fecd1d7a08",
+    "bytes": 46299,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "clasheval",
+    "sha256": "968ec1c89c5b3ebb2ae082bd000848baaf36bd9428b5a42ca19f239daddd21d3",
+    "bytes": 2701083,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "classroom_ai",
+    "sha256": "eb62b9db908321e4a98c3c4c9e0deb55e5db5e75ae51224176a3ea539bb34637",
+    "bytes": 225696,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "cmmlu",
+    "sha256": "b42a1cfbb7a6973c483d42ac455fc6840d77e1ab0620b16c7195b5fc791d65d6",
+    "bytes": 5633594,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "coffeebench",
+    "sha256": "8d0ed9ec7365220e3abc3cbd67047a9494ac16729d67a400c9d21151f152ea3a",
+    "bytes": 6976,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "complexbench",
+    "sha256": "0000c55ef357426f7eee986ea6ce13b3330ca13b595d5272a45cd7040db6ebdf",
+    "bytes": 385183,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "confagents",
+    "sha256": "8c470b8deebcdae873597494fe2dbde44da4d2a8b330bdfeb249d8a125a4cc0c",
+    "bytes": 7018,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "corebench",
+    "sha256": "d48899e63018007ef05d757ad4f9cfa055845379dee784505edd75fe70cd6cf3",
+    "bytes": 49434,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "critic_discernment_game",
+    "sha256": "0f2ee09b83d840730145cf10a98dcedaeaf655245551549fd7ecc2faac25e676",
+    "bytes": 182548,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "crow",
+    "sha256": "5e8e07b74ce40bd731d0a37bcb5b7aa381bc9719538d508676401c1288d4b6ed",
+    "bytes": 163547,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "cruxeval",
+    "sha256": "f777c5280cc1cc8963a76a13b8bada16b2a68f207d03fb77e4f03ea3b459aa6c",
+    "bytes": 20809388,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "csedb",
+    "sha256": "0346bb0d7e15cc58cfa62740535b6e176640e20c0d1ed5fd17ba2e740c5b0948",
+    "bytes": 1049171,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "cseo_bench",
+    "sha256": "cff236b09fdb12e729ef101d28c44dfa82fa309e445be4aff35eba721c8dcf69",
+    "bytes": 9523183,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "das_med_hallucination",
+    "sha256": "f632d863d1f893ba0917b7abd134ff7bd7ace84c5f12cd732b269f31bf5b0dcd",
+    "bytes": 46050,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "data_juicer2",
+    "sha256": "b4762b17dd0c44206772852eb463f7f1bae051b53c28c9f36ee40f4e5b667155",
+    "bytes": 7443,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "dataclawbench",
+    "sha256": "9566b18a98b1125fb8edda656f0f167dc5075d02da057df1e6a7975522f6c803",
+    "bytes": 90143,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "dave",
+    "sha256": "e674d6d5e555c130b51d87905d77c02d23847e250c4703fc62c9225911f721ec",
+    "bytes": 458974,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "dbpa",
+    "sha256": "b617d2ed40b82a55a3d0ea68fd035f6fd8a7b02943abd967dda261954981aef3",
+    "bytes": 15192,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "decodingtrust",
+    "sha256": "e2a3866c9b3fa6524f5a89dc16b44f30794e3140556b55241d6bc58820f4464f",
+    "bytes": 64002666,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "decompile_bench",
+    "sha256": "28b46523bfcc339fd0f48b3b425b228f9ca95dbdaa143cd2a7d2c4144bfc2059",
+    "bytes": 6353733,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "devbench",
+    "sha256": "10c7a198606929c5863b8b9ae1d81c93e639a082eb89df42bc14c0328d00c4eb",
+    "bytes": 108551,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "disco",
+    "sha256": "fab86f87ca3b506642f64fe71f88818000c690c810edd7f832c23d844d9263c7",
+    "bytes": 3009568,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "donotanswer",
+    "sha256": "ecf8094be2bff3594ef1c886ff3b8ce4d302901849ee03a140080b812f73e3a0",
+    "bytes": 261206,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "doris_mae",
+    "sha256": "a28dc7d53eac3622576a30d1f720852c4a60777efb9b4494b12a302c6fa10661",
+    "bytes": 6216497,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "dpai",
+    "sha256": "86a3e8a5a7de099798b36abe4b5eef6f0e89b98fc2929dd90249eea152aa42ec",
+    "bytes": 105509,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "dqvis",
+    "sha256": "09def1c6822024105d445df84138f8cb3c5207968484a9aae7c371ed1af953ea",
+    "bytes": 24946,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "dtap_bench",
+    "sha256": "a9fc12a8527da5c60882ee1ccdbc5854f9f04f47dbb5de2bdaec2f219c638c7a",
+    "bytes": 4117570,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "editbench",
+    "sha256": "10e60a511a5d3276a5eb83598c61a6a9340c49db0ee8b15ca8e2dd95db02a250",
+    "bytes": 477995,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "edu_circuit_hw",
+    "sha256": "8f8b58b100e4a26e00fe661b494f4c488d88926ec3257169cd38a5d20bedd4b8",
+    "bytes": 74414,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "eduguardbench",
+    "sha256": "b2fcc78c3f9c2e322318659d77881a19383e230766c116cc3956b0876efea211",
+    "bytes": 4372098,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "edumath",
+    "sha256": "d34c375c4b6055bc5c1d3642d9e34fc14cce84186106549f644b0236d00538c6",
+    "bytes": 355462,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "egoschema",
+    "sha256": "9f54c18b4582f91d6e9d1e98c715224216c9f7f4aa2e616ae2a28f1c72375d89",
+    "bytes": 193441,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "ehrflowbench",
+    "sha256": "d601ee7de8e8876093cc50898ddb0873762733bad02490d25a3cb860234bdabe",
+    "bytes": 9078,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "elicitation_game",
+    "sha256": "5d40a39fd9ac88a9fe36deba1842f8753fc141436e8413dfe3c0e1d4fb717199",
+    "bytes": 359332,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "embodied_agent_interface",
+    "sha256": "ccef85ea49df5687ee256caf1181275134ff0c89374b5862d22e8df4d3fbf581",
+    "bytes": 54518,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "emoji_attack",
+    "sha256": "1ec13073970586996d5b60a406322c57cd98f78668789d2b22b88dd97b65beb7",
+    "bytes": 1561567,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "engdesign",
+    "sha256": "64c2da202f93afee5e36971cd2cd5bf199d84500e097d385c3d819f5b373b22e",
+    "bytes": 110006,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "engibench",
+    "sha256": "e7c4e662a8781133211568be3470676ffdd896d0804dcf8f30fc2d609edcf7b8",
+    "bytes": 6094,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "enginemt_qa",
+    "sha256": "713f043fd52959f9960bf83e032aeb282afdb91a462547e9e7e4c837496a1690",
+    "bytes": 30930,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "erbench",
+    "sha256": "bd056ba26743f1b898f220b92442e27afd30fef506d537f79ff29021eb266533",
+    "bytes": 7991324,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "evouna",
+    "sha256": "84f25faf0c32fc2234d5c78f648842909d57c3643cf2e485634a0b41275c5768",
+    "bytes": 850921,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "exploitgym",
+    "sha256": "5fa390ac69db3749ddd866732d045bc43a241ad622b9a8c1db4696c15598dd24",
+    "bytes": 161460,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "faithcot",
+    "sha256": "21b6fcf9a49f6d8995b8db797e8f581325204c1dad0b26390b7c2cc1ce7689ed",
+    "bytes": 69907,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "felm",
+    "sha256": "f2550fa7f57da53729dd5fd7c22504e57dcefc4f4829595564a6a58088c1d9b5",
+    "bytes": 169982,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "fetv",
+    "sha256": "3ffdc578999458e72949d29f437736c161aea2c4144304858a057dad8846a5a1",
+    "bytes": 1297679,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "fewshot_ttt_bbh",
+    "sha256": "2a4700833ff4e94941cf415c90e3885ee13906c41a29c9525a4f50f7c0eceb27",
+    "bytes": 176995,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "fgbench",
+    "sha256": "1f1214ae2c9dbfc682a773dba24819524c1510840489d6304cde5a8a0ebf1032",
+    "bytes": 1992083,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "financebench",
+    "sha256": "1b7c8eb6d6498c45b1a27cd6ade8b968842399c20b10077dd6f7847ebd912a16",
+    "bytes": 53892,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "find_interp",
+    "sha256": "09390c8922b780373a06ae49f8d8d25a098073a66529451ea1678cf6dcb26245",
+    "bytes": 397131,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "finegrain_t2i",
+    "sha256": "a7137836a2db3f901eac277af7451424ee21c82b277363a01550b40289092f53",
+    "bytes": 283869,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "frontieror",
+    "sha256": "319753259b59416598df488af11efedbbc5cef42540f823ebf91a5ed02b06c39",
+    "bytes": 52686,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "genai_learning",
+    "sha256": "4d969a253a3b61a81c0e80b63f06a8228de71801218ce51d378b9a13b52a4cf2",
+    "bytes": 631192,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "ghosts_math",
+    "sha256": "e8996a6a4ce74282e0e2ffe42ed7f5dbd3b00296f63d980fd867c9e91b629b71",
+    "bytes": 35278,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "goodai_ltm_benchmark",
+    "sha256": "8b311e4f7c26a8d468402d56007c08414d23106a2e5acedd2021f7ba977b4987",
+    "bytes": 125725,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "haiid",
+    "sha256": "7146c9514de7a71cb05e7582675fc64d82b7a5bc6cee53cac4de007fdba20b3d",
+    "bytes": 2347899,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "hallusionbench",
+    "sha256": "c8c4280ac954a05e4f629d5cfb0d56fa80594906666443b98fbfd24e4cf78d10",
+    "bytes": 5272228,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "harmbench",
+    "sha256": "d52a1b761cbebddc1800977c8bfbb18d9842a46e63483288286341ba36031ffc",
+    "bytes": 3210981,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "healthadminbench",
+    "sha256": "4165643d92f54ae14ca9a62d84bf9b9ba238041f19948d91eab82a9f4d12e432",
+    "bytes": 155946,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "helm_afr",
+    "sha256": "b4d83673944f49446548f53f1d17ad507c0cef4c08ae80719eba0eef8425d3b8",
+    "bytes": 18477493,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "helm_airbench",
+    "sha256": "2f50dc48959ec13cca12c21d5b406ab72b795040c07b76b775e33a6cc3f406e5",
+    "bytes": 11444379,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "helm_anthropic_redteam",
+    "sha256": "2e136f0f2bf2eb837c8f340169b305a6f33733ab8dea5666e5f9eacd149b8f61",
+    "bytes": 1711158,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "helm_bbq",
+    "sha256": "4256e22ffeae7362a56efa6740361a990a399a46fdb4ec4c2849af0c2a16634c",
+    "bytes": 1726527,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "helm_bold",
+    "sha256": "921d5fc64707578e78936d56210d3ff2153134e5a86ecc41681c675d3419ecc4",
+    "bytes": 909211,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "helm_cleva",
+    "sha256": "bf2c345dbe04269f4acf96b7dc359662a7617473b1b8c9b73fa7ae4fa8347b6c",
+    "bytes": 725771,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "helm_harmbench",
+    "sha256": "3ea3723e0044164e8592b0e7b5e13610022d219262e8dd785c2f3a289a7f5c30",
+    "bytes": 655994,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "helm_real_toxicity_prompts",
+    "sha256": "e2117ef03fb4dc3eae005b5cd270ac9f26565cc04b5ecc8e01908d0189f41584",
+    "bytes": 917405,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "helm_simple_safety_tests",
+    "sha256": "a5ae3cb8cb7240e0a3941397ccc9dd36dde8d6a4bdd7affb98cc66e5536b8f62",
+    "bytes": 160704,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "helm_thaiexam",
+    "sha256": "0aa989d87516b30adc32b0b8e2701f146b2cefafcdf52f933127d2292f4a4eb0",
+    "bytes": 489008,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "helm_xstest",
+    "sha256": "6ab1b75b3f301b5d236ea44a388fc748cd38f0a1e639461baffbe5a50f61aec5",
+    "bytes": 738322,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "hivmedqa",
+    "sha256": "0ebcd2b93dcafba2f400ef126816e1e82465ff24963aa004c3b2c41804331269",
+    "bytes": 1085218,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "hle",
+    "sha256": "9edcb3b07cd766d792b66be0d4596d2cb791005e7866349ff30a5006e7e7cb88",
+    "bytes": 330211,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "icpc2_code_selector",
+    "sha256": "4994e1c41b1d7d977a98aed04c012d69cf9e8d36cf5ec43235aa8fd2ab402df3",
+    "bytes": 1656217,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "igakuqa",
+    "sha256": "b42b00775e04c088607c2d39613c388b66dc7b40384026d9d0f3722a6af32780",
+    "bytes": 249283,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "igakuqa119",
+    "sha256": "163be31cbd1d517116bdd4953905a0e2455f1b0d63449335608b495feff8dc9a",
+    "bytes": 20616,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "ikp",
+    "sha256": "12096ea71e0cd77bc846a9e4ab61ba424ea44642fe099db9a21b866eb8b18ec5",
+    "bytes": 5974722,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "image2struct",
+    "sha256": "079bbe68d9b6c83f54457b587fcc05337fd8262d4dda1476b09f9b2d1cf66537",
+    "bytes": 5657049,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "imgedit",
+    "sha256": "29306d95805d82763aa0d21ed4e05e010744221c97dd5a80117ed7f8dc8b5693",
+    "bytes": 33305,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "indeterminacy",
+    "sha256": "134dc80c6df37c58296865f71b34e843fc50e8f8d1424d0c65d94fcee77bf415",
+    "bytes": 8058164,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "ineqmath",
+    "sha256": "a10fcbd8b77e5b530007a64328e7c5b36fd7c044d7cd095586330c2e72b4de65",
+    "bytes": 42611,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "infibench",
+    "sha256": "9710c1cc5727ff5822a171ead15eedd03e2a0b84f84e4709f3e2e83f0dddd299",
+    "bytes": 14061951,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "interchangeable_token_embeddings",
+    "sha256": "6154f3deeff885c7905a778145f697cc7002c45c36db9c98ef0d6c746ba735ba",
+    "bytes": 14998112,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "intercode",
+    "sha256": "527603973551bc20b9d318472639d1fa28cd837af8083dde720500d53346cfde",
+    "bytes": 604855,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "jailbreakbench",
+    "sha256": "dcc5bb3b227497752ac3f03a85eacb18b247e4b9e3bc6ba8dcef1c3a7ee033a5",
+    "bytes": 101736,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "jetts",
+    "sha256": "86dd56ffc228cde2b2341e6e955ec31275fe74aa059111f167d5972a216a9a49",
+    "bytes": 7135895,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "judgetuning",
+    "sha256": "2c6269288e4165581fe93d6e2743492bda08e4b8722cbe8e139df52799598b47",
+    "bytes": 535541,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "katakomba",
+    "sha256": "ed67d432fdbc92fde17ec6cf2ca1659ab0dd1f76ed52c545916ef740ae9983f4",
+    "bytes": 744061,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "kernelbench",
+    "sha256": "370d11acf9126faf2732ea469a510f4120046b7a56cc6951a02dbe3f6ae8eb7e",
+    "bytes": 1448378,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "kmmlu",
+    "sha256": "08dcb425a44dc84cfcf2d7b104cce8013f456460f2e8224b02f18cc1f52acab3",
+    "bytes": 37931803,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "kormedmcqa",
+    "sha256": "1f38d754fa1b34e2102b4013acbbc393c773b882a2e3c370815e9c89697f7fbb",
+    "bytes": 570951,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "kris_bench",
+    "sha256": "a69c462223cfcc2f3db7825058968ae926afe8b5446a1b14eaab5920a726ab73",
+    "bytes": 3284767,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "lambda_fp_course",
+    "sha256": "8d2e33409f9d06cb959fb668a1db8be0fba3642b83abbd8b6a001f3575cee881",
+    "bytes": 145012,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "lawbench",
+    "sha256": "6979a4fd323cfb4856f5e84fbbfe4acabd45b22b640791be55942d58e16f2bb3",
+    "bytes": 36020153,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "legal_rag_bench",
+    "sha256": "552edb5de0f9114bdf5540ff6f5ff8219aa498714ff8bf05eb080e94709c037d",
+    "bytes": 44969,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "legalbench",
+    "sha256": "9a84b4513e44dc32acdf7f4900ef7390c40e20a973127a55d1f4b89e59aecd31",
+    "bytes": 1522897,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "lexeval",
+    "sha256": "008ba68c6d01e93e347ecf8492ffd7dc184d047ba15dd85153d4615e5136faad",
+    "bytes": 42143769,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "lingoly",
+    "sha256": "eacc0ddc9caded2ea8335c78bc9388fede7f59c11dd85fe2c14f0c9f93c8887f",
+    "bytes": 777661,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "live_agent_risk",
+    "sha256": "5285c8daa2cb580acb9911e96f7f192d685b0d310ca9950f5d5285c591fe3a22",
+    "bytes": 16265,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "liveaopsbench",
+    "sha256": "04c17bca06e188c5e32bc75975090334ac864408bbd7937a34dea48ff1ae4dcb",
+    "bytes": 2042344,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "livebench",
+    "sha256": "9e628185c4879ede6f0119d2c92bc1e33d19c546cf4db25953ed3825b63d92b7",
+    "bytes": 5907202,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "llm4ir",
+    "sha256": "e738f34560fee2e11cf1c7d40aab1d0e10f9a5a68110535362ea7d019fb34596",
+    "bytes": 159107,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "llm_bp_tag",
+    "sha256": "d8e72d48cd7f44e1d32c7c3d9e61dfada1995cff9b53fbbe287d2cee116f915a",
+    "bytes": 5896346,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "llm_survey_simulation",
+    "sha256": "c61456553917d413b6e828d1773c3482884e43c58047b30d0c7e3a78456420f4",
+    "bytes": 12983046,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "llm_uncertainty_bench",
+    "sha256": "8bad9f47b9ba470831b9aec9e6d36c42f229200cf3308ab1696f539ffe96816e",
+    "bytes": 191334518,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "llmail_inject",
+    "sha256": "ed5df30de0b889884d2317e2692057a92fcf43384940e315dfb18c4792e850a0",
+    "bytes": 14287879,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "llms_lean_formalization",
+    "sha256": "673f78a26e7448e05cd6adac13660419e4ce0b1df434c091ced0533ce4647270",
+    "bytes": 1312750,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "lohi_drug_discovery",
+    "sha256": "2ee82b04cc90f4c41fc1aa6fbecc6c40587a4821f11b32a4282b63280e0bbfc4",
+    "bytes": 39973731,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "matharena",
+    "sha256": "c3e7e70e44369591100dc25a48b4c8763933a0366be1f61c78eeea260b092db8",
+    "bytes": 1829303,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "matharena_platform",
+    "sha256": "597938d45b6e13efff5d9caac9322bb4e3f3d4003f636981dcca4a1edc1d3374",
+    "bytes": 664800,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "mathconstraint",
+    "sha256": "6a88ec3bbb763a38904ddfadf4945888683ac00df174c9bb8e21bec0968c3a8e",
+    "bytes": 260653,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "mathvista_mini",
+    "sha256": "8c6c644c1a31d2da33d0a37f463dd0ae768589c5a863e444a739a6ef98334ec1",
+    "bytes": 5950545,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "medagentboard",
+    "sha256": "b074345f5e3a2e1896c8dc5d643a07b720a8dd4ce3ec972cfd99eb1b3eae68b7",
+    "bytes": 383467,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "medhelm_ehr_sql",
+    "sha256": "2afacd8f709aa74cf796dbcfbbdcfb0834d4fc84836a5d3a50624b9e9b4cbf4d",
+    "bytes": 287916,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "medhelm_head_qa",
+    "sha256": "c2d33781739a29f9b6bca280b146c37dba35f5f0941d58e28f97aef2dba8160d",
+    "bytes": 287961,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "medhelm_med_mcqa",
+    "sha256": "3246d509fbcf5e063a273e1461a39b5ba48d0c61c90b72f1f690949e5ba3cb6a",
+    "bytes": 288382,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "medhelm_med_qa",
+    "sha256": "2819b08122ed45a785d9fc91b03b1236d229dbe513d1c47e74ae20d927515514",
+    "bytes": 288248,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "medhelm_medbullets",
+    "sha256": "9cda3770e38b6212b4515c4dde816e39ba36d80d8cbedd38db02415f60e7c7d8",
+    "bytes": 86514,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "medhelm_medcalc_bench",
+    "sha256": "45a7af2fe75a38d670bc073e5f117f920bd4fa48fba14ebc8e0352803d4bba14",
+    "bytes": 288090,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "medhelm_medec",
+    "sha256": "8216a29c48ab8008d0686b3ec1bab1736bf4d75bc630c3db318a4322f54d5573",
+    "bytes": 169825,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "medhelm_medhallu",
+    "sha256": "0cbc143133d9a7612f877dd2230b8fa4e6f5dbe0d435d5606b772a49af81c3d3",
+    "bytes": 325086,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "medhelm_pubmed_qa",
+    "sha256": "fbd0358fe63ccfd89bf59dddfff7e468bc0a50a247bdb315382c2ed83fcfd603",
+    "bytes": 261973,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "medhelm_race_based_med",
+    "sha256": "147380c2408282141c247f475b76655b5ae0bba5d61a96e6f6c200626b64054b",
+    "bytes": 49585,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "medwatermark_fws",
+    "sha256": "9db3288c9d8d29deafa9ccac1c41a9004bd54a364092192c7dde1bf9a1f55412",
+    "bytes": 558633,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "mergebench",
+    "sha256": "8b4824319731359e28b3ce4f59d78d6def8c637e7d34c8a48ac755357231838f",
+    "bytes": 109085,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "mind2web",
+    "sha256": "0d3e54f0296751afadbf742fb8c3b32698298d946580d07b87e7bb281206140e",
+    "bytes": 646382,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "mj_bench",
+    "sha256": "7ea952f662b532bb14ce6ee6b2f851d4b8f815a595ae8cc9f34ea82efbbc5252",
+    "bytes": 5508387,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "mlip_arena",
+    "sha256": "11ed1b8a35040d05bd39b0aab828c29c1defc8f4d95ac4df61f6c6edfa539f61",
+    "bytes": 3040764,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "mlrbench",
+    "sha256": "c17ca89052380251cb3b51a89e47644d018d75f3e54b296072864add4af7dc15",
+    "bytes": 732934,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "mmbench_v11",
+    "sha256": "71aaa4635008c26178d252a13c0467fe42211444e6842a8b1e6b5097e599ac21",
+    "bytes": 122366043,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "mmdocrag",
+    "sha256": "83acce2278b2f3e5c5ae5e4ec1afc4d1f9c21e26d49d5408334d55933235e16c",
+    "bytes": 8156072,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "mmedbench",
+    "sha256": "d3565cbfbde386d726121f4b55317783f6e8ce4d54571362b89bfbb3211492ce",
+    "bytes": 16543,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "mmlu",
+    "sha256": "c4f823de0671b6275d96c6ee7121ddb6b098f7ea9d94b1bcba12127f798b327e",
+    "bytes": 78907187,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "mmlupro",
+    "sha256": "271532b41394e8b4ab1afef648afae16279f6df52f697d75b23979d884cbcdd0",
+    "bytes": 21145564,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "mmmu_dev_val",
+    "sha256": "86e49d879857da01b43e15791e5cbc920e0407d189d6d00b36544a775d919873",
+    "bytes": 5689676,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "mmoral_bench",
+    "sha256": "3102cd75162fb04a0e08d7aa43756cf8c6442c31243d19835d8e752bce80e375",
+    "bytes": 605852,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "mochi",
+    "sha256": "1da609aa634e579a9e464fb758c3ac78f6d961236803f56e57a8d21902fb3774",
+    "bytes": 1232051,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "moe_cap",
+    "sha256": "dca6ca833b2e1c1f217b80d282f6a4268e8532dbc31d23990181ee4f97cce0e2",
+    "bytes": 2036795,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "monkey_power_laws",
+    "sha256": "0894d5c6a1072fc511e83208f7cde0dae67bcd1fbead422daf727e6a3a9bc198",
+    "bytes": 708257822,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "morphkv",
+    "sha256": "16e6859d1762b46fcc7caa5b2ab84fb4c9768effd20126d5ae49934653957a97",
+    "bytes": 95569,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "morqa",
+    "sha256": "cd5d6fd5a8267733f5b383901d9ce82b1db62bf35bd0cc463f672ea98a4caac8",
+    "bytes": 511527,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "mtbbench",
+    "sha256": "c986af96ba5da3357f62b96c2d281463a87e3905bdf2f299fbeb658a3e2e5fe3",
+    "bytes": 194301,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "mtbench",
+    "sha256": "3a318da5372c47571913e3457454ffa6b786c6f61ae273b75ca39d740896c06b",
+    "bytes": 163992,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "multi_moe",
+    "sha256": "8bd464e6721a1bb7728b0e15e66f41e945bb5bdf40ad1bfd0aca9f8e56c7d5f0",
+    "bytes": 283391,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "multi_swebench",
+    "sha256": "3925964852cede82d958b828f7eaa5f3cc2923a7b8f0e63e783b78a44c028f60",
+    "bytes": 1222393,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "multimodal_stem_ai",
+    "sha256": "e26d6e6b99f238ac48886285e3285130b467bdc96dc7bb0a3d21dd9798e5dda7",
+    "bytes": 93388,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "mypcbench",
+    "sha256": "9bb25104f485f272397ee8891cb01e959c0a7dcb7a19536f587c93f949dacb73",
+    "bytes": 10085,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "naep_llm_students",
+    "sha256": "a3c8132fc2a3a9e489d5e74184ce04d7e300b2429fb0ded9e480f04dce4842e7",
+    "bytes": 1044375,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "nanobaselib",
+    "sha256": "1412ff0acb48840f94709f303195082a1cb191a29b7a26666e1728deb5fba781",
+    "bytes": 11922821,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "naturalreasoning",
+    "sha256": "451f2e0c7ab61516e5500455d0bd73340fbda8f811a566918e831acaee1e13fa",
+    "bytes": 42828850,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "naturebench",
+    "sha256": "8b760ea2cebb80f8865034321c94ba3f72f610b3d30cdd1dd69e3f9981c1a061",
+    "bytes": 48340,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "nester",
+    "sha256": "31a9d074e6cf0565454781b6e357535e34ad4e3f6901419688c09c832f6a2f80",
+    "bytes": 34020,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "nis3d",
+    "sha256": "a31fda34f90deebfe2af09ebd5b1422bb6843d3d9f29d71b71a17780b715459b",
+    "bytes": 10811,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "nyu_ctf_bench",
+    "sha256": "62a53d8cbd70091355014da9091d8d34b19627b69229c213b6c662cfc63999ca",
+    "bytes": 70828,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "oasst",
+    "sha256": "69826c7377575c3364ffe58b8acbb70a80ef37bbe7fc7b3e744ce703b86ab439",
+    "bytes": 610270,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "ocrbench_v2",
+    "sha256": "73c4bcc05124914fae0c085314ce8b12faa6330e429dcb050b8bfff05d14e498",
+    "bytes": 375327,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "ood_prediction",
+    "sha256": "f552c632ad73dee1d2b3592713e146b5993b7c658068a42ee2f3e14736943edc",
+    "bytes": 5345154,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "openbiorq",
+    "sha256": "c50d2442172e20d2b47c621e20f2a616e189800ca8a3f73bc27d9824bd2bef92",
+    "bytes": 156179,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "os_harm",
+    "sha256": "7bafb8213a9ef31cd28335cf602e0e7b6a40b64ae6200bda3bd7b7088c1c89fe",
+    "bytes": 48620,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "perfcodebench",
+    "sha256": "3832b5437dbb9b0e0c675f833aec120241f661ae5d6d6c17b1e73f155d85da3c",
+    "bytes": 503788,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "perumedqa",
+    "sha256": "db36f1448811c83367a84e47afdad423e1d6a1ddecf78d277c53e6a1b7f5ced6",
+    "bytes": 3221439,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "phyblock",
+    "sha256": "8634120be9a507d0be217ebf61be745420c601a03e79dbd19bbe0a3390e0e3f0",
+    "bytes": 223616,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "pku_saferlhf",
+    "sha256": "bd87014be2fb02df801e7deed00ffe7b7450422b777f7e0cbbe8d4618c5ad426",
+    "bytes": 7169572,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "planbench",
+    "sha256": "1c55e47e516fa73cf90d6b966261e23b38013fcec3c346b33526c9435b2bb31d",
+    "bytes": 991707,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "preference_dissection",
+    "sha256": "a14e1317ee686afaa5c45b3fc2da4d6c41fe76a3c6cdb0c61dd2e0309e2377ae",
+    "bytes": 5680350,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "prism",
+    "sha256": "d25c91f3ec96de18d54b39aca5d9ed63099f172d057f70e83ffdf9a972a613ed",
+    "bytes": 4846944,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "prm800k",
+    "sha256": "55fafdbc2f61e5c8233bb11ed229951b8efb3f9b89b97e3e69c735d7b40a5033",
+    "bytes": 54435047,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "programbench",
+    "sha256": "c26e085c073258cfe067d9b8a6d293ef4cb30358fe7b37db888880bff5b2b917",
+    "bytes": 170427,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "proofaug",
+    "sha256": "fd33ff0a05de9e5e41452b2c09cacfee7fb3c298c4a6744e6b61fd2b5ad2f75b",
+    "bytes": 15019,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "proteininvbench",
+    "sha256": "b62a4c8d818166b345c93a85a6bc75d672f00ab281a2df11e4bc01ccd943c1c6",
+    "bytes": 774141,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "prox",
+    "sha256": "a7bf0acc124f72c04d955c2b59d11bc719b17d08c0b0f12d5542fd2e5b87038a",
+    "bytes": 912445,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "psychosis_bench",
+    "sha256": "5d2b4243821d632d8e178b906832ab440ad2a2c703e8a14f856c114d73b64ea2",
+    "bytes": 105631,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "putnam_axiom",
+    "sha256": "4c8441d9e2a18a74df3140ab2269f5d27d1c4ab5499df5b8800f859b61f582d5",
+    "bytes": 145981,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "pxplore",
+    "sha256": "987c53eea4d4ea2a4a0627e2d3d9b192327f8cd617819daf373b1d659b1b6472",
+    "bytes": 99248,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "qatch",
+    "sha256": "8a6107472a110eeeaef5893eda99fa4177e23c4df1ebabf6d6bb156577ab11df",
+    "bytes": 2616155,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "radar",
+    "sha256": "49832c5d09fd9966da476d4a26f6197a93658c36c0dc0767a04da596b225ea51",
+    "bytes": 5551,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "rakuda",
+    "sha256": "edc6bdca280d524a9217ff47e7162ddd3374e9cc03fa260723c0fd6741472256",
+    "bytes": 1978205,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "rclicks",
+    "sha256": "188bd010fdd09e9414ef925e9579ef9e76e8485dcacc0be245a7134a963e6e7f",
+    "bytes": 8209659,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "real_pocqi",
+    "sha256": "a907f39d2bc7f25789a33f62b06bd8f93c4abf13e54db569611ab47eda5a4582",
+    "bytes": 438500,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "real_webagents",
+    "sha256": "56d1fca0b984a30701f165f550e979d96c71b79af3b11a482e4eba5771065213",
+    "bytes": 94908,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "realtimeqa",
+    "sha256": "1589fe0172011f1798f5195b1e69f70b90aba33f780ccc0b2b7955a11fbdd05b",
+    "bytes": 1411647,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "reasoning_gym",
+    "sha256": "7c00e3f2a38a86ba3ea5043d93e08c884932e6d448ca939d533aa51cebe1a084",
+    "bytes": 5249693,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "refgrader",
+    "sha256": "466beb9301547abcb4d0e46aef392517b278d0542df500e3066b1466cfc8039d",
+    "bytes": 190612,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "reliancescope",
+    "sha256": "14eb1128f0db5c493ca5fba86e3edb6cc63c7ccdb70bf9f88f00a3a8ab275642",
+    "bytes": 165377,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "researchclawbench",
+    "sha256": "cfc5e177eeb0ffcfdcd90e3d8ab88a374abdb37ad6a4bbea7b5e70ef90bc4586",
+    "bytes": 39525,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "researchcodebench",
+    "sha256": "318c067d86f35dd057e6b4d33114d4ae46447c9ef91e1b4bddba7667fc8c0375",
+    "bytes": 137904,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "revolve",
+    "sha256": "62fbe077d85714da804c8431c740308f17b6c8ec6f7fa5db5b735a60c32e041b",
+    "bytes": 71162,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "rewardbench",
+    "sha256": "3052e3d4c0dc001bf1ba1ff036ff25bc16afd709d661cbc90c6af7bc9abb94f7",
+    "bytes": 12744825,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "risebench",
+    "sha256": "ff701de91d37e147f119d63fc957995edaa4d3d60ccf87dd80ff3a20b709fd7b",
+    "bytes": 181955,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "robust_reasoning_benchmark",
+    "sha256": "fd3e1c0477ae05f897859ecaeab61b4175047d09dfa269cb8213916af1eb5ae2",
+    "bytes": 2910990,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "safeagentbench",
+    "sha256": "18225c61b6117a3466d0bb0de335ae9fa6fafe19b14fe39858eec2de4a404f6a",
+    "bytes": 103463,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "scale_mrt",
+    "sha256": "4bd1e52be9e34113c029bf4153ddb22f1751e046aa744cd59293e16c102ebf8c",
+    "bytes": 1739448,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "scbench_long",
+    "sha256": "97c0c8979041812e21c903258a3f6b0984e2ae9fc39408741ba4c46f2d160b5f",
+    "bytes": 12720,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "sciarena",
+    "sha256": "824bc6df987e02f7571661020058feb3f39afe054989be189700a3853af17281",
+    "bytes": 904262,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "scigym",
+    "sha256": "96061348e00b3eb1e43e47a05c2bb423807bc83b558c185cc55c94dcbdcbc05b",
+    "bytes": 138004,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "sgrades",
+    "sha256": "1e258beabfefa796288a08c63c78aa317c23803cb2fc6adc6a6cc9a336a60775",
+    "bytes": 51267924,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "sib200",
+    "sha256": "451de6e16bce2081c599ee4434e59ca4df78c937c2aea3b779d3ef03f39a2fe7",
+    "bytes": 17139097,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "sketchjudge",
+    "sha256": "f9ab23a38f20fbd78d2abef0c1dc6a3113801b71032ce373ab2cb0105bd707a0",
+    "bytes": 934241,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "software_world_models",
+    "sha256": "4d7772b9594ccdf4c0ef3f5358ecaf2bc5bd39a392e0970d33875324be72ae4d",
+    "bytes": 167512,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "stanford_orb",
+    "sha256": "85953c596ef13260b8901126891c971076944991750a115142c3f8bf81f2fd64",
+    "bytes": 175193,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "statqa",
+    "sha256": "e4132481cc3d73f0b9846d1a2184f2dd5ee794abca7049251b863739b6fb4521",
+    "bytes": 1208767,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "subjective_qa",
+    "sha256": "f0cd3cfc0d5407838c2e7ce28ad8c0b1d057efb07bc5fa8e0d40839362330d40",
+    "bytes": 531545,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "sugarcrepe",
+    "sha256": "006dfd5e849c5ec86b17beb834a9d347c039a3328ab27134a90ef45e9b8fae8b",
+    "bytes": 567485,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "summeval",
+    "sha256": "b81d61966196234b337a732c93ec87cf191e9371f87095789497b0ad2b617307",
+    "bytes": 1004646,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "sustainable_food",
+    "sha256": "8a4fb288bdcb5289d2bb83a0f73d337756f8c0f9fa634e4886856c2ba6ad3f04",
+    "bytes": 71483,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "svrpbench",
+    "sha256": "79d68c6d1c02546ea4f35cf882abeb80b3912bd593fd2160050ea46eafae819d",
+    "bytes": 10480,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "swe_rebench",
+    "sha256": "097bb00e2a69a5ba92907e02b7e6b451bf520e5076fb905fb442fb4ffd51f39f",
+    "bytes": 1994128,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "swe_smith",
+    "sha256": "910eddf51ce753274c4a366871eb2a1b21668e9cbc6bc367bd99cf985fdd3894",
+    "bytes": 1703296,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "swebench_live",
+    "sha256": "eff9fa5a50047917c0ca2ede8369e017ab41cc4cb2944766aa59df1ecb398034",
+    "bytes": 356917,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "swepolybench",
+    "sha256": "a9084aeeafa54a62c86c43e9ec45c57d4d8eb848fb635dc2890b342d2dbd1cae",
+    "bytes": 52216,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "synthpai",
+    "sha256": "153017d91dc4bf2dba91563a7f5f7e7ae0e718d218d0fbad1943f1ac634d501f",
+    "bytes": 433977,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "tabarena",
+    "sha256": "211fc642c170ff1b68ca2ac6981439ba28229b59428f39b444c0716a634f3b99",
+    "bytes": 96756302,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "tau2_bench",
+    "sha256": "9f72ea3e5a25161f5e0304a7f6ab4e67f2ad733229747f44d88dac0cf95e2376",
+    "bytes": 544938,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "taubench",
+    "sha256": "55a421a56723edaebe488d50afeb1bd16e9751cc666467653dcb2c7e71697b02",
+    "bytes": 193234,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "tengu",
+    "sha256": "5e001fec19dc1fcc5ddd6ef83ff75df3698aa9f4aa1b0dc6b22a3e7db4412d83",
+    "bytes": 5820090,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "tensortrust",
+    "sha256": "ab41541a7a5c514a1eb5211361107a1551180c1df8e464def4cad0d785af0e30",
+    "bytes": 24624915,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "theagentcompany",
+    "sha256": "3fd9dd0a88bfaaf8ce8429384a88d6eeefce7717b3d08371cb53db9081f1cbb9",
+    "bytes": 67522,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "threeeed",
+    "sha256": "50e19e009c9834135b8c981125862046c81dd2e20d08691054cd7abc98adcbeb",
+    "bytes": 727861,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "truthfulqa_mc",
+    "sha256": "57bbf6b3bf12e82b439fc69cb2fd59a0f11706b4cebb863d0d541e49b27a2870",
+    "bytes": 2586569,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "tulu_human_eval",
+    "sha256": "fef37e3470543ac1342befa3530e7d6431cfef65cba35eb683effa32ae6cbd26",
+    "bytes": 84217,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "tumlu",
+    "sha256": "c2def46d6b124d564db98bd734ffe87b7aae93af3c9e710f422aad53b8cffa65",
+    "bytes": 6650075,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "txbench_pp",
+    "sha256": "e3d66094e48d024d9fc013a2da3c6017410482b8f02b834cdc4ae4d883ae1fa1",
+    "bytes": 16851,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "ultrafeedback",
+    "sha256": "8d75335088668cb5e77845953c6d37a47a069951ff2f2323551f494ad84a80cd",
+    "bytes": 29383654,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "vhelm",
+    "sha256": "ef80d5a6350624a3f8e2c74cb342845cd8948abcf737ea4040f69d38de81b410",
+    "bytes": 34898525,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "visit_bench",
+    "sha256": "5ce52bb28bcd3aa5d6a891cf7bf6e40c690c39cc1dd5c253a3277fb3d3432500",
+    "bytes": 2381856,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "visual_riddles",
+    "sha256": "9377374e64ad60d3241d414df72260dc77f5942c73118f7e2f5079c015931fd8",
+    "bytes": 82018,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "visualwebarena",
+    "sha256": "45690bdd395c7cdf95b75b6441064929539fcaf5d05ec144ba10f5cb464cdfd4",
+    "bytes": 20607,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "vl_rewardbench",
+    "sha256": "97ae8a3339b5eea2049019fd8aecfc82df69e5a85eb8acac046703836bbf462d",
+    "bytes": 2605842,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "weavebench",
+    "sha256": "1397ba490ad0d2f4ddb5cff947dce87130e4dd6522fa3532aa37bc848a1bc8c7",
+    "bytes": 10122,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "wikihow_agent",
+    "sha256": "1a2d1741c90962cb9cd642fcea6f61278ace2074bf66a99ff256a96bade639d8",
+    "bytes": 6418919,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "wildvision",
+    "sha256": "9c273ba2747e6325f7c5b649926eec7c82b7be297580bc12b8b69f944e69566a",
+    "bytes": 227604,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "wmt_mqm",
+    "sha256": "e131b88a9774bfa2506344e1a49271d3f6587873086f357602a50d5de856dd7b",
+    "bytes": 135527858,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "wonderbread",
+    "sha256": "9ab2aa261149ec448433e80f00a53dbf439366ebe5b2d984b398015208b27655",
+    "bytes": 605779,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "workarena",
+    "sha256": "938f16332824703433fec48ae2cc1fb1beb9d9f199d057110085d185b41c0a3c",
+    "bytes": 21894,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "workbench_revisited",
+    "sha256": "5b06ab5cfb5762f5e8f59e788d609867ddb4b35827cdbdc5412971f606d0f2f3",
+    "bytes": 336781,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "worldcentralbanks",
+    "sha256": "0f7fbd80f776f63323db167267107765d3e304f4a89d262cd51473ef73912887",
+    "bytes": 10418569,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  },
+  {
+    "benchmark_id": "xstest",
+    "sha256": "f6b42446fcfa3a7476e5e7444c16247a8f69e72f9e066a895948314cf2d1af28",
+    "bytes": 269666,
+    "commit": "54074453da7b9911be0f48e4c560be547bc84d21",
+    "etag_matches": true
+  }
+]

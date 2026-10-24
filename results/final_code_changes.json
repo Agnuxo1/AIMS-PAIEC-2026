@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2026-10-24T07:31:40.273742+00:00",
+  "post_score_changes": [
+    "Add cache semantics version and cache-missing guard; aggregation formulas unchanged",
+    "Rename physical binary row count and report nonmissing labels separately",
+    "Use portable original-model location and optional catalog fallback",
+    "Fix exact source-order reconstruction after retaining the failed first attempt",
+    "Use IC99 for five candidate comparisons; retain earlier intervals as historical fields",
+    "Canonicalize identical no-peer score arrays after exact probability-level equality and1e-14 score assertion",
+    "Separate historical protocols/results from current administrative checkpoint"
+  ],
+  "hypothesis_grids_changed_after_results": false
+}

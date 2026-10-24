@@ -1,0 +1,76 @@
+{
+ "todas": {
+  "etiqueta": "todas las filas sujeto-benchmark",
+  "n_filas": 14733,
+  "media_macro_por_par": 0.5487,
+  "media_ponderada_por_respuesta": 0.3501,
+  "sd_entre_pares": 0.2684,
+  "fraccion_bajo_0.05": 0.0769,
+  "fraccion_sobre_0.95": 0.0149,
+  "moda_intervalo": [
+   0.75,
+   0.8
+  ],
+  "histograma": [
+   1133,
+   350,
+   265,
+   278,
+   389,
+   596,
+   503,
+   447,
+   604,
+   859,
+   1063,
+   1069,
+   964,
+   949,
+   1027,
+   1338,
+   1119,
+   1103,
+   458,
+   219
+  ],
+  "sujetos_con_5_o_mas_benchmarks": 17,
+  "sd_media_del_sujeto_entre_benchmarks": 0.1349
+ },
+ "elegibles": {
+  "etiqueta": "filas con >=80 respuestas",
+  "n_filas": 13289,
+  "media_macro_por_par": 0.538,
+  "media_ponderada_por_respuesta": 0.3497,
+  "sd_entre_pares": 0.2726,
+  "fraccion_bajo_0.05": 0.0827,
+  "fraccion_sobre_0.95": 0.0136,
+  "moda_intervalo": [
+   0.0,
+   0.05
+  ],
+  "histograma": [
+   1099,
+   337,
+   251,
+   259,
+   375,
+   570,
+   488,
+   422,
+   575,
+   832,
+   996,
+   965,
+   814,
+   730,
+   804,
+   1098,
+   1005,
+   1062,
+   426,
+   181
+  ],
+  "sujetos_con_5_o_mas_benchmarks": 16,
+  "sd_media_del_sujeto_entre_benchmarks": 0.1302
+ }
+}

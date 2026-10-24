@@ -1,0 +1,1478 @@
+[
+  {
+    "path": "abstract_reason/formatted_tables/responses.parquet",
+    "size": 346118,
+    "blob_id": "1565bc02af2de4a97e0825d50524f1adb38f8cfc",
+    "sha256": "59893c65449b1223ab6a71ba139e63149786d7660ad64c3f3a34dcacaedddfcc"
+  },
+  {
+    "path": "adaptivestep/formatted_tables/responses.parquet",
+    "size": 18906610,
+    "blob_id": "bc55ff133adad26f4f092eb8e6adcc51984e7fe5",
+    "sha256": "fcc7a28f9e30327cf2af9804b453c87a02ed225cc121f21de8f39bf1ef9dd90f"
+  },
+  {
+    "path": "advprompter/formatted_tables/responses.parquet",
+    "size": 8478,
+    "blob_id": "9ce8cad2cd749399f0a255d473d1592848bb732e",
+    "sha256": "0211545a16febe197ed45877be2d68f4c07626ef88e627f2dc538fe9c273cfa6"
+  },
+  {
+    "path": "aegis/formatted_tables/responses.parquet",
+    "size": 439109,
+    "blob_id": "5caf50b9ac03a505dd737ae03392e18a63ff362c",
+    "sha256": "924bb0387b0a90b7d2a09248230e5b75326fc939bc925030f87b23874db4da23"
+  },
+  {
+    "path": "afrieval/formatted_tables/responses.parquet",
+    "size": 32763498,
+    "blob_id": "cf24309cc83764e47936ae47f491215dde0bddbc",
+    "sha256": "9ef4f721f4fe2d105eaa68c5d895a11e98bff849b20ff8409ac7d103e53482c5"
+  },
+  {
+    "path": "afrimedqa/formatted_tables/responses.parquet",
+    "size": 10809179,
+    "blob_id": "686b6cb75b026bdd7f78ae7051b265af1813fdbe",
+    "sha256": "c8e24b3c79de1a7160a2b43fa77bc61f953db6aeaa1d91b32280d5f65e1c3c64"
+  },
+  {
+    "path": "agc_bench/formatted_tables/responses.parquet",
+    "size": 11201916,
+    "blob_id": "ada608a60708614c2c8619f0c8879dc727fe9da8",
+    "sha256": "9a9c13cc343a83e5b5ec195a2b245960ca8f51fbcbdb122e5d7ea21011fe3a53"
+  },
+  {
+    "path": "agentdojo/formatted_tables/responses.parquet",
+    "size": 1437613,
+    "blob_id": "ea84ad3e02922ffd79eeab3335267a2baf815a52",
+    "sha256": "9a982ab42ec8f56ff5fc75b84398de93ff63cb0694f500d784c9681e8ff452c8"
+  },
+  {
+    "path": "agentic_review_perturbation/formatted_tables/responses.parquet",
+    "size": 13673,
+    "blob_id": "6b72abbbced95edf75dadafcae0fbaee80a55173",
+    "sha256": "e4ff1e47348981f9e32c2d919d0e85a87aa1a28e55a0b2d3aaed61d3c58295de"
+  },
+  {
+    "path": "agi_elo/formatted_tables/responses.parquet",
+    "size": 10391446,
+    "blob_id": "08a0a47b435550e1f2bb2fb3fffba97e4b053f55",
+    "sha256": "e10fdd1ce2c39483dc5c878394e3b9f3561cecd2f2480e773b6a0996b867a0f7"
+  },
+  {
+    "path": "ai2d_test/formatted_tables/responses.parquet",
+    "size": 19856672,
+    "blob_id": "00307d14e296a6cc30f3fa82891fc4563ddcd90f",
+    "sha256": "dc0853abdefe687251f6118c2c17f5cb4b982fe315e34b0709477205ff08234f"
+  },
+  {
+    "path": "aider/formatted_tables/responses.parquet",
+    "size": 106716,
+    "blob_id": "ec8f6121fceabda4bcea46409f4284eaca34804c",
+    "sha256": "9e3e6e231242d33053373d635919d6c3aaaa74694d988ecf1ade333ae2369100"
+  },
+  {
+    "path": "algotune/formatted_tables/responses.parquet",
+    "size": 60286,
+    "blob_id": "9e4e9511e2450f74addbcebe8aaeefbf07bfb971",
+    "sha256": "66454f671fb545f99d012d212dcd82156c2943fced9c5be82318fc674142097f"
+  },
+  {
+    "path": "alignment_faking/formatted_tables/responses.parquet",
+    "size": 42954219,
+    "blob_id": "26379102c957ecbe3ff51147376683d44e283fbc",
+    "sha256": "944469057d9c5499e5d24ee00804b3652a217d7cf5fbffa8d20f747e3cb1769b"
+  },
+  {
+    "path": "alpacaeval/formatted_tables/responses.parquet",
+    "size": 4825110,
+    "blob_id": "83480acde7ffd32bdd409a2c13d9c8ec225d7a3a",
+    "sha256": "22b145dc82c164d2f7404a54d5b202f3bb202b93a504859c8bed8b148c220f4e"
+  },
+  {
+    "path": "alpha_sql/formatted_tables/responses.parquet",
+    "size": 62474,
+    "blob_id": "9a33b296ce9d3487c0abe163f3aeb7df10cad991",
+    "sha256": "772a7fd827e50a4d89504c4605a2b5e2b917dc30ff1d8385d7072ff691cce609"
+  },
+  {
+    "path": "annotating_errors_wcf/formatted_tables/responses.parquet",
+    "size": 583433,
+    "blob_id": "e1abef1262942ba96941730eb45acc86705fbc2c",
+    "sha256": "4d61e1636dbad11399bebf0109e9547e591227e47c8ba17abac66e49927e4945"
+  },
+  {
+    "path": "appworld/formatted_tables/responses.parquet",
+    "size": 229064,
+    "blob_id": "713fef0f241e452848e07a0165b77d96804bf17e",
+    "sha256": "a15f0c5f85d435d9fa90ee17b9e2cf303e9439dd2b85e0f151534173e21f1f14"
+  },
+  {
+    "path": "arcagi/formatted_tables/responses.parquet",
+    "size": 716709,
+    "blob_id": "f65a6314176f3180e96220484765ab4513cfae78",
+    "sha256": "3c8527847233d207fe7418cf308585b85234c9545c83065fa1481f81cfd38587"
+  },
+  {
+    "path": "atmossci_bench/formatted_tables/responses.parquet",
+    "size": 842263,
+    "blob_id": "7bba58a13be846e5f16dd819160d1ebcd010abd5",
+    "sha256": "58fc82199faa293ba7e85040ace046025e19b0853a1066b4249dc5824a37214e"
+  },
+  {
+    "path": "auditing_sabotage_bench/formatted_tables/responses.parquet",
+    "size": 42946,
+    "blob_id": "3ae211ac52ef073352355c1a438824561afce796",
+    "sha256": "5c4ba281202a468c4b930eaa67a0640defe269ab14a8f97d8fb58c6fbac1de88"
+  },
+  {
+    "path": "autoresearchbench/formatted_tables/responses.parquet",
+    "size": 8811,
+    "blob_id": "6da4251c03e8b8f57d76413262814e99391eb6af",
+    "sha256": "e0eb804abbe8535ec637daf105d85073c914150878d1f1b34841720598b9807f"
+  },
+  {
+    "path": "averimatec/formatted_tables/responses.parquet",
+    "size": 11136,
+    "blob_id": "5c390b6d1ec0b283103bc4b440566259f9f1b840",
+    "sha256": "af1d2805e3505d9a489357c1a875f761c85585c7b58c6df880f86f6852bc226c"
+  },
+  {
+    "path": "babilong/formatted_tables/responses.parquet",
+    "size": 75589828,
+    "blob_id": "2813eeb476d4ff0cdcf736aa94913d2f60f5dd93",
+    "sha256": "4239cdb64fbd26be2b7bfd4ba4b7c1f806658b9080126c797913b36bdfaf6efd"
+  },
+  {
+    "path": "bbq/formatted_tables/responses.parquet",
+    "size": 14243974,
+    "blob_id": "3c5ec801060cc8d0fc9400eae5c4d193d9e33ec5",
+    "sha256": "4b1ad142c0652475e807369f87d94f1d19d07a2e1d1b5b3c357f270faa3256d0"
+  },
+  {
+    "path": "beavertails/formatted_tables/responses.parquet",
+    "size": 45008,
+    "blob_id": "7e62422e08b2c9b3a0218d466a9b6bd37ba34b86",
+    "sha256": "7367901e99aadfde4e9c6ad444413fbb97cabdb097bfb8454793817dad67c158"
+  },
+  {
+    "path": "bedd_basalt/formatted_tables/responses.parquet",
+    "size": 2753773,
+    "blob_id": "c7c9328f3eadc53277be32c2943410fb34241f19",
+    "sha256": "c89d556c2d8b3d4ee9ddc0354d45d4094c3454291b05e810b0c8e26430bdcb81"
+  },
+  {
+    "path": "benger/formatted_tables/responses.parquet",
+    "size": 208497,
+    "blob_id": "b80614bbd9ddca9a20b8037a0e3578ce4148cca7",
+    "sha256": "ef3e19ea78134dfe20d1a86bf3559531ae33292a2611c52a79414b7dec7f41b4"
+  },
+  {
+    "path": "bertaqa/formatted_tables/responses.parquet",
+    "size": 2143408,
+    "blob_id": "1b11b1c1c0b9fb65c9bfd9aefd7dcf01cae5fd8e",
+    "sha256": "bdd7c044e384ea1db7c9a234076ae024db39f3f7691fb52caabd5761b910c80e"
+  },
+  {
+    "path": "bigfinancebench/formatted_tables/responses.parquet",
+    "size": 205191,
+    "blob_id": "ce7e0d6e0b5cbfad2b2a8240b34835e42b7ac600",
+    "sha256": "73fd1d1fbcf8a2c8213f21d4e08c73a83ef6e943b9bd5e3008835a97cde61211"
+  },
+  {
+    "path": "biggen/formatted_tables/responses.parquet",
+    "size": 20617172,
+    "blob_id": "d50c514caa328abdec63ff7710894be5143b3424",
+    "sha256": "70f75da5de9d4668ed5dcad2619e1ff4146c30faebeb63f9879c052b24d8c70d"
+  },
+  {
+    "path": "bird_sql/formatted_tables/responses.parquet",
+    "size": 857770,
+    "blob_id": "3acf598652f267a00c440900f27494f734c9c5af",
+    "sha256": "a6d47ab7cb8b5f654b9ffcf8653890c8272cf2094696b7917ed97e9ed2e73493"
+  },
+  {
+    "path": "brace/formatted_tables/responses.parquet",
+    "size": 5785374,
+    "blob_id": "074c2e824a9255319bdb835bd9f113753cd6a925",
+    "sha256": "f87ba5941185ef220f3c08b127382dff114fb03eba0bb9a0b83a157765c28620"
+  },
+  {
+    "path": "bridging_gap/formatted_tables/responses.parquet",
+    "size": 165534304,
+    "blob_id": "038d0144fae209438636d8c1f5d9a97fb86fbb9c",
+    "sha256": "552362a9d2f2d02ad95e19e942580bad2861f76be152837e4b985ef10c1dffd4"
+  },
+  {
+    "path": "care_enzymes/formatted_tables/responses.parquet",
+    "size": 424026,
+    "blob_id": "2a4492946666a518d4c7cec9abfd4166a46a555a",
+    "sha256": "fa3fc13a1512242126cf83c4788539b8b10ff85e4e793c21a49323fbd0a67368"
+  },
+  {
+    "path": "causal_axioms/formatted_tables/responses.parquet",
+    "size": 265395,
+    "blob_id": "9533edc3f5a36fb7dcdbbb3ea5c640ccd7499168",
+    "sha256": "743ff26e695e7e297723a0ae90d9ef26b188e0bb104d3f7deee98daafe4980b7"
+  },
+  {
+    "path": "cellverse/formatted_tables/responses.parquet",
+    "size": 33360,
+    "blob_id": "924338282e94d69d3ab6369d38a4e9d01ee9870f",
+    "sha256": "b3876e4bf8949da97607b37df8df063358d611b749d285e3227f31e5bb389d23"
+  },
+  {
+    "path": "ceobench/formatted_tables/responses.parquet",
+    "size": 9377,
+    "blob_id": "cb755549bac21354263d6f77527a0b35a2a1e3e0",
+    "sha256": "5474c6f1479f9925d5afc666d82d74fa728f4c1036b4e77cba7d8165c60839f8"
+  },
+  {
+    "path": "ceval/formatted_tables/responses.parquet",
+    "size": 351210,
+    "blob_id": "c9dc1520ca5494dbffefc2c6cf585bdf8958611a",
+    "sha256": "306c1a7b5b16b5286ea0d5f4d7ce53909936f1bf06d81b856ba8d4cbd37c3c28"
+  },
+  {
+    "path": "chartmuseum/formatted_tables/responses.parquet",
+    "size": 11489,
+    "blob_id": "95eb367490fcc807814b2e7c6fe4417489f4f165",
+    "sha256": "3b8378afd4a93809d2c4539fe1b229be0677dc67072597904fa82aeccf49ec85"
+  },
+  {
+    "path": "chatgpt_drift/formatted_tables/responses.parquet",
+    "size": 1446721,
+    "blob_id": "9fea1d24561370f693b9bf08eb19265414f89dee",
+    "sha256": "88ab3a406def68a4c68e9bcc289172fced2a2ac6d52f77d9e03a1e8f897ebb82"
+  },
+  {
+    "path": "chi_bench/formatted_tables/responses.parquet",
+    "size": 176015,
+    "blob_id": "651579c36fcd1b7973138c8fe4f85f8302c32bd6",
+    "sha256": "eec0c23474da86e5a1c5272235c9f1240716e18b0ee5c9ff53b300c2e6513ac9"
+  },
+  {
+    "path": "chipbench/formatted_tables/responses.parquet",
+    "size": 46299,
+    "blob_id": "3cd0b57d97105adc87552900c7f1503c6c6f116f",
+    "sha256": "4cf1e2d570517ef5c0a7025b5679442920eb183698d9396acac5e6fecd1d7a08"
+  },
+  {
+    "path": "clasheval/formatted_tables/responses.parquet",
+    "size": 2701083,
+    "blob_id": "b902d9665d5326c237a9207ebc732484913788c4",
+    "sha256": "968ec1c89c5b3ebb2ae082bd000848baaf36bd9428b5a42ca19f239daddd21d3"
+  },
+  {
+    "path": "classroom_ai/formatted_tables/responses.parquet",
+    "size": 225696,
+    "blob_id": "9eee05846f67139685ec8489c0c5f1d299abb77e",
+    "sha256": "eb62b9db908321e4a98c3c4c9e0deb55e5db5e75ae51224176a3ea539bb34637"
+  },
+  {
+    "path": "cmmlu/formatted_tables/responses.parquet",
+    "size": 5633594,
+    "blob_id": "ce91f1d1601e6e0c60f5f1a07fcee5425be80a26",
+    "sha256": "b42a1cfbb7a6973c483d42ac455fc6840d77e1ab0620b16c7195b5fc791d65d6"
+  },
+  {
+    "path": "coffeebench/formatted_tables/responses.parquet",
+    "size": 6976,
+    "blob_id": "8a2616a5a8da973d102081d431a658cdbb1f6cec",
+    "sha256": "8d0ed9ec7365220e3abc3cbd67047a9494ac16729d67a400c9d21151f152ea3a"
+  },
+  {
+    "path": "complexbench/formatted_tables/responses.parquet",
+    "size": 385183,
+    "blob_id": "6c9267e1273c7e4c567ed776bf502fdc817775cb",
+    "sha256": "0000c55ef357426f7eee986ea6ce13b3330ca13b595d5272a45cd7040db6ebdf"
+  },
+  {
+    "path": "confagents/formatted_tables/responses.parquet",
+    "size": 7018,
+    "blob_id": "6bfe50d96cea4bb0d06fdd9ca87f237bc1e126fd",
+    "sha256": "8c470b8deebcdae873597494fe2dbde44da4d2a8b330bdfeb249d8a125a4cc0c"
+  },
+  {
+    "path": "corebench/formatted_tables/responses.parquet",
+    "size": 49434,
+    "blob_id": "e3cb59ae2a29d9ad55f57db4880713a6848e2cb3",
+    "sha256": "d48899e63018007ef05d757ad4f9cfa055845379dee784505edd75fe70cd6cf3"
+  },
+  {
+    "path": "critic_discernment_game/formatted_tables/responses.parquet",
+    "size": 182548,
+    "blob_id": "9e2a3a84f857cc053aee831454b75c63231936fb",
+    "sha256": "0f2ee09b83d840730145cf10a98dcedaeaf655245551549fd7ecc2faac25e676"
+  },
+  {
+    "path": "crow/formatted_tables/responses.parquet",
+    "size": 163547,
+    "blob_id": "538b7c0d13aa980520b716048a00c3fab39dd9cd",
+    "sha256": "5e8e07b74ce40bd731d0a37bcb5b7aa381bc9719538d508676401c1288d4b6ed"
+  },
+  {
+    "path": "cruxeval/formatted_tables/responses.parquet",
+    "size": 20809388,
+    "blob_id": "de6de21ae89db5853e7ed91d38eca848d88f8fd3",
+    "sha256": "f777c5280cc1cc8963a76a13b8bada16b2a68f207d03fb77e4f03ea3b459aa6c"
+  },
+  {
+    "path": "csedb/formatted_tables/responses.parquet",
+    "size": 1049171,
+    "blob_id": "f3844566741b05997f7b264df20eabca68280a82",
+    "sha256": "0346bb0d7e15cc58cfa62740535b6e176640e20c0d1ed5fd17ba2e740c5b0948"
+  },
+  {
+    "path": "cseo_bench/formatted_tables/responses.parquet",
+    "size": 9523183,
+    "blob_id": "329c5238882f464fd492179845e9fb2df8fd318e",
+    "sha256": "cff236b09fdb12e729ef101d28c44dfa82fa309e445be4aff35eba721c8dcf69"
+  },
+  {
+    "path": "das_med_hallucination/formatted_tables/responses.parquet",
+    "size": 46050,
+    "blob_id": "03b40535b7e1230830c620f37364b45e385d455a",
+    "sha256": "f632d863d1f893ba0917b7abd134ff7bd7ace84c5f12cd732b269f31bf5b0dcd"
+  },
+  {
+    "path": "data_juicer2/formatted_tables/responses.parquet",
+    "size": 7443,
+    "blob_id": "a009d35e65f468e28a57a9e0fd7c8b1f00e0c9af",
+    "sha256": "b4762b17dd0c44206772852eb463f7f1bae051b53c28c9f36ee40f4e5b667155"
+  },
+  {
+    "path": "dataclawbench/formatted_tables/responses.parquet",
+    "size": 90143,
+    "blob_id": "e70452128b11badda1a829f5fff855d25f12a88a",
+    "sha256": "9566b18a98b1125fb8edda656f0f167dc5075d02da057df1e6a7975522f6c803"
+  },
+  {
+    "path": "dave/formatted_tables/responses.parquet",
+    "size": 458974,
+    "blob_id": "022ed762d3fa4a27ea44442d9eab0a0b5d6a8760",
+    "sha256": "e674d6d5e555c130b51d87905d77c02d23847e250c4703fc62c9225911f721ec"
+  },
+  {
+    "path": "dbpa/formatted_tables/responses.parquet",
+    "size": 15192,
+    "blob_id": "f5963a551ae3549f891a62c8ceebcfe4d9a78601",
+    "sha256": "b617d2ed40b82a55a3d0ea68fd035f6fd8a7b02943abd967dda261954981aef3"
+  },
+  {
+    "path": "decodingtrust/formatted_tables/responses.parquet",
+    "size": 64002666,
+    "blob_id": "702990c4de95ba7da0174870360dcd59761459dd",
+    "sha256": "e2a3866c9b3fa6524f5a89dc16b44f30794e3140556b55241d6bc58820f4464f"
+  },
+  {
+    "path": "decompile_bench/formatted_tables/responses.parquet",
+    "size": 6353733,
+    "blob_id": "c0a490c314d4819fba3dae5ad56310788a51ca23",
+    "sha256": "28b46523bfcc339fd0f48b3b425b228f9ca95dbdaa143cd2a7d2c4144bfc2059"
+  },
+  {
+    "path": "devbench/formatted_tables/responses.parquet",
+    "size": 108551,
+    "blob_id": "e5bbfd03a4ac562cfdc230c388d23eb6239969b1",
+    "sha256": "10c7a198606929c5863b8b9ae1d81c93e639a082eb89df42bc14c0328d00c4eb"
+  },
+  {
+    "path": "disco/formatted_tables/responses.parquet",
+    "size": 3009568,
+    "blob_id": "5d7104211e93b8e03def1dcc2dd435fe618496ae",
+    "sha256": "fab86f87ca3b506642f64fe71f88818000c690c810edd7f832c23d844d9263c7"
+  },
+  {
+    "path": "donotanswer/formatted_tables/responses.parquet",
+    "size": 261206,
+    "blob_id": "b0cc97bed0ff56a9e27c25354a5d0a8997acce36",
+    "sha256": "ecf8094be2bff3594ef1c886ff3b8ce4d302901849ee03a140080b812f73e3a0"
+  },
+  {
+    "path": "doris_mae/formatted_tables/responses.parquet",
+    "size": 6216497,
+    "blob_id": "854df3cdf3d6acaa7fa7663375d2d427db846d6f",
+    "sha256": "a28dc7d53eac3622576a30d1f720852c4a60777efb9b4494b12a302c6fa10661"
+  },
+  {
+    "path": "dpai/formatted_tables/responses.parquet",
+    "size": 105509,
+    "blob_id": "e1e8173eafb18824b83a9215e9d8bc491ba2c9ef",
+    "sha256": "86a3e8a5a7de099798b36abe4b5eef6f0e89b98fc2929dd90249eea152aa42ec"
+  },
+  {
+    "path": "dqvis/formatted_tables/responses.parquet",
+    "size": 24946,
+    "blob_id": "2abb7dfe6c792387f7da8e86250c7ebfb7b581e9",
+    "sha256": "09def1c6822024105d445df84138f8cb3c5207968484a9aae7c371ed1af953ea"
+  },
+  {
+    "path": "editbench/formatted_tables/responses.parquet",
+    "size": 477995,
+    "blob_id": "84e4846eb6d9fb3409a935befba84743d7b0e25d",
+    "sha256": "10e60a511a5d3276a5eb83598c61a6a9340c49db0ee8b15ca8e2dd95db02a250"
+  },
+  {
+    "path": "edu_circuit_hw/formatted_tables/responses.parquet",
+    "size": 74414,
+    "blob_id": "63552af90e5527020d98666f70accc6c9c8e1347",
+    "sha256": "8f8b58b100e4a26e00fe661b494f4c488d88926ec3257169cd38a5d20bedd4b8"
+  },
+  {
+    "path": "eduguardbench/formatted_tables/responses.parquet",
+    "size": 4372098,
+    "blob_id": "6bdb785b8c5cbbf03249cbdaff07c645efc246a2",
+    "sha256": "b2fcc78c3f9c2e322318659d77881a19383e230766c116cc3956b0876efea211"
+  },
+  {
+    "path": "edumath/formatted_tables/responses.parquet",
+    "size": 355462,
+    "blob_id": "2c760978c13962788d9017223bfea718887e67aa",
+    "sha256": "d34c375c4b6055bc5c1d3642d9e34fc14cce84186106549f644b0236d00538c6"
+  },
+  {
+    "path": "egoschema/formatted_tables/responses.parquet",
+    "size": 193441,
+    "blob_id": "e05f25511df6d63a9a93172b93cb6ac7948b1a39",
+    "sha256": "9f54c18b4582f91d6e9d1e98c715224216c9f7f4aa2e616ae2a28f1c72375d89"
+  },
+  {
+    "path": "ehrflowbench/formatted_tables/responses.parquet",
+    "size": 9078,
+    "blob_id": "167d2ad125671cf9859e033da7a7d577daf65429",
+    "sha256": "d601ee7de8e8876093cc50898ddb0873762733bad02490d25a3cb860234bdabe"
+  },
+  {
+    "path": "elicitation_game/formatted_tables/responses.parquet",
+    "size": 359332,
+    "blob_id": "3d00c137cacdc95ee23f58b798263619cb4223f3",
+    "sha256": "5d40a39fd9ac88a9fe36deba1842f8753fc141436e8413dfe3c0e1d4fb717199"
+  },
+  {
+    "path": "embodied_agent_interface/formatted_tables/responses.parquet",
+    "size": 54518,
+    "blob_id": "5ab4b8e97b4f09f34eb683a65905902547c19bef",
+    "sha256": "ccef85ea49df5687ee256caf1181275134ff0c89374b5862d22e8df4d3fbf581"
+  },
+  {
+    "path": "emoji_attack/formatted_tables/responses.parquet",
+    "size": 1561567,
+    "blob_id": "f88ed7ff9316622319ff459a59ae66454ba02134",
+    "sha256": "1ec13073970586996d5b60a406322c57cd98f78668789d2b22b88dd97b65beb7"
+  },
+  {
+    "path": "engdesign/formatted_tables/responses.parquet",
+    "size": 110006,
+    "blob_id": "f3d127ff3630d34d11c588c16c0af312d9711f9d",
+    "sha256": "64c2da202f93afee5e36971cd2cd5bf199d84500e097d385c3d819f5b373b22e"
+  },
+  {
+    "path": "engibench/formatted_tables/responses.parquet",
+    "size": 6094,
+    "blob_id": "e8d61e13cb4b42bc7677d39bef8dc0d0aec13bec",
+    "sha256": "e7c4e662a8781133211568be3470676ffdd896d0804dcf8f30fc2d609edcf7b8"
+  },
+  {
+    "path": "enginemt_qa/formatted_tables/responses.parquet",
+    "size": 30930,
+    "blob_id": "a8136c44cad1eef5c42bc2ed714d3478f0969697",
+    "sha256": "713f043fd52959f9960bf83e032aeb282afdb91a462547e9e7e4c837496a1690"
+  },
+  {
+    "path": "evouna/formatted_tables/responses.parquet",
+    "size": 850921,
+    "blob_id": "37f620155777cd2d0f0f36400ab2360da4242b58",
+    "sha256": "84f25faf0c32fc2234d5c78f648842909d57c3643cf2e485634a0b41275c5768"
+  },
+  {
+    "path": "faithcot/formatted_tables/responses.parquet",
+    "size": 69907,
+    "blob_id": "0839bcc50f1ed987ce06fd6fef01831f2df7389e",
+    "sha256": "21b6fcf9a49f6d8995b8db797e8f581325204c1dad0b26390b7c2cc1ce7689ed"
+  },
+  {
+    "path": "felm/formatted_tables/responses.parquet",
+    "size": 169982,
+    "blob_id": "657cdda47b36a6e00351e7ab1e88fdfc25b4db45",
+    "sha256": "f2550fa7f57da53729dd5fd7c22504e57dcefc4f4829595564a6a58088c1d9b5"
+  },
+  {
+    "path": "fetv/formatted_tables/responses.parquet",
+    "size": 1297679,
+    "blob_id": "f1633a12532480e9c74755e195e36909d7f13e3c",
+    "sha256": "3ffdc578999458e72949d29f437736c161aea2c4144304858a057dad8846a5a1"
+  },
+  {
+    "path": "fewshot_ttt_bbh/formatted_tables/responses.parquet",
+    "size": 176995,
+    "blob_id": "ff5467351aacb47ac3009ac20242d570b63f7e7b",
+    "sha256": "2a4700833ff4e94941cf415c90e3885ee13906c41a29c9525a4f50f7c0eceb27"
+  },
+  {
+    "path": "fgbench/formatted_tables/responses.parquet",
+    "size": 1992083,
+    "blob_id": "d02d7b6ccdc09c68382a59cc624f7d9c7ec423e8",
+    "sha256": "1f1214ae2c9dbfc682a773dba24819524c1510840489d6304cde5a8a0ebf1032"
+  },
+  {
+    "path": "financebench/formatted_tables/responses.parquet",
+    "size": 53892,
+    "blob_id": "93895abd22e0b3636ca8c101c1aaabc3cedff87f",
+    "sha256": "1b7c8eb6d6498c45b1a27cd6ade8b968842399c20b10077dd6f7847ebd912a16"
+  },
+  {
+    "path": "find_interp/formatted_tables/responses.parquet",
+    "size": 397131,
+    "blob_id": "4f99ac4655ec1f5a288174b826b8a43fce57cd74",
+    "sha256": "09390c8922b780373a06ae49f8d8d25a098073a66529451ea1678cf6dcb26245"
+  },
+  {
+    "path": "finegrain_t2i/formatted_tables/responses.parquet",
+    "size": 283869,
+    "blob_id": "fa865ed89ce6b77d15884d867f2a6960166694df",
+    "sha256": "a7137836a2db3f901eac277af7451424ee21c82b277363a01550b40289092f53"
+  },
+  {
+    "path": "frontieror/formatted_tables/responses.parquet",
+    "size": 52686,
+    "blob_id": "5f9af9e282871576517703f244c0e941bd44dd4c",
+    "sha256": "319753259b59416598df488af11efedbbc5cef42540f823ebf91a5ed02b06c39"
+  },
+  {
+    "path": "genai_learning/formatted_tables/responses.parquet",
+    "size": 631192,
+    "blob_id": "f9bc3966a22fc04eacad36f199f508d5a2a3d57c",
+    "sha256": "4d969a253a3b61a81c0e80b63f06a8228de71801218ce51d378b9a13b52a4cf2"
+  },
+  {
+    "path": "ghosts_math/formatted_tables/responses.parquet",
+    "size": 35278,
+    "blob_id": "e287b906f0a9aba9315c9fb0fc6308f8daa33e41",
+    "sha256": "e8996a6a4ce74282e0e2ffe42ed7f5dbd3b00296f63d980fd867c9e91b629b71"
+  },
+  {
+    "path": "goodai_ltm_benchmark/formatted_tables/responses.parquet",
+    "size": 125725,
+    "blob_id": "95c75a3665febe5645690bb63b15316d615e4443",
+    "sha256": "8b311e4f7c26a8d468402d56007c08414d23106a2e5acedd2021f7ba977b4987"
+  },
+  {
+    "path": "haiid/formatted_tables/responses.parquet",
+    "size": 2347899,
+    "blob_id": "c27e00752834e3d21351204ca46539ecdeed77aa",
+    "sha256": "7146c9514de7a71cb05e7582675fc64d82b7a5bc6cee53cac4de007fdba20b3d"
+  },
+  {
+    "path": "hallusionbench/formatted_tables/responses.parquet",
+    "size": 5272228,
+    "blob_id": "cb15205b270f356e5e0e1825ba44e20f759ace4f",
+    "sha256": "c8c4280ac954a05e4f629d5cfb0d56fa80594906666443b98fbfd24e4cf78d10"
+  },
+  {
+    "path": "harmbench/formatted_tables/responses.parquet",
+    "size": 3210981,
+    "blob_id": "0d215d9802dba82951fff042c738fbfbea94d689",
+    "sha256": "d52a1b761cbebddc1800977c8bfbb18d9842a46e63483288286341ba36031ffc"
+  },
+  {
+    "path": "healthadminbench/formatted_tables/responses.parquet",
+    "size": 155946,
+    "blob_id": "ba3193d9a1f29d8bb8d53145836ebdabe34c1b33",
+    "sha256": "4165643d92f54ae14ca9a62d84bf9b9ba238041f19948d91eab82a9f4d12e432"
+  },
+  {
+    "path": "helm_afr/formatted_tables/responses.parquet",
+    "size": 18477493,
+    "blob_id": "1f884a88561f746a411c68cf69fcb70d83b8fe9e",
+    "sha256": "b4d83673944f49446548f53f1d17ad507c0cef4c08ae80719eba0eef8425d3b8"
+  },
+  {
+    "path": "helm_airbench/formatted_tables/responses.parquet",
+    "size": 11444379,
+    "blob_id": "8209987ccbb52059831faab43bfffed6cdda91f9",
+    "sha256": "2f50dc48959ec13cca12c21d5b406ab72b795040c07b76b775e33a6cc3f406e5"
+  },
+  {
+    "path": "helm_anthropic_redteam/formatted_tables/responses.parquet",
+    "size": 1711158,
+    "blob_id": "a2118a418bf9fa2a99f5aba5fbb1b493822958e4",
+    "sha256": "2e136f0f2bf2eb837c8f340169b305a6f33733ab8dea5666e5f9eacd149b8f61"
+  },
+  {
+    "path": "helm_bbq/formatted_tables/responses.parquet",
+    "size": 1726527,
+    "blob_id": "344f96c08a6c6d8634c11cbdd6e1781bcbc1f5b0",
+    "sha256": "4256e22ffeae7362a56efa6740361a990a399a46fdb4ec4c2849af0c2a16634c"
+  },
+  {
+    "path": "helm_bold/formatted_tables/responses.parquet",
+    "size": 909211,
+    "blob_id": "5451af8baa3313cdc3ad96493c62744fed0fe0a2",
+    "sha256": "921d5fc64707578e78936d56210d3ff2153134e5a86ecc41681c675d3419ecc4"
+  },
+  {
+    "path": "helm_cleva/formatted_tables/responses.parquet",
+    "size": 725771,
+    "blob_id": "a9a9b0b824fac5690a17ebb5c790f772e09b6dc5",
+    "sha256": "bf2c345dbe04269f4acf96b7dc359662a7617473b1b8c9b73fa7ae4fa8347b6c"
+  },
+  {
+    "path": "helm_harmbench/formatted_tables/responses.parquet",
+    "size": 655994,
+    "blob_id": "7d2462684f6a5f7c745048cf9ec029d201a89796",
+    "sha256": "3ea3723e0044164e8592b0e7b5e13610022d219262e8dd785c2f3a289a7f5c30"
+  },
+  {
+    "path": "helm_real_toxicity_prompts/formatted_tables/responses.parquet",
+    "size": 917405,
+    "blob_id": "5930e0eb783f5e6ed2075bba6679bdedf595f37f",
+    "sha256": "e2117ef03fb4dc3eae005b5cd270ac9f26565cc04b5ecc8e01908d0189f41584"
+  },
+  {
+    "path": "helm_simple_safety_tests/formatted_tables/responses.parquet",
+    "size": 160704,
+    "blob_id": "f79148292c4fabf72a4a29e768d3de5571882005",
+    "sha256": "a5ae3cb8cb7240e0a3941397ccc9dd36dde8d6a4bdd7affb98cc66e5536b8f62"
+  },
+  {
+    "path": "helm_thaiexam/formatted_tables/responses.parquet",
+    "size": 489008,
+    "blob_id": "9c45d73c723d73df0fa9330a49f21a5d96a28857",
+    "sha256": "0aa989d87516b30adc32b0b8e2701f146b2cefafcdf52f933127d2292f4a4eb0"
+  },
+  {
+    "path": "helm_xstest/formatted_tables/responses.parquet",
+    "size": 738322,
+    "blob_id": "7adb494964dde9021883ee62602c7e2be64bd3d4",
+    "sha256": "6ab1b75b3f301b5d236ea44a388fc748cd38f0a1e639461baffbe5a50f61aec5"
+  },
+  {
+    "path": "hivmedqa/formatted_tables/responses.parquet",
+    "size": 1085218,
+    "blob_id": "03fc263105535970310f941626709203da701e91",
+    "sha256": "0ebcd2b93dcafba2f400ef126816e1e82465ff24963aa004c3b2c41804331269"
+  },
+  {
+    "path": "hle/formatted_tables/responses.parquet",
+    "size": 330211,
+    "blob_id": "71bd0dd57ef401f7e8f9a4ca3e58bce38d9559d6",
+    "sha256": "9edcb3b07cd766d792b66be0d4596d2cb791005e7866349ff30a5006e7e7cb88"
+  },
+  {
+    "path": "icpc2_code_selector/formatted_tables/responses.parquet",
+    "size": 1656217,
+    "blob_id": "dc8b2820fb76f89d87cf98d6fddbaffa2fc886e6",
+    "sha256": "4994e1c41b1d7d977a98aed04c012d69cf9e8d36cf5ec43235aa8fd2ab402df3"
+  },
+  {
+    "path": "igakuqa/formatted_tables/responses.parquet",
+    "size": 249283,
+    "blob_id": "05b977b1b4830d2f7430d2923324562add1c39ac",
+    "sha256": "b42b00775e04c088607c2d39613c388b66dc7b40384026d9d0f3722a6af32780"
+  },
+  {
+    "path": "igakuqa119/formatted_tables/responses.parquet",
+    "size": 20616,
+    "blob_id": "4679d787cc8ed942432a3362db6946ce6d67230e",
+    "sha256": "163be31cbd1d517116bdd4953905a0e2455f1b0d63449335608b495feff8dc9a"
+  },
+  {
+    "path": "ikp/formatted_tables/responses.parquet",
+    "size": 5974722,
+    "blob_id": "5c4a2de0aaa0f7e85d761fa01ee676950fa28a12",
+    "sha256": "12096ea71e0cd77bc846a9e4ab61ba424ea44642fe099db9a21b866eb8b18ec5"
+  },
+  {
+    "path": "image2struct/formatted_tables/responses.parquet",
+    "size": 5657049,
+    "blob_id": "bf0cd219aa4b4856d846b88915fbb3824f141ede",
+    "sha256": "079bbe68d9b6c83f54457b587fcc05337fd8262d4dda1476b09f9b2d1cf66537"
+  },
+  {
+    "path": "imgedit/formatted_tables/responses.parquet",
+    "size": 33305,
+    "blob_id": "e8a26b704329b3abf43bf1fe945146c13fde1aa8",
+    "sha256": "29306d95805d82763aa0d21ed4e05e010744221c97dd5a80117ed7f8dc8b5693"
+  },
+  {
+    "path": "indeterminacy/formatted_tables/responses.parquet",
+    "size": 8058164,
+    "blob_id": "d1a9b0cc2a1dbef0c5533e3fe85c5c35e9abd020",
+    "sha256": "134dc80c6df37c58296865f71b34e843fc50e8f8d1424d0c65d94fcee77bf415"
+  },
+  {
+    "path": "ineqmath/formatted_tables/responses.parquet",
+    "size": 42611,
+    "blob_id": "0be951361592b19d32751adb85f7f0e3b34b67cc",
+    "sha256": "a10fcbd8b77e5b530007a64328e7c5b36fd7c044d7cd095586330c2e72b4de65"
+  },
+  {
+    "path": "infibench/formatted_tables/responses.parquet",
+    "size": 14061951,
+    "blob_id": "fe21aa51e47f5f9604949e85ec9f9815cc587e22",
+    "sha256": "9710c1cc5727ff5822a171ead15eedd03e2a0b84f84e4709f3e2e83f0dddd299"
+  },
+  {
+    "path": "interchangeable_token_embeddings/formatted_tables/responses.parquet",
+    "size": 14998112,
+    "blob_id": "0d8c7f5a30148a5fcd57868ec3435f76321fdf14",
+    "sha256": "6154f3deeff885c7905a778145f697cc7002c45c36db9c98ef0d6c746ba735ba"
+  },
+  {
+    "path": "intercode/formatted_tables/responses.parquet",
+    "size": 604855,
+    "blob_id": "e17a1ccc0e8108cb0fb107426dcf1b654429ee0f",
+    "sha256": "527603973551bc20b9d318472639d1fa28cd837af8083dde720500d53346cfde"
+  },
+  {
+    "path": "jailbreakbench/formatted_tables/responses.parquet",
+    "size": 101736,
+    "blob_id": "2c71d06110da142fd06b5ddd67052b961cc140c5",
+    "sha256": "dcc5bb3b227497752ac3f03a85eacb18b247e4b9e3bc6ba8dcef1c3a7ee033a5"
+  },
+  {
+    "path": "jetts/formatted_tables/responses.parquet",
+    "size": 7135895,
+    "blob_id": "fd61fd6006c020cf755eadcda0878eee6ee734d1",
+    "sha256": "86dd56ffc228cde2b2341e6e955ec31275fe74aa059111f167d5972a216a9a49"
+  },
+  {
+    "path": "judgetuning/formatted_tables/responses.parquet",
+    "size": 535541,
+    "blob_id": "bef9b74daf4d0894d041e9a3bb61b8b87b1b1214",
+    "sha256": "2c6269288e4165581fe93d6e2743492bda08e4b8722cbe8e139df52799598b47"
+  },
+  {
+    "path": "katakomba/formatted_tables/responses.parquet",
+    "size": 744061,
+    "blob_id": "ab2c86b892be9809412d39465336a6cc76dfb22e",
+    "sha256": "ed67d432fdbc92fde17ec6cf2ca1659ab0dd1f76ed52c545916ef740ae9983f4"
+  },
+  {
+    "path": "kernelbench/formatted_tables/responses.parquet",
+    "size": 1448378,
+    "blob_id": "f6c6f9de9759ad27234174f94b4130ae54d2570d",
+    "sha256": "370d11acf9126faf2732ea469a510f4120046b7a56cc6951a02dbe3f6ae8eb7e"
+  },
+  {
+    "path": "kmmlu/formatted_tables/responses.parquet",
+    "size": 37931803,
+    "blob_id": "a86adc1f7651e30b6312dab70a80b7859922281d",
+    "sha256": "08dcb425a44dc84cfcf2d7b104cce8013f456460f2e8224b02f18cc1f52acab3"
+  },
+  {
+    "path": "kormedmcqa/formatted_tables/responses.parquet",
+    "size": 570951,
+    "blob_id": "a06e1928f6d1ca6e022bf30ab2318546d43719d8",
+    "sha256": "1f38d754fa1b34e2102b4013acbbc393c773b882a2e3c370815e9c89697f7fbb"
+  },
+  {
+    "path": "kris_bench/formatted_tables/responses.parquet",
+    "size": 3284767,
+    "blob_id": "af1f56cace4ea4de7267ffbcd2b3cfde0ea1577d",
+    "sha256": "a69c462223cfcc2f3db7825058968ae926afe8b5446a1b14eaab5920a726ab73"
+  },
+  {
+    "path": "lambda_fp_course/formatted_tables/responses.parquet",
+    "size": 145012,
+    "blob_id": "0eddbf7b28ef9c019edea041e3202ffb3f63af76",
+    "sha256": "8d2e33409f9d06cb959fb668a1db8be0fba3642b83abbd8b6a001f3575cee881"
+  },
+  {
+    "path": "lawbench/formatted_tables/responses.parquet",
+    "size": 36020153,
+    "blob_id": "97e931bf9d0c251bd276a471f4d7ae1c7817ee27",
+    "sha256": "6979a4fd323cfb4856f5e84fbbfe4acabd45b22b640791be55942d58e16f2bb3"
+  },
+  {
+    "path": "legal_rag_bench/formatted_tables/responses.parquet",
+    "size": 44969,
+    "blob_id": "f6b803b97f5eb1a04b75071a3f4457723236fa82",
+    "sha256": "552edb5de0f9114bdf5540ff6f5ff8219aa498714ff8bf05eb080e94709c037d"
+  },
+  {
+    "path": "legalbench/formatted_tables/responses.parquet",
+    "size": 1522897,
+    "blob_id": "dfb42a82318d6620df2b781d67e42903d54b4501",
+    "sha256": "9a84b4513e44dc32acdf7f4900ef7390c40e20a973127a55d1f4b89e59aecd31"
+  },
+  {
+    "path": "lexeval/formatted_tables/responses.parquet",
+    "size": 42143769,
+    "blob_id": "ce8e8d5e8cf8496b5df61278c5e62451f84acd24",
+    "sha256": "008ba68c6d01e93e347ecf8492ffd7dc184d047ba15dd85153d4615e5136faad"
+  },
+  {
+    "path": "lingoly/formatted_tables/responses.parquet",
+    "size": 777661,
+    "blob_id": "8f76dcda258bfddb06f3f2401e5c81a8f4c360d2",
+    "sha256": "eacc0ddc9caded2ea8335c78bc9388fede7f59c11dd85fe2c14f0c9f93c8887f"
+  },
+  {
+    "path": "live_agent_risk/formatted_tables/responses.parquet",
+    "size": 16265,
+    "blob_id": "fd401af7093f78ac586c6a593f8f34cc875b99d5",
+    "sha256": "5285c8daa2cb580acb9911e96f7f192d685b0d310ca9950f5d5285c591fe3a22"
+  },
+  {
+    "path": "liveaopsbench/formatted_tables/responses.parquet",
+    "size": 2042344,
+    "blob_id": "3c6a6b45d9086f0c556983abf20ce389704bad56",
+    "sha256": "04c17bca06e188c5e32bc75975090334ac864408bbd7937a34dea48ff1ae4dcb"
+  },
+  {
+    "path": "livebench/formatted_tables/responses.parquet",
+    "size": 5907202,
+    "blob_id": "09f4089db8d51e68b693f0a69136b1d49b7e127d",
+    "sha256": "9e628185c4879ede6f0119d2c92bc1e33d19c546cf4db25953ed3825b63d92b7"
+  },
+  {
+    "path": "llm4ir/formatted_tables/responses.parquet",
+    "size": 159107,
+    "blob_id": "6c41278223e14efb37fd1ac85eec051e77f1444d",
+    "sha256": "e738f34560fee2e11cf1c7d40aab1d0e10f9a5a68110535362ea7d019fb34596"
+  },
+  {
+    "path": "llm_bp_tag/formatted_tables/responses.parquet",
+    "size": 5896346,
+    "blob_id": "4304df1577823cd13f92b760aba89f128137a7e7",
+    "sha256": "d8e72d48cd7f44e1d32c7c3d9e61dfada1995cff9b53fbbe287d2cee116f915a"
+  },
+  {
+    "path": "llm_survey_simulation/formatted_tables/responses.parquet",
+    "size": 12983046,
+    "blob_id": "730a057ff625a3af11b771826d79f95023d40be0",
+    "sha256": "c61456553917d413b6e828d1773c3482884e43c58047b30d0c7e3a78456420f4"
+  },
+  {
+    "path": "llm_uncertainty_bench/formatted_tables/responses.parquet",
+    "size": 191334518,
+    "blob_id": "0c342ee9e759a50af7ff4170526b53dac9ba9e50",
+    "sha256": "8bad9f47b9ba470831b9aec9e6d36c42f229200cf3308ab1696f539ffe96816e"
+  },
+  {
+    "path": "llmail_inject/formatted_tables/responses.parquet",
+    "size": 14287879,
+    "blob_id": "7b077702e8c69bd6de1f81cb84a40b325e0939f6",
+    "sha256": "ed5df30de0b889884d2317e2692057a92fcf43384940e315dfb18c4792e850a0"
+  },
+  {
+    "path": "llms_lean_formalization/formatted_tables/responses.parquet",
+    "size": 1312750,
+    "blob_id": "6d6cf40d716b0fbabd837749d97da606a55896d0",
+    "sha256": "673f78a26e7448e05cd6adac13660419e4ce0b1df434c091ced0533ce4647270"
+  },
+  {
+    "path": "lohi_drug_discovery/formatted_tables/responses.parquet",
+    "size": 39973731,
+    "blob_id": "da0da563e727dbc4806da9434e4bad4cae2bbce5",
+    "sha256": "2ee82b04cc90f4c41fc1aa6fbecc6c40587a4821f11b32a4282b63280e0bbfc4"
+  },
+  {
+    "path": "matharena_platform/formatted_tables/responses.parquet",
+    "size": 664800,
+    "blob_id": "66b015c7fa813684d88d493e947124e48f678faa",
+    "sha256": "597938d45b6e13efff5d9caac9322bb4e3f3d4003f636981dcca4a1edc1d3374"
+  },
+  {
+    "path": "mathconstraint/formatted_tables/responses.parquet",
+    "size": 260653,
+    "blob_id": "b8cbb25e54c37a66e678fabd655191f1d2747fd2",
+    "sha256": "6a88ec3bbb763a38904ddfadf4945888683ac00df174c9bb8e21bec0968c3a8e"
+  },
+  {
+    "path": "mathvista_mini/formatted_tables/responses.parquet",
+    "size": 5950545,
+    "blob_id": "a075c218e973d73a3c547f0e733f80ea37757fb5",
+    "sha256": "8c6c644c1a31d2da33d0a37f463dd0ae768589c5a863e444a739a6ef98334ec1"
+  },
+  {
+    "path": "medhelm_ehr_sql/formatted_tables/responses.parquet",
+    "size": 287916,
+    "blob_id": "783a515ab00a6f04cb8901f93217db46f04892fe",
+    "sha256": "2afacd8f709aa74cf796dbcfbbdcfb0834d4fc84836a5d3a50624b9e9b4cbf4d"
+  },
+  {
+    "path": "medhelm_head_qa/formatted_tables/responses.parquet",
+    "size": 287961,
+    "blob_id": "7d24013232b5e6664513f2d9e41cb442bd997019",
+    "sha256": "c2d33781739a29f9b6bca280b146c37dba35f5f0941d58e28f97aef2dba8160d"
+  },
+  {
+    "path": "medhelm_med_mcqa/formatted_tables/responses.parquet",
+    "size": 288382,
+    "blob_id": "f988ad6322f5faec9f7b96e2561a3c77b14314c8",
+    "sha256": "3246d509fbcf5e063a273e1461a39b5ba48d0c61c90b72f1f690949e5ba3cb6a"
+  },
+  {
+    "path": "medhelm_med_qa/formatted_tables/responses.parquet",
+    "size": 288248,
+    "blob_id": "e9512193a09ead04a130439118a064d141796d8d",
+    "sha256": "2819b08122ed45a785d9fc91b03b1236d229dbe513d1c47e74ae20d927515514"
+  },
+  {
+    "path": "medhelm_medbullets/formatted_tables/responses.parquet",
+    "size": 86514,
+    "blob_id": "374c036373cc19fda749c59eeb89c572c262e8a4",
+    "sha256": "9cda3770e38b6212b4515c4dde816e39ba36d80d8cbedd38db02415f60e7c7d8"
+  },
+  {
+    "path": "medhelm_medcalc_bench/formatted_tables/responses.parquet",
+    "size": 288090,
+    "blob_id": "e700a71eae390186f87c9c388aee88b313f5096a",
+    "sha256": "45a7af2fe75a38d670bc073e5f117f920bd4fa48fba14ebc8e0352803d4bba14"
+  },
+  {
+    "path": "medhelm_medec/formatted_tables/responses.parquet",
+    "size": 169825,
+    "blob_id": "167c6a501f2772c64b7ed1eb49e98c053d744b6b",
+    "sha256": "8216a29c48ab8008d0686b3ec1bab1736bf4d75bc630c3db318a4322f54d5573"
+  },
+  {
+    "path": "medhelm_medhallu/formatted_tables/responses.parquet",
+    "size": 325086,
+    "blob_id": "6b32a053e1660509e98609c78720f09833ff4c38",
+    "sha256": "0cbc143133d9a7612f877dd2230b8fa4e6f5dbe0d435d5606b772a49af81c3d3"
+  },
+  {
+    "path": "medhelm_pubmed_qa/formatted_tables/responses.parquet",
+    "size": 261973,
+    "blob_id": "ce19505c256e5678538cacc52ab9dbafbf2c1358",
+    "sha256": "fbd0358fe63ccfd89bf59dddfff7e468bc0a50a247bdb315382c2ed83fcfd603"
+  },
+  {
+    "path": "medhelm_race_based_med/formatted_tables/responses.parquet",
+    "size": 49585,
+    "blob_id": "86196396b1cadee7fc3c990400bcf3b7f3f552f8",
+    "sha256": "147380c2408282141c247f475b76655b5ae0bba5d61a96e6f6c200626b64054b"
+  },
+  {
+    "path": "medwatermark_fws/formatted_tables/responses.parquet",
+    "size": 558633,
+    "blob_id": "6f4d7d1dd9643b1ab7d708b6e5f145ca5ac0f100",
+    "sha256": "9db3288c9d8d29deafa9ccac1c41a9004bd54a364092192c7dde1bf9a1f55412"
+  },
+  {
+    "path": "mind2web/formatted_tables/responses.parquet",
+    "size": 646382,
+    "blob_id": "7433c0b29657b9ef47250db937357491f15506d7",
+    "sha256": "0d3e54f0296751afadbf742fb8c3b32698298d946580d07b87e7bb281206140e"
+  },
+  {
+    "path": "mj_bench/formatted_tables/responses.parquet",
+    "size": 5565372,
+    "blob_id": "f0613a1f91821723a29ac7b59c4332735a118200",
+    "sha256": "8bc7c113c535708597eac78eab53978e4725197293c9c8a2912e2f01fd49101b"
+  },
+  {
+    "path": "mlip_arena/formatted_tables/responses.parquet",
+    "size": 3040764,
+    "blob_id": "cc52217584634e069b3c258af38b5427225848e7",
+    "sha256": "11ed1b8a35040d05bd39b0aab828c29c1defc8f4d95ac4df61f6c6edfa539f61"
+  },
+  {
+    "path": "mlrbench/formatted_tables/responses.parquet",
+    "size": 732934,
+    "blob_id": "368e05586c94a7764c2bb29bace9a2579b032c22",
+    "sha256": "c17ca89052380251cb3b51a89e47644d018d75f3e54b296072864add4af7dc15"
+  },
+  {
+    "path": "mmbench_v11/formatted_tables/responses.parquet",
+    "size": 122366043,
+    "blob_id": "fff0d5209b6ed155e408246172fe4beed98cdf8b",
+    "sha256": "71aaa4635008c26178d252a13c0467fe42211444e6842a8b1e6b5097e599ac21"
+  },
+  {
+    "path": "mmedbench/formatted_tables/responses.parquet",
+    "size": 16543,
+    "blob_id": "8505ef5b28c7de5176aa48a51a5f5c4cc9b1fdea",
+    "sha256": "d3565cbfbde386d726121f4b55317783f6e8ce4d54571362b89bfbb3211492ce"
+  },
+  {
+    "path": "mmlu/formatted_tables/responses.parquet",
+    "size": 78907187,
+    "blob_id": "8bf33ca06dbf6789f18e0ae1af4d117acc9e43b9",
+    "sha256": "c4f823de0671b6275d96c6ee7121ddb6b098f7ea9d94b1bcba12127f798b327e"
+  },
+  {
+    "path": "mmlupro/formatted_tables/responses.parquet",
+    "size": 21145564,
+    "blob_id": "e2ee446d9f6e5997ca68c72780d2b9fab4653c59",
+    "sha256": "271532b41394e8b4ab1afef648afae16279f6df52f697d75b23979d884cbcdd0"
+  },
+  {
+    "path": "mmmu_dev_val/formatted_tables/responses.parquet",
+    "size": 5689676,
+    "blob_id": "74f86f827422e0881b6b63476d26e56e37b8e434",
+    "sha256": "86e49d879857da01b43e15791e5cbc920e0407d189d6d00b36544a775d919873"
+  },
+  {
+    "path": "mmoral_bench/formatted_tables/responses.parquet",
+    "size": 605852,
+    "blob_id": "528c45eaa563890c01a5fda7c49a30edc259e98b",
+    "sha256": "3102cd75162fb04a0e08d7aa43756cf8c6442c31243d19835d8e752bce80e375"
+  },
+  {
+    "path": "mochi/formatted_tables/responses.parquet",
+    "size": 1232051,
+    "blob_id": "73d427710ea53ba76706153a7f8651eee29ef7fc",
+    "sha256": "1da609aa634e579a9e464fb758c3ac78f6d961236803f56e57a8d21902fb3774"
+  },
+  {
+    "path": "moe_cap/formatted_tables/responses.parquet",
+    "size": 2036795,
+    "blob_id": "9366ac2aec4a0955ceff259b825afd25c6533015",
+    "sha256": "dca6ca833b2e1c1f217b80d282f6a4268e8532dbc31d23990181ee4f97cce0e2"
+  },
+  {
+    "path": "monkey_power_laws/formatted_tables/responses.parquet",
+    "size": 708257822,
+    "blob_id": "1bb8cb89ccb013bbda00c5667f64b9865528d2c7",
+    "sha256": "0894d5c6a1072fc511e83208f7cde0dae67bcd1fbead422daf727e6a3a9bc198"
+  },
+  {
+    "path": "morphkv/formatted_tables/responses.parquet",
+    "size": 95569,
+    "blob_id": "55e8215821989284c9b36af93101ca5df6633a0b",
+    "sha256": "16e6859d1762b46fcc7caa5b2ab84fb4c9768effd20126d5ae49934653957a97"
+  },
+  {
+    "path": "mtbbench/formatted_tables/responses.parquet",
+    "size": 194301,
+    "blob_id": "674a61cb7f1953b397701645bd52cd9e8ed404de",
+    "sha256": "c986af96ba5da3357f62b96c2d281463a87e3905bdf2f299fbeb658a3e2e5fe3"
+  },
+  {
+    "path": "multi_moe/formatted_tables/responses.parquet",
+    "size": 283391,
+    "blob_id": "fd009343b31104b3448ad59f9d277cc602330ece",
+    "sha256": "8bd464e6721a1bb7728b0e15e66f41e945bb5bdf40ad1bfd0aca9f8e56c7d5f0"
+  },
+  {
+    "path": "multimodal_stem_ai/formatted_tables/responses.parquet",
+    "size": 93388,
+    "blob_id": "9c0a0103b8268eb5c87fc7daadd6c9b9756fbd8c",
+    "sha256": "e26d6e6b99f238ac48886285e3285130b467bdc96dc7bb0a3d21dd9798e5dda7"
+  },
+  {
+    "path": "mypcbench/formatted_tables/responses.parquet",
+    "size": 10085,
+    "blob_id": "80224a73a59c3f702e9da300e9088e92a80695bb",
+    "sha256": "9bb25104f485f272397ee8891cb01e959c0a7dcb7a19536f587c93f949dacb73"
+  },
+  {
+    "path": "naep_llm_students/formatted_tables/responses.parquet",
+    "size": 1044375,
+    "blob_id": "e04eafb9f4aabc46528a725f886e4e8f9c246851",
+    "sha256": "a3c8132fc2a3a9e489d5e74184ce04d7e300b2429fb0ded9e480f04dce4842e7"
+  },
+  {
+    "path": "nanobaselib/formatted_tables/responses.parquet",
+    "size": 11922821,
+    "blob_id": "4d198847ada73681d4c6b8a0d730bb516c8204c1",
+    "sha256": "1412ff0acb48840f94709f303195082a1cb191a29b7a26666e1728deb5fba781"
+  },
+  {
+    "path": "naturalreasoning/formatted_tables/responses.parquet",
+    "size": 42828850,
+    "blob_id": "dbd8391d641eb5e83703f96cc7f9ede374df45d2",
+    "sha256": "451f2e0c7ab61516e5500455d0bd73340fbda8f811a566918e831acaee1e13fa"
+  },
+  {
+    "path": "nester/formatted_tables/responses.parquet",
+    "size": 34020,
+    "blob_id": "989f6d834e577310230f88c5cee8b8ec364a8acd",
+    "sha256": "31a9d074e6cf0565454781b6e357535e34ad4e3f6901419688c09c832f6a2f80"
+  },
+  {
+    "path": "nis3d/formatted_tables/responses.parquet",
+    "size": 10811,
+    "blob_id": "b5eda8e2b06897a432b85c0208b9237e8b04d0b9",
+    "sha256": "a31fda34f90deebfe2af09ebd5b1422bb6843d3d9f29d71b71a17780b715459b"
+  },
+  {
+    "path": "oasst/formatted_tables/responses.parquet",
+    "size": 610270,
+    "blob_id": "01b904806f63ea0d9e4369093ad73081dda0d0d7",
+    "sha256": "69826c7377575c3364ffe58b8acbb70a80ef37bbe7fc7b3e744ce703b86ab439"
+  },
+  {
+    "path": "ocrbench_v2/formatted_tables/responses.parquet",
+    "size": 375327,
+    "blob_id": "e6b2414f4b66c0d5f4c16f9401f7ff8ce99cc7b5",
+    "sha256": "73c4bcc05124914fae0c085314ce8b12faa6330e429dcb050b8bfff05d14e498"
+  },
+  {
+    "path": "ood_prediction/formatted_tables/responses.parquet",
+    "size": 5345154,
+    "blob_id": "0783203c126d2cbd38d112db5b94880ca2c1ed09",
+    "sha256": "f552c632ad73dee1d2b3592713e146b5993b7c658068a42ee2f3e14736943edc"
+  },
+  {
+    "path": "openbiorq/formatted_tables/responses.parquet",
+    "size": 156179,
+    "blob_id": "44944e28d6177e45511e31416e988c9a0e638345",
+    "sha256": "c50d2442172e20d2b47c621e20f2a616e189800ca8a3f73bc27d9824bd2bef92"
+  },
+  {
+    "path": "perumedqa/formatted_tables/responses.parquet",
+    "size": 3221439,
+    "blob_id": "6077c280a0567ea63de78ecbf352589cf8d58af1",
+    "sha256": "db36f1448811c83367a84e47afdad423e1d6a1ddecf78d277c53e6a1b7f5ced6"
+  },
+  {
+    "path": "phyblock/formatted_tables/responses.parquet",
+    "size": 223616,
+    "blob_id": "e9bd51aa2940729843d780df1cb103af5ba85c6f",
+    "sha256": "8634120be9a507d0be217ebf61be745420c601a03e79dbd19bbe0a3390e0e3f0"
+  },
+  {
+    "path": "pku_saferlhf/formatted_tables/responses.parquet",
+    "size": 7169572,
+    "blob_id": "72b16dc6faa3be90d73918f8ba41672633223667",
+    "sha256": "bd87014be2fb02df801e7deed00ffe7b7450422b777f7e0cbbe8d4618c5ad426"
+  },
+  {
+    "path": "planbench/formatted_tables/responses.parquet",
+    "size": 991707,
+    "blob_id": "bf600fb9e6a781d38fa7de9a5b89f0518a87f5cb",
+    "sha256": "1c55e47e516fa73cf90d6b966261e23b38013fcec3c346b33526c9435b2bb31d"
+  },
+  {
+    "path": "preference_dissection/formatted_tables/responses.parquet",
+    "size": 5680350,
+    "blob_id": "baacade6abcdfa313e3cdc2bb7ee1822aaec2682",
+    "sha256": "a14e1317ee686afaa5c45b3fc2da4d6c41fe76a3c6cdb0c61dd2e0309e2377ae"
+  },
+  {
+    "path": "prism/formatted_tables/responses.parquet",
+    "size": 4846944,
+    "blob_id": "f1dbcde774fb621127e4e53a8c940e120348b161",
+    "sha256": "d25c91f3ec96de18d54b39aca5d9ed63099f172d057f70e83ffdf9a972a613ed"
+  },
+  {
+    "path": "prm800k/formatted_tables/responses.parquet",
+    "size": 54435047,
+    "blob_id": "ea5384d006be563d2ed87262e1c339b0b64e8421",
+    "sha256": "55fafdbc2f61e5c8233bb11ed229951b8efb3f9b89b97e3e69c735d7b40a5033"
+  },
+  {
+    "path": "proofaug/formatted_tables/responses.parquet",
+    "size": 15019,
+    "blob_id": "99e5bba628bb24fd24d12444dc842163563cf162",
+    "sha256": "fd33ff0a05de9e5e41452b2c09cacfee7fb3c298c4a6744e6b61fd2b5ad2f75b"
+  },
+  {
+    "path": "proteininvbench/formatted_tables/responses.parquet",
+    "size": 774141,
+    "blob_id": "4c2f2fbda6876848a8b8e5e5f1ba003667a41acd",
+    "sha256": "b62a4c8d818166b345c93a85a6bc75d672f00ab281a2df11e4bc01ccd943c1c6"
+  },
+  {
+    "path": "prox/formatted_tables/responses.parquet",
+    "size": 912445,
+    "blob_id": "c72985f5f0dc36450146c8c05ca87492b020f6ee",
+    "sha256": "a7bf0acc124f72c04d955c2b59d11bc719b17d08c0b0f12d5542fd2e5b87038a"
+  },
+  {
+    "path": "psychosis_bench/formatted_tables/responses.parquet",
+    "size": 105631,
+    "blob_id": "1873dfd875920c0ddeff0c34316603c9c7bce890",
+    "sha256": "5d2b4243821d632d8e178b906832ab440ad2a2c703e8a14f856c114d73b64ea2"
+  },
+  {
+    "path": "putnam_axiom/formatted_tables/responses.parquet",
+    "size": 145981,
+    "blob_id": "aa42b5c7a56c7281bbafa042d63ceeec66f2b8cf",
+    "sha256": "4c8441d9e2a18a74df3140ab2269f5d27d1c4ab5499df5b8800f859b61f582d5"
+  },
+  {
+    "path": "qatch/formatted_tables/responses.parquet",
+    "size": 2616155,
+    "blob_id": "0ae6c82f196e1d239b70c2a53cd794c19867d335",
+    "sha256": "8a6107472a110eeeaef5893eda99fa4177e23c4df1ebabf6d6bb156577ab11df"
+  },
+  {
+    "path": "rakuda/formatted_tables/responses.parquet",
+    "size": 1978205,
+    "blob_id": "22b396fe91483bfee0c573485c0a4b0415fc9e5e",
+    "sha256": "edc6bdca280d524a9217ff47e7162ddd3374e9cc03fa260723c0fd6741472256"
+  },
+  {
+    "path": "rclicks/formatted_tables/responses.parquet",
+    "size": 8209659,
+    "blob_id": "ea5a7ff841edb596310a7bd5a77c570ec80023d8",
+    "sha256": "188bd010fdd09e9414ef925e9579ef9e76e8485dcacc0be245a7134a963e6e7f"
+  },
+  {
+    "path": "real_pocqi/formatted_tables/responses.parquet",
+    "size": 438500,
+    "blob_id": "8fe71b43d47431cc95e05c3953299324a5d69ef2",
+    "sha256": "a907f39d2bc7f25789a33f62b06bd8f93c4abf13e54db569611ab47eda5a4582"
+  },
+  {
+    "path": "reasoning_gym/formatted_tables/responses.parquet",
+    "size": 5249693,
+    "blob_id": "acc8d7d7f8c3f39f224bb133d7db5ec464fb6810",
+    "sha256": "7c00e3f2a38a86ba3ea5043d93e08c884932e6d448ca939d533aa51cebe1a084"
+  },
+  {
+    "path": "refgrader/formatted_tables/responses.parquet",
+    "size": 190612,
+    "blob_id": "7e3617b17fa7bad567de1ad76f40370ea97f85f0",
+    "sha256": "466beb9301547abcb4d0e46aef392517b278d0542df500e3066b1466cfc8039d"
+  },
+  {
+    "path": "researchclawbench/formatted_tables/responses.parquet",
+    "size": 39525,
+    "blob_id": "91a6a4cffb32214e05004c2dc7809d637d0fb4a0",
+    "sha256": "cfc5e177eeb0ffcfdcd90e3d8ab88a374abdb37ad6a4bbea7b5e70ef90bc4586"
+  },
+  {
+    "path": "revolve/formatted_tables/responses.parquet",
+    "size": 71162,
+    "blob_id": "1d84c4d7093cd7949a9436116ea83ef7ea37790c",
+    "sha256": "62fbe077d85714da804c8431c740308f17b6c8ec6f7fa5db5b735a60c32e041b"
+  },
+  {
+    "path": "rewardbench/formatted_tables/responses.parquet",
+    "size": 12744825,
+    "blob_id": "076ce9aa88dfd34d2e083f9eb51d8f6d03f621b9",
+    "sha256": "3052e3d4c0dc001bf1ba1ff036ff25bc16afd709d661cbc90c6af7bc9abb94f7"
+  },
+  {
+    "path": "risebench/formatted_tables/responses.parquet",
+    "size": 181955,
+    "blob_id": "48e14c9200c48e06a5bd7c65687a02d0fb71e29f",
+    "sha256": "ff701de91d37e147f119d63fc957995edaa4d3d60ccf87dd80ff3a20b709fd7b"
+  },
+  {
+    "path": "safeagentbench/formatted_tables/responses.parquet",
+    "size": 103463,
+    "blob_id": "8803145e1a0bce7c382543d7ce5be4e873507ab3",
+    "sha256": "18225c61b6117a3466d0bb0de335ae9fa6fafe19b14fe39858eec2de4a404f6a"
+  },
+  {
+    "path": "scale_mrt/formatted_tables/responses.parquet",
+    "size": 1739448,
+    "blob_id": "ee58610c933302de08d178940b9d6a4136f02922",
+    "sha256": "4bd1e52be9e34113c029bf4153ddb22f1751e046aa744cd59293e16c102ebf8c"
+  },
+  {
+    "path": "sciarena/formatted_tables/responses.parquet",
+    "size": 904262,
+    "blob_id": "84a80d8545f50840438182ecb0a54d99193ce76b",
+    "sha256": "824bc6df987e02f7571661020058feb3f39afe054989be189700a3853af17281"
+  },
+  {
+    "path": "scigym/formatted_tables/responses.parquet",
+    "size": 138004,
+    "blob_id": "1e93f0fb86af5e513b37d55710e6b1a9faf50042",
+    "sha256": "96061348e00b3eb1e43e47a05c2bb423807bc83b558c185cc55c94dcbdcbc05b"
+  },
+  {
+    "path": "sib200/formatted_tables/responses.parquet",
+    "size": 17139097,
+    "blob_id": "872a497197ba15bff52b728991cd9234bec0b50d",
+    "sha256": "451de6e16bce2081c599ee4434e59ca4df78c937c2aea3b779d3ef03f39a2fe7"
+  },
+  {
+    "path": "software_world_models/formatted_tables/responses.parquet",
+    "size": 167512,
+    "blob_id": "d09b8c93563f93cf4fde7f621490375284254e90",
+    "sha256": "4d7772b9594ccdf4c0ef3f5358ecaf2bc5bd39a392e0970d33875324be72ae4d"
+  },
+  {
+    "path": "stanford_orb/formatted_tables/responses.parquet",
+    "size": 175193,
+    "blob_id": "ea5671ae4d8e1b061210965ee182822b4955941d",
+    "sha256": "85953c596ef13260b8901126891c971076944991750a115142c3f8bf81f2fd64"
+  },
+  {
+    "path": "statqa/formatted_tables/responses.parquet",
+    "size": 1208767,
+    "blob_id": "84de52778dca34d81f963cefed6e8ad0f2385a0e",
+    "sha256": "e4132481cc3d73f0b9846d1a2184f2dd5ee794abca7049251b863739b6fb4521"
+  },
+  {
+    "path": "subjective_qa/formatted_tables/responses.parquet",
+    "size": 531545,
+    "blob_id": "495afc626fcf930f391d7580d8a31eff270b355e",
+    "sha256": "f0cd3cfc0d5407838c2e7ce28ad8c0b1d057efb07bc5fa8e0d40839362330d40"
+  },
+  {
+    "path": "sugarcrepe/formatted_tables/responses.parquet",
+    "size": 567485,
+    "blob_id": "a65146e26cb138bb94500aa779ea122ea12722b2",
+    "sha256": "006dfd5e849c5ec86b17beb834a9d347c039a3328ab27134a90ef45e9b8fae8b"
+  },
+  {
+    "path": "sustainable_food/formatted_tables/responses.parquet",
+    "size": 71483,
+    "blob_id": "4f57cf7cdd6c735b4e16a414c4872f5654d1a507",
+    "sha256": "8a4fb288bdcb5289d2bb83a0f73d337756f8c0f9fa634e4886856c2ba6ad3f04"
+  },
+  {
+    "path": "svrpbench/formatted_tables/responses.parquet",
+    "size": 10480,
+    "blob_id": "9e7ef66331582a0ece9b20ae97e9243e52e7b331",
+    "sha256": "79d68c6d1c02546ea4f35cf882abeb80b3912bd593fd2160050ea46eafae819d"
+  },
+  {
+    "path": "swe_smith/formatted_tables/responses.parquet",
+    "size": 1703296,
+    "blob_id": "20588d7adc0a7ee53a24dbd10035493e23bbf761",
+    "sha256": "910eddf51ce753274c4a366871eb2a1b21668e9cbc6bc367bd99cf985fdd3894"
+  },
+  {
+    "path": "swepolybench/formatted_tables/responses.parquet",
+    "size": 52216,
+    "blob_id": "983b7abfda5a61e7cd18dfaa31dbfd9fe897a011",
+    "sha256": "a9084aeeafa54a62c86c43e9ec45c57d4d8eb848fb635dc2890b342d2dbd1cae"
+  },
+  {
+    "path": "synthpai/formatted_tables/responses.parquet",
+    "size": 433977,
+    "blob_id": "48aa96f60ea4266b53171d09542ffdc82f32f0fb",
+    "sha256": "153017d91dc4bf2dba91563a7f5f7e7ae0e718d218d0fbad1943f1ac634d501f"
+  },
+  {
+    "path": "tau2_bench/formatted_tables/responses.parquet",
+    "size": 544938,
+    "blob_id": "497491f32f3a6e16ec9c98c9a8c746def6bbdbd5",
+    "sha256": "9f72ea3e5a25161f5e0304a7f6ab4e67f2ad733229747f44d88dac0cf95e2376"
+  },
+  {
+    "path": "taubench/formatted_tables/responses.parquet",
+    "size": 193234,
+    "blob_id": "541b54a91c614210b21f56b5ab26a2e70c352b61",
+    "sha256": "55a421a56723edaebe488d50afeb1bd16e9751cc666467653dcb2c7e71697b02"
+  },
+  {
+    "path": "tengu/formatted_tables/responses.parquet",
+    "size": 5820090,
+    "blob_id": "396173c53b0820fe81d5a75847b76b0c12adf3ce",
+    "sha256": "5e001fec19dc1fcc5ddd6ef83ff75df3698aa9f4aa1b0dc6b22a3e7db4412d83"
+  },
+  {
+    "path": "tensortrust/formatted_tables/responses.parquet",
+    "size": 24624915,
+    "blob_id": "10018018740077cb1735d29449071cb5d272fe9b",
+    "sha256": "ab41541a7a5c514a1eb5211361107a1551180c1df8e464def4cad0d785af0e30"
+  },
+  {
+    "path": "theagentcompany/formatted_tables/responses.parquet",
+    "size": 67522,
+    "blob_id": "b55d3a06cbf11b290c785c66d2ceffc8287facc2",
+    "sha256": "3fd9dd0a88bfaaf8ce8429384a88d6eeefce7717b3d08371cb53db9081f1cbb9"
+  },
+  {
+    "path": "threeeed/formatted_tables/responses.parquet",
+    "size": 727861,
+    "blob_id": "69192b124a23415457fe4f49866230d951e338ad",
+    "sha256": "50e19e009c9834135b8c981125862046c81dd2e20d08691054cd7abc98adcbeb"
+  },
+  {
+    "path": "truthfulqa_mc/formatted_tables/responses.parquet",
+    "size": 2586569,
+    "blob_id": "5953e58aca3186bde58686267d80d3d7745df9f9",
+    "sha256": "57bbf6b3bf12e82b439fc69cb2fd59a0f11706b4cebb863d0d541e49b27a2870"
+  },
+  {
+    "path": "tulu_human_eval/formatted_tables/responses.parquet",
+    "size": 84217,
+    "blob_id": "13e2d305e97d64c8ce66448db99a4b98be366e53",
+    "sha256": "fef37e3470543ac1342befa3530e7d6431cfef65cba35eb683effa32ae6cbd26"
+  },
+  {
+    "path": "tumlu/formatted_tables/responses.parquet",
+    "size": 6650075,
+    "blob_id": "b46e692e503e6b2c3d131e5ee5da622fa4f470b6",
+    "sha256": "c2def46d6b124d564db98bd734ffe87b7aae93af3c9e710f422aad53b8cffa65"
+  },
+  {
+    "path": "vhelm/formatted_tables/responses.parquet",
+    "size": 34898525,
+    "blob_id": "5e72b76e5a59c51f2105ee36a9eb2bfaa0d19999",
+    "sha256": "ef80d5a6350624a3f8e2c74cb342845cd8948abcf737ea4040f69d38de81b410"
+  },
+  {
+    "path": "visit_bench/formatted_tables/responses.parquet",
+    "size": 2381856,
+    "blob_id": "c50660c2911c18e57cc7ffe1ec944151d18f9cd4",
+    "sha256": "5ce52bb28bcd3aa5d6a891cf7bf6e40c690c39cc1dd5c253a3277fb3d3432500"
+  },
+  {
+    "path": "visual_riddles/formatted_tables/responses.parquet",
+    "size": 82018,
+    "blob_id": "2c19d0fbab3989066bb8bdc18bf05bedef37901e",
+    "sha256": "9377374e64ad60d3241d414df72260dc77f5942c73118f7e2f5079c015931fd8"
+  },
+  {
+    "path": "visualwebarena/formatted_tables/responses.parquet",
+    "size": 20607,
+    "blob_id": "4eba529e5c46593314276f3df1531f57e8d3565d",
+    "sha256": "45690bdd395c7cdf95b75b6441064929539fcaf5d05ec144ba10f5cb464cdfd4"
+  },
+  {
+    "path": "vl_rewardbench/formatted_tables/responses.parquet",
+    "size": 2605842,
+    "blob_id": "2da73e014e38e0ef369d2fd4855d5dc8c7e57ed7",
+    "sha256": "97ae8a3339b5eea2049019fd8aecfc82df69e5a85eb8acac046703836bbf462d"
+  },
+  {
+    "path": "weavebench/formatted_tables/responses.parquet",
+    "size": 10122,
+    "blob_id": "8069df3a184a8a9d91fcc62f0f37d07421d6a81e",
+    "sha256": "1397ba490ad0d2f4ddb5cff947dce87130e4dd6522fa3532aa37bc848a1bc8c7"
+  },
+  {
+    "path": "wikihow_agent/formatted_tables/responses.parquet",
+    "size": 6418919,
+    "blob_id": "dc02bd730d627990b78dc84eb5b33b36f2d777f1",
+    "sha256": "1a2d1741c90962cb9cd642fcea6f61278ace2074bf66a99ff256a96bade639d8"
+  },
+  {
+    "path": "wildvision/formatted_tables/responses.parquet",
+    "size": 227604,
+    "blob_id": "0997ef56b15906f9bae12e9f1c5b063faebb71dd",
+    "sha256": "9c273ba2747e6325f7c5b649926eec7c82b7be297580bc12b8b69f944e69566a"
+  },
+  {
+    "path": "wmt_mqm/formatted_tables/responses.parquet",
+    "size": 135527858,
+    "blob_id": "37bf3b8d47d046613d587da32513df3c8e71442d",
+    "sha256": "e131b88a9774bfa2506344e1a49271d3f6587873086f357602a50d5de856dd7b"
+  },
+  {
+    "path": "wonderbread/formatted_tables/responses.parquet",
+    "size": 605779,
+    "blob_id": "ece05c5a49fa5d834874c7d3c971f90f02504bf0",
+    "sha256": "9ab2aa261149ec448433e80f00a53dbf439366ebe5b2d984b398015208b27655"
+  },
+  {
+    "path": "workarena/formatted_tables/responses.parquet",
+    "size": 21894,
+    "blob_id": "eaa805b4223304154d6efa1f3a75ec94e889f415",
+    "sha256": "938f16332824703433fec48ae2cc1fb1beb9d9f199d057110085d185b41c0a3c"
+  },
+  {
+    "path": "workbench_revisited/formatted_tables/responses.parquet",
+    "size": 336781,
+    "blob_id": "814b0026cd50f1df6434e90944e1c426064349a9",
+    "sha256": "5b06ab5cfb5762f5e8f59e788d609867ddb4b35827cdbdc5412971f606d0f2f3"
+  },
+  {
+    "path": "worldcentralbanks/formatted_tables/responses.parquet",
+    "size": 10418569,
+    "blob_id": "1c2952d4b3f229e6c913f2dccdf4277501e9c69c",
+    "sha256": "0f7fbd80f776f63323db167267107765d3e304f4a89d262cd51473ef73912887"
+  },
+  {
+    "path": "xstest/formatted_tables/responses.parquet",
+    "size": 269666,
+    "blob_id": "ccd26bdad4572f15db00e3b088618116fe426267",
+    "sha256": "f6b42446fcfa3a7476e5e7444c16247a8f69e72f9e066a895948314cf2d1af28"
+  }
+]

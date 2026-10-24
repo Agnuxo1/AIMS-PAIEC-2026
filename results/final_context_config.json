@@ -1,0 +1,13 @@
+{
+  "peer_mix": 0.5,
+  "prior_strength": 3.0,
+  "selection": "minimum weighted inner-validation Brier ALC, weights=number of distinct validation pairs, no external scores used",
+  "curve": {
+    "0.0": 0.20422336760158463,
+    "0.25": 0.20290964708868195,
+    "0.5": 0.20230470444801543,
+    "1.0": 0.20322115278339078
+  },
+  "conditional_environment": "4 visible subjects; other availability scenarios are sensitivity analyses",
+  "status": "experimental; real Codabench peer availability unverified"
+}

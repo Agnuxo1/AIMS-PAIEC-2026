@@ -1,0 +1,44 @@
+{
+ "empirico_bayes_vs_oficial": {
+  "n": 101,
+  "gana_a": 86,
+  "p_bilateral": 2.826933345572602e-13,
+  "media_dif": -0.03471929792706496,
+  "mediana_dif": -0.03947832496625056
+ },
+ "empirico_bayes_sujeto_vs_oficial": {
+  "n": 101,
+  "gana_a": 86,
+  "p_bilateral": 2.826933345572602e-13,
+  "media_dif": -0.03535763343656263,
+  "mediana_dif": -0.04115797048688247
+ },
+ "beta_binomial_p0=0.5_vs_oficial": {
+  "n": 101,
+  "gana_a": 86,
+  "p_bilateral": 2.826933345572602e-13,
+  "media_dif": -0.03470193351233971,
+  "mediana_dif": -0.04044797291155805
+ },
+ "jerarquico_macro_vs_oficial": {
+  "n": 101,
+  "gana_a": 84,
+  "p_bilateral": 7.851967234363161e-12,
+  "media_dif": -0.03528303000264722,
+  "mediana_dif": -0.04142856249276848
+ },
+ "constante_0.5_vs_oficial": {
+  "n": 101,
+  "gana_a": 60,
+  "p_bilateral": 0.07275700687752419,
+  "media_dif": 0.004671777124651986,
+  "mediana_dif": -0.0146703358264052
+ },
+ "empirico_bayes_vs_beta_binomial": {
+  "n": 101,
+  "gana_a": 47,
+  "p_bilateral": 0.5507089135982718,
+  "media_dif": -1.7364414725250065e-05,
+  "mediana_dif": 0.0006255607010913766
+ }
+}

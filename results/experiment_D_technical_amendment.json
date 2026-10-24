@@ -1,0 +1,5 @@
+{
+  "at_utc": "2026-10-24T07:07:05.842270+00:00",
+  "change": "Score-level fallback tolerance1e-14 for BLAS batch reduction; add exact probability-array equality. Previous run stopped before persisting score tables. Model/grid unchanged.",
+  "sha256": "71014bd65891656abb25a6e8efac95aa00d5db827bd75b9f22a611dfa0d6dffc"
+}

@@ -1,0 +1,597 @@
+{
+  "groups": {
+    "sugarcrepe": [
+      "sugarcrepe"
+    ],
+    "subjective_qa": [
+      "subjective_qa"
+    ],
+    "sib200": [
+      "sib200"
+    ],
+    "mmbench_v11": [
+      "mmbench_v11"
+    ],
+    "bertaqa": [
+      "bertaqa"
+    ],
+    "medhelm_ehr_sql": [
+      "medhelm_ehr_sql"
+    ],
+    "llms_lean_formalization": [
+      "llms_lean_formalization"
+    ],
+    "openbiorq": [
+      "openbiorq"
+    ],
+    "medhelm_medec": [
+      "medhelm_medec"
+    ],
+    "evouna": [
+      "evouna"
+    ],
+    "ai2d_test": [
+      "ai2d_test"
+    ],
+    "sketchjudge": [
+      "sketchjudge"
+    ],
+    "os_harm": [
+      "os_harm"
+    ],
+    "erbench": [
+      "erbench"
+    ],
+    "mmlupro": [
+      "mmlupro"
+    ],
+    "taubench": [
+      "taubench"
+    ],
+    "real_webagents": [
+      "real_webagents"
+    ],
+    "mathvista_mini": [
+      "mathvista_mini"
+    ],
+    "egoschema": [
+      "egoschema"
+    ],
+    "finegrain_t2i": [
+      "finegrain_t2i"
+    ],
+    "edu_circuit_hw": [
+      "edu_circuit_hw"
+    ],
+    "multi_swebench": [
+      "multi_swebench",
+      "swe_rebench",
+      "swe_smith",
+      "swebench_live",
+      "swepolybench"
+    ],
+    "mathconstraint": [
+      "mathconstraint"
+    ],
+    "brace": [
+      "brace"
+    ],
+    "kernelbench": [
+      "kernelbench"
+    ],
+    "devbench": [
+      "devbench"
+    ],
+    "financebench": [
+      "financebench"
+    ],
+    "tumlu": [
+      "tumlu"
+    ],
+    "vl_rewardbench": [
+      "vl_rewardbench"
+    ],
+    "beavertails": [
+      "beavertails"
+    ],
+    "perfcodebench": [
+      "perfcodebench"
+    ],
+    "pxplore": [
+      "pxplore"
+    ],
+    "helm_bold": [
+      "helm_bold"
+    ],
+    "llmail_inject": [
+      "llmail_inject"
+    ],
+    "harmbench": [
+      "harmbench"
+    ],
+    "realtimeqa": [
+      "realtimeqa"
+    ],
+    "robust_reasoning_benchmark": [
+      "robust_reasoning_benchmark"
+    ],
+    "mmoral_bench": [
+      "mmoral_bench"
+    ],
+    "naturebench": [
+      "naturebench"
+    ],
+    "cmmlu": [
+      "cmmlu"
+    ],
+    "babilong": [
+      "babilong"
+    ],
+    "elicitation_game": [
+      "elicitation_game"
+    ],
+    "llm_bp_tag": [
+      "llm_bp_tag"
+    ],
+    "visualwebarena": [
+      "visualwebarena"
+    ],
+    "medhelm_race_based_med": [
+      "medhelm_race_based_med"
+    ],
+    "revolve": [
+      "revolve"
+    ],
+    "statqa": [
+      "statqa"
+    ],
+    "dtap_bench": [
+      "dtap_bench"
+    ],
+    "sustainable_food": [
+      "sustainable_food"
+    ],
+    "workbench_revisited": [
+      "workbench_revisited"
+    ],
+    "mtbbench": [
+      "mtbbench"
+    ],
+    "afrimedqa": [
+      "afrimedqa"
+    ],
+    "kmmlu": [
+      "kmmlu"
+    ],
+    "clasheval": [
+      "clasheval"
+    ],
+    "wmt_mqm": [
+      "wmt_mqm"
+    ],
+    "worldcentralbanks": [
+      "worldcentralbanks"
+    ],
+    "nyu_ctf_bench": [
+      "nyu_ctf_bench"
+    ],
+    "emoji_attack": [
+      "emoji_attack"
+    ],
+    "disco": [
+      "disco"
+    ],
+    "algotune": [
+      "algotune"
+    ],
+    "mj_bench": [
+      "mj_bench"
+    ],
+    "agentdojo": [
+      "agentdojo"
+    ],
+    "braveguard": [
+      "braveguard"
+    ],
+    "dave": [
+      "dave"
+    ],
+    "enginemt_qa": [
+      "enginemt_qa"
+    ],
+    "critic_discernment_game": [
+      "critic_discernment_game"
+    ],
+    "hle": [
+      "hle"
+    ],
+    "bbq": [
+      "bbq"
+    ],
+    "mmlu": [
+      "mmlu"
+    ],
+    "bird_sql": [
+      "bird_sql"
+    ],
+    "crow": [
+      "crow"
+    ],
+    "medhelm_med_qa": [
+      "medhelm_med_qa"
+    ],
+    "llm_uncertainty_bench": [
+      "llm_uncertainty_bench"
+    ],
+    "tulu_human_eval": [
+      "tulu_human_eval"
+    ],
+    "kormedmcqa": [
+      "kormedmcqa"
+    ],
+    "interchangeable_token_embeddings": [
+      "interchangeable_token_embeddings"
+    ],
+    "morphkv": [
+      "morphkv"
+    ],
+    "chatgpt_drift": [
+      "chatgpt_drift"
+    ],
+    "legalbench": [
+      "legalbench"
+    ],
+    "helm_afr": [
+      "helm_afr"
+    ],
+    "editbench": [
+      "editbench"
+    ],
+    "judgetuning": [
+      "judgetuning"
+    ],
+    "nester": [
+      "nester"
+    ],
+    "medhelm_med_mcqa": [
+      "medhelm_med_mcqa"
+    ],
+    "alignment_faking": [
+      "alignment_faking"
+    ],
+    "tau2_bench": [
+      "tau2_bench"
+    ],
+    "sgrades": [
+      "sgrades"
+    ],
+    "medhelm_medhallu": [
+      "medhelm_medhallu"
+    ],
+    "preference_dissection": [
+      "preference_dissection"
+    ],
+    "agentic_review_perturbation": [
+      "agentic_review_perturbation"
+    ],
+    "medhelm_pubmed_qa": [
+      "medhelm_pubmed_qa"
+    ],
+    "mind2web": [
+      "mind2web"
+    ],
+    "aegis": [
+      "aegis"
+    ],
+    "workarena": [
+      "workarena"
+    ],
+    "helm_bbq": [
+      "helm_bbq"
+    ],
+    "afrieval": [
+      "afrieval"
+    ],
+    "causal_axioms": [
+      "causal_axioms"
+    ],
+    "liveaopsbench": [
+      "liveaopsbench"
+    ],
+    "adaptivestep": [
+      "adaptivestep",
+      "felm",
+      "ikp",
+      "mergebench",
+      "pku_saferlhf",
+      "prox"
+    ],
+    "medhelm_head_qa": [
+      "medhelm_head_qa"
+    ],
+    "hallusionbench": [
+      "hallusionbench"
+    ],
+    "reliancescope": [
+      "reliancescope"
+    ],
+    "averimatec": [
+      "averimatec"
+    ],
+    "cellverse": [
+      "cellverse"
+    ],
+    "ceval": [
+      "ceval"
+    ],
+    "wikihow_agent": [
+      "wikihow_agent"
+    ],
+    "monkey_power_laws": [
+      "monkey_power_laws"
+    ],
+    "tensortrust": [
+      "tensortrust"
+    ],
+    "benger": [
+      "benger"
+    ],
+    "igakuqa119": [
+      "igakuqa119"
+    ],
+    "icpc2_code_selector": [
+      "icpc2_code_selector"
+    ],
+    "naep_llm_students": [
+      "naep_llm_students"
+    ],
+    "helm_thaiexam": [
+      "helm_thaiexam"
+    ],
+    "cruxeval": [
+      "cruxeval"
+    ],
+    "multi_moe": [
+      "multi_moe"
+    ],
+    "abstract_reason": [
+      "abstract_reason"
+    ],
+    "legal_rag_bench": [
+      "legal_rag_bench"
+    ],
+    "planbench": [
+      "planbench"
+    ],
+    "bridging_gap": [
+      "bridging_gap"
+    ],
+    "safeagentbench": [
+      "safeagentbench"
+    ],
+    "medhelm_medbullets": [
+      "medhelm_medbullets"
+    ],
+    "risebench": [
+      "risebench"
+    ],
+    "lingoly": [
+      "lingoly"
+    ],
+    "truthfulqa_mc": [
+      "truthfulqa_mc"
+    ],
+    "jailbreakbench": [
+      "jailbreakbench"
+    ],
+    "software_world_models": [
+      "software_world_models"
+    ],
+    "engdesign": [
+      "engdesign"
+    ],
+    "igakuqa": [
+      "igakuqa"
+    ],
+    "alpha_sql": [
+      "alpha_sql"
+    ],
+    "medhelm_medcalc_bench": [
+      "medhelm_medcalc_bench"
+    ],
+    "moe_cap": [
+      "moe_cap"
+    ],
+    "ood_prediction": [
+      "ood_prediction"
+    ],
+    "proofaug": [
+      "proofaug"
+    ],
+    "appworld": [
+      "appworld"
+    ],
+    "fewshot_ttt_bbh": [
+      "fewshot_ttt_bbh"
+    ],
+    "visual_riddles": [
+      "visual_riddles"
+    ],
+    "agi_elo": [
+      "agi_elo"
+    ],
+    "exploitgym": [
+      "exploitgym"
+    ],
+    "perumedqa": [
+      "perumedqa"
+    ],
+    "researchcodebench": [
+      "researchcodebench"
+    ],
+    "faithcot": [
+      "faithcot"
+    ],
+    "healthadminbench": [
+      "healthadminbench"
+    ]
+  },
+  "folds": {
+    "medhelm_med_qa": 0,
+    "afrieval": 1,
+    "legalbench": 2,
+    "bertaqa": 3,
+    "llmail_inject": 4,
+    "tau2_bench": 0,
+    "egoschema": 1,
+    "medhelm_med_mcqa": 2,
+    "agentic_review_perturbation": 3,
+    "mathconstraint": 4,
+    "researchcodebench": 0,
+    "pxplore": 1,
+    "igakuqa119": 2,
+    "morphkv": 3,
+    "preference_dissection": 4,
+    "brace": 0,
+    "realtimeqa": 1,
+    "chatgpt_drift": 2,
+    "llm_bp_tag": 3,
+    "hallusionbench": 4,
+    "llm_uncertainty_bench": 0,
+    "critic_discernment_game": 1,
+    "tumlu": 2,
+    "perfcodebench": 3,
+    "tulu_human_eval": 4,
+    "sugarcrepe": 0,
+    "helm_bbq": 1,
+    "safeagentbench": 2,
+    "bird_sql": 3,
+    "truthfulqa_mc": 4,
+    "sib200": 0,
+    "workbench_revisited": 1,
+    "finegrain_t2i": 2,
+    "workarena": 3,
+    "real_webagents": 4,
+    "bbq": 0,
+    "liveaopsbench": 1,
+    "agi_elo": 2,
+    "jailbreakbench": 3,
+    "helm_afr": 4,
+    "babilong": 0,
+    "medhelm_medcalc_bench": 1,
+    "subjective_qa": 2,
+    "ai2d_test": 3,
+    "software_world_models": 4,
+    "harmbench": 0,
+    "averimatec": 1,
+    "interchangeable_token_embeddings": 2,
+    "editbench": 3,
+    "worldcentralbanks": 4,
+    "medhelm_pubmed_qa": 0,
+    "bridging_gap": 1,
+    "causal_axioms": 2,
+    "adaptivestep": 3,
+    "cellverse": 4,
+    "evouna": 0,
+    "tensortrust": 1,
+    "faithcot": 2,
+    "taubench": 3,
+    "mmlupro": 4,
+    "fewshot_ttt_bbh": 0,
+    "appworld": 1,
+    "multi_moe": 2,
+    "medhelm_medhallu": 3,
+    "kernelbench": 4,
+    "kormedmcqa": 0,
+    "naturebench": 1,
+    "igakuqa": 2,
+    "beavertails": 3,
+    "llms_lean_formalization": 4,
+    "legal_rag_bench": 0,
+    "monkey_power_laws": 1,
+    "elicitation_game": 2,
+    "mmbench_v11": 3,
+    "kmmlu": 4,
+    "visual_riddles": 0,
+    "vl_rewardbench": 1,
+    "medhelm_ehr_sql": 2,
+    "clasheval": 3,
+    "dtap_bench": 4,
+    "benger": 0,
+    "abstract_reason": 1,
+    "wmt_mqm": 2,
+    "dave": 3,
+    "os_harm": 4,
+    "openbiorq": 0,
+    "alpha_sql": 1,
+    "mj_bench": 2,
+    "statqa": 3,
+    "algotune": 4,
+    "reliancescope": 0,
+    "wikihow_agent": 1,
+    "naep_llm_students": 2,
+    "devbench": 3,
+    "sgrades": 4,
+    "helm_bold": 0,
+    "lingoly": 1,
+    "visualwebarena": 2,
+    "nyu_ctf_bench": 3,
+    "medhelm_head_qa": 4,
+    "cruxeval": 0,
+    "sustainable_food": 1,
+    "disco": 2,
+    "hle": 3,
+    "mmlu": 4,
+    "mathvista_mini": 0,
+    "multi_swebench": 1,
+    "healthadminbench": 2,
+    "crow": 3,
+    "judgetuning": 4,
+    "ceval": 0,
+    "alignment_faking": 1,
+    "aegis": 2,
+    "mind2web": 3,
+    "perumedqa": 4,
+    "helm_thaiexam": 0,
+    "afrimedqa": 1,
+    "mtbbench": 2,
+    "cmmlu": 3,
+    "icpc2_code_selector": 4,
+    "medhelm_medbullets": 0,
+    "revolve": 1,
+    "engdesign": 2,
+    "enginemt_qa": 3,
+    "emoji_attack": 4,
+    "risebench": 0,
+    "braveguard": 1,
+    "nester": 2,
+    "sketchjudge": 3,
+    "robust_reasoning_benchmark": 4,
+    "erbench": 0,
+    "edu_circuit_hw": 1,
+    "moe_cap": 2,
+    "proofaug": 3,
+    "mmoral_bench": 4,
+    "exploitgym": 0,
+    "financebench": 1,
+    "medhelm_medec": 2,
+    "ood_prediction": 3,
+    "agentdojo": 4,
+    "medhelm_race_based_med": 0,
+    "planbench": 1
+  },
+  "overlap_counts": {
+    "adaptivestep|prox": 1819,
+    "multi_swebench|swepolybench": 13,
+    "adaptivestep|felm": 215,
+    "felm|prox": 215,
+    "swe_rebench|swe_smith": 39,
+    "swe_rebench|swebench_live": 91,
+    "swebench_live|swepolybench": 13,
+    "swe_smith|swebench_live": 11,
+    "ikp|pku_saferlhf": 1,
+    "felm|ikp": 3,
+    "mergebench|pku_saferlhf": 1,
+    "swe_rebench|swepolybench": 1
+  }
+}

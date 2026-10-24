@@ -1,0 +1,12 @@
+{
+  "independent_metric_cases": 150,
+  "delivered_all_valid_n_k": 63,
+  "invariants": [
+    "evidence order",
+    "other subject ignored",
+    "other benchmark ignored",
+    "target text invariance"
+  ],
+  "positive_control": "calibration learns planted association",
+  "status": "pass"
+}
