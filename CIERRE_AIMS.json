@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-24T09:16:36+00:00",
+ "generated_utc": "2026-10-24T09:36:43+00:00",
  "overall_status": "PENDING - EXTERNALLY BLOCKED",
  "status_reason": "No Codabench submission ID: the submission platform has been unreachable since 2026-10-23. Not delivered, not closed.",
  "competition": {
@@ -31,7 +31,7 @@
   "url": "https://github.com/Agnuxo1/AIMS-PAIEC-2026",
   "visibility": "public",
   "verified_logged_out": true,
-  "commit": "1c603c76bd70fb8175138f1dcf0599ed16407cd7",
+  "commit": "3e4fd32f8986408a0a645f7d5cb26c67e0969f81",
   "release_tag": "v1.0.0",
   "release_url": "https://github.com/Agnuxo1/AIMS-PAIEC-2026/releases/tag/v1.0.0",
   "licence": "MIT",
@@ -40,11 +40,13 @@
    "caches",
    "environments",
    "credentials"
-  ]
+  ],
+  "commit_note": "Verified base commit before this closure update; the commit containing this file is visible in Git history.",
+  "local_head_at_generation": "3e4fd32f8986408a0a645f7d5cb26c67e0969f81"
  },
  "ci": {
-  "last_run_id": 40081070975,
-  "last_run_url": "https://github.com/Agnuxo1/AIMS-PAIEC-2026/actions/runs/40081070975",
+  "last_run_id": 40081323445,
+  "last_run_url": "https://github.com/Agnuxo1/AIMS-PAIEC-2026/actions/runs/40081323445",
   "conclusion": "success",
   "checks": [
    "synthetic metric and inference tests",
@@ -55,7 +57,9 @@
    "run": "37690ab",
    "cause": "scikit-learn 1.4.0 pins numpy<2; requirements were unsatisfiable from a clean install",
    "fixed_in": "e75745c"
-  }
+  },
+  "verified_utc": "2026-10-24T09:35:59+00:00",
+  "scope": "Previously published commit; subsequent commits must pass their own run."
  },
  "artifacts": {
   "submission_original.zip": {
@@ -73,10 +77,11 @@
   },
   "technical_report_pdf": {
    "path": "report/informe_v2.pdf",
-   "sha256": "3fc899c8bfe66564711ca29f4a4cbe207df462462b5c62d76ed0cecf2da5a04f",
-   "bytes": 177611,
+   "sha256": "5510cd7318090db52ae8ec1bf92fd9b8561171cc8b7dad1f18a2ea87ab9aaea1",
+   "bytes": 181781,
    "pages": 5,
-   "template": "official NeurIPS style"
+   "template": "official NeurIPS style",
+   "revision_note": "Publication links updated on 24 October 2026. The v1.0.0 release retains the preceding PDF unchanged."
   },
   "technical_report_source": {
    "path": "report/informe_v2.tex"
@@ -101,8 +106,8 @@
  "video": {
   "url": "https://youtu.be/dBfUTN5afcQ",
   "channel_id": "UCpmNBgiKW_NxkF1BBZ6v6NQ",
-  "visibility": "unlisted",
-  "visibility_rationale": "The published rules do not require a video; unlisted keeps it reachable by link from the README.",
+  "visibility": "public",
+  "visibility_rationale": "Current saved Studio setting observed as Public on 24 October 2026; the earlier closure described it as unlisted.",
   "duration": "4:38",
   "resolution": "1920x1080",
   "video_codec": "h264",
@@ -117,9 +122,9 @@
   "embedded_subtitle_tracks": 0,
   "embedded_subtitle_check": "ffmpeg -i reports zero Subtitle streams",
   "burned_in_subtitles": false,
-  "youtube_automatic_captions_present": true,
-  "youtube_automatic_captions_removal": "ATTEMPTED AND FAILED. Three routes tried in YouTube Studio (languages table row, the edit-subtitles button, the direct editor URL); the interface returned an error and did not respond to automation. Documented, not claimed as absent.",
-  "video_language_metadata": "Spanish (incorrect; the narration is English). Could not be changed through the same failing interface.",
+  "youtube_automatic_captions_present": false,
+  "youtube_automatic_captions_removal": "COMPLETED in Studio > Languages > English details > automatic subtitles > Delete > Update. Reopened the saved dialog: no automatic track. The public watch player reports subtitles unavailable.",
+  "video_language_metadata": "English; saved and verified in YouTube Studio.",
   "thumbnail": "docs/video/thumbnail.png (custom, applied and verified)",
   "made_for_kids": false,
   "materials": [
@@ -128,7 +133,10 @@
    "docs/video/render.py",
    "docs/video/thumb.py",
    "docs/video/narration.json"
-  ]
+  ],
+  "title_description_language_metadata": "English; saved with the original video language.",
+  "verified_utc": "2026-10-24T09:35:59+00:00",
+  "proof": "docs/evidence/youtube_sin_subtitulos.png"
  },
  "submission": {
   "codabench_submission_ids": [],
@@ -136,14 +144,18 @@
   "official_scores": [],
   "final_selection": null,
   "team_registration_form_submitted": false,
-  "team_registration_blocker": "The form requires a Codabench username, which cannot be confirmed while the platform is down."
+  "team_registration_blocker": "The form requires a Codabench username, which cannot be confirmed while the platform is down.",
+  "registration_form_prepared": true,
+  "registration_team_name": "Agnuxo1",
+  "registration_form_url": "https://docs.google.com/forms/d/e/1FAIpQLSevCdcDO1TaWqWUY7vRMljoYE97PJXC-X3Vg3ItD3kRi8XUmQ/viewform"
  },
  "openreview": {
   "submitted": false,
   "submission_url": null,
   "submission_id": null,
   "receipt": null,
-  "blocker": "The OpenReview form requires the selected Codabench submission ID."
+  "blocker": "Not signed in; account login is required. No accepted Codabench submission ID exists. No report was submitted.",
+  "login_required": true
  },
  "platform_outage": {
   "host": "www.codabench.org",
@@ -166,7 +178,9 @@
    "aims.stanford.edu",
    "huggingface.co",
    "github.com"
-  ]
+  ],
+  "latest_check_utc": "2026-10-24T09:35:59+00:00",
+  "latest_check": "curl HTTPS connect timeout after 8 seconds; browser navigation also times out. Existing historical checks retained separately."
  },
  "organiser_contact": {
   "sent": true,
@@ -183,7 +197,8 @@
    "what to prepare now"
   ],
   "reply_received": false,
-  "note": "Sending this email is not an acceptance and does not substitute the normal submission flow."
+  "note": "Sending this email is not an acceptance and does not substitute the normal submission flow.",
+  "reply_rechecked_utc": "2026-10-24T09:35:59+00:00"
  },
  "results_claimed": {
   "protocol": "independent re-evaluation: 151 benchmarks, 13,200 eligible pairs, 105,600 scenarios, 142 components, 8 seeds, 5 outer folds",
