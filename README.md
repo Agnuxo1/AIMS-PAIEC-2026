@@ -24,6 +24,15 @@ evidence for why it is four lines and not four hundred.
 
 ![Three claims kept apart](docs/figures/fig4_status.png)
 
+<p align="center">
+  <a href="https://youtu.be/dBfUTN5afcQ">
+    <img src="docs/video/thumbnail.png" alt="Watch the 4-minute explanation" width="560">
+  </a>
+  <br>
+  <b><a href="https://youtu.be/dBfUTN5afcQ">Watch the 4-minute explanation</a></b>
+  &nbsp;·&nbsp; English narration, no subtitle track
+</p>
+
 ## The result
 
 Under an independent re-evaluation over **151 benchmarks, 13,200 eligible pairs,
@@ -176,6 +185,7 @@ report/        informe_v2.pdf, its LaTeX source and the official style file
 legacy_original/  the first delivery, kept intact for provenance
 build/         figure and animation generators
 docs/figures/  figures and GIFs, all regenerable from results/
+docs/video/    narration script, render scripts, thumbnail and timings
 ```
 
 ## Limitations
@@ -195,7 +205,8 @@ results rather than cleaned away.
 | Technical report | 5 pages, official NeurIPS style, compiled |
 | Codabench submission ID | **None.** The platform has been unreachable from independent networks |
 | Official score | Not obtained |
-| OpenReview record | Not submitted |
+| OpenReview record | Not submitted (needs the submission ID) |
+| Organisers contacted | 24 October 2026, asking for the correct route while the platform is down |
 
 No ranking, acceptance or official score is claimed anywhere in this repository.
 See [`CIERRE_AIMS.md`](CIERRE_AIMS.md) for the exact state of each deliverable.
