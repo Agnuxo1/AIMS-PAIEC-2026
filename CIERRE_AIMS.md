@@ -1,7 +1,7 @@
 # CIERRE_AIMS — estado verificado de cada entregable
 
 **Estado global: PENDIENTE — BLOQUEADO EXTERNAMENTE.**
-El concurso **no** está entregado ni cerrado. Falta el ID de envío de Codabench y, por tanto, el envío a OpenReview. El código, los resultados, el informe y el vídeo están publicados. El acceso a OpenReview requiere además iniciar sesión.
+El concurso **no** está entregado ni cerrado. Falta el ID de envío de Codabench y, por tanto, el envío a OpenReview. El código, los resultados, el informe y el vídeo están publicados. El perfil de OpenReview ya está creado y pendiente de activación manual.
 
 Fecha de este documento: **2026-10-24T09:35:59+00:00**.
 Plazo oficial: **30-10-2026 23:59 AoE = 31-10-2026 11:59 UTC** (≈ 7,1 días desde esta fecha). Verificado hoy en la fuente oficial; no ha cambiado.
@@ -82,13 +82,16 @@ Los dos GIF están marcados en su propio fotograma como ilustración sintética.
 | Envío del ZIP | **No hecho** |
 | **Submission ID** | **NINGUNO** |
 | Puntuación oficial | **NINGUNA** |
-| OpenReview | **No enviado.** Requiere iniciar sesión y disponer del submission ID elegido; el formulario completo no se ha podido inspeccionar sin autenticación |
+| Perfil de OpenReview | **CREADO**: `~Francisco_Angulo_de_Lafuente1`. Registro confirmado a las 12:15:07 UTC; correo profesional confirmado y actualización del perfil recibida a las 12:24:03 UTC. **Activación pendiente de moderación** |
+| Informe en OpenReview | **No enviado.** Faltan la activación del perfil y un submission ID aceptado de Codabench |
 
 **Evidencia del bloqueo.** `www.codabench.org` resuelve por DNS a `129.175.8.21` (Paris-Saclay) pero el puerto 443 agota el tiempo. Comprobado **doce veces** entre el 23-10 21:30 UTC y el 24-10 09:09 UTC, desde esta red, desde un verificador HTTP externo independiente y con resolución DNS por 1.1.1.1 y 8.8.8.8. En las mismas máquinas y momentos, `aims.stanford.edu`, Hugging Face y GitHub responden con normalidad.
 
 **Comunicación con los organizadores.** Correo enviado el **24-10-2026 a las 11:12 (Madrid)** a `aimslab@cs.stanford.edu`, asunto *«Codabench unreachable - Predictive AI Evaluation Competition submission route»*, desde `lareliquia.angulo@gmail.com`. Verificado en la carpeta Enviados. Antes se comprobó que **no existía un hilo previo** con los organizadores, para no duplicar. Pregunta por: si la caída es conocida y su previsión, si hay una vía alternativa escrita que conserve la elegibilidad, cómo gestionar el campo del submission ID, y qué conviene preparar. **Enviar ese correo no equivale a una aceptación**: sin respuesta explícita de los organizadores que habilite otra vía, el estado sigue siendo bloqueado.
 
 **Depósito del material final por correo.** El 24-10-2026 a las **09:40:08 UTC (11:40 Madrid)** se respondió en el mismo hilo, adjuntando el PDF actualizado (181.781 bytes) y los dos ZIP (1.596 y 736 bytes), con sus SHA-256 y el enlace al código fijado en `16bc039`. Se identificó `submission_original.zip` como candidatura principal y el contextual como experimental. Los tres adjuntos constan en Enviados. Se solicitó confirmación de recepción y de la posible vía alternativa. **Este depósito está enviado; su aceptación como entrega oficial no está confirmada.**
+
+**Registro de OpenReview completado.** Se incorporaron el historial profesional real y sus fuentes públicas, ORCID, una página de autor con el correo del registro, y la actividad actual en P2PCLAW. `research@p2pclaw.com` se confirmó mediante el código enviado por OpenReview, conservando Gmail como correo preferido. El segundo aviso de OpenReview confirma que el mismo perfil sigue en la cola de moderación. Esto acredita el alta del perfil, **no** la aceptación del informe ni una participación puntuada. No se guardan códigos de verificación, enlaces de activación ni fecha de nacimiento en el repositorio.
 
 ## 6. Resultado que se reclama, y el que no
 

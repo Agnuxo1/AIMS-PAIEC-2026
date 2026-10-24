@@ -9,6 +9,11 @@ complete employment chronology.
 
 Research contact: [lareliquia.angulo@gmail.com](mailto:lareliquia.angulo@gmail.com).
 
+Professional contact: [research@p2pclaw.com](mailto:research@p2pclaw.com).
+Current work includes the principal architect role in the
+[P2PCLAW research network](https://www.p2pclaw.com/) and co-authorship of the
+[OpenCLAW-P2P paper](https://arxiv.org/abs/2604.19792).
+
 - [GitHub profile](https://github.com/Agnuxo1)
 - [ORCID: 0009-0001-1634-7063](https://orcid.org/0009-0001-1634-7063)
 - [AIMS predictive evaluation code, experiments and report](https://github.com/Agnuxo1/AIMS-PAIEC-2026)

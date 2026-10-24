@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-24T09:41:54+00:00",
+ "generated_utc": "2026-10-24T12:24:57+00:00",
  "overall_status": "PENDING - EXTERNALLY BLOCKED",
  "status_reason": "No Codabench submission ID: the submission platform has been unreachable since 2026-10-23. Not delivered, not closed.",
  "competition": {
@@ -154,8 +154,16 @@
   "submission_url": null,
   "submission_id": null,
   "receipt": null,
-  "blocker": "Not signed in; account login is required. No accepted Codabench submission ID exists. No report was submitted.",
-  "login_required": true
+  "blocker": "Profile created and registration updated with a confirmed professional email and matching affiliation; manual activation remains pending. No accepted Codabench submission ID exists.",
+  "login_required": true,
+  "profile_id": "~Francisco_Angulo_de_Lafuente1",
+  "profile_registration_submitted": true,
+  "profile_registration_status": "moderation_pending",
+  "account_email_confirmed": true,
+  "professional_email_confirmed": true,
+  "professional_email": "research@p2pclaw.com",
+  "registration_confirmation_utc": "2026-10-24T12:24:03Z",
+  "registration_evidence": "docs/evidence/openreview_registration_20261024.json"
  },
  "platform_outage": {
   "host": "www.codabench.org",
