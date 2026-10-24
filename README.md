@@ -205,7 +205,8 @@ results rather than cleaned away.
 | Technical report | 5 pages, official NeurIPS style, compiled |
 | Codabench submission ID | **None.** The platform has been unreachable from independent networks |
 | Official score | Not obtained |
-| OpenReview record | Not submitted; account authentication and a selected Codabench ID remain pending |
+| OpenReview profile | Created; professional email confirmed; awaiting manual activation |
+| OpenReview report | Not submitted; profile activation and an accepted Codabench submission ID remain pending |
 | Material deposited with organisers | Updated PDF and both ZIPs emailed in the existing thread on 24 Oct 2026, 09:40 UTC; attachments verified in Sent; acceptance as an alternative route **not confirmed** |
 | Organisers contacted | 24 October 2026, asking for the correct route while the platform is down |
 
