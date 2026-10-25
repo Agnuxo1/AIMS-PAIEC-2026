@@ -1,0 +1,49 @@
+{
+  "utc": "2026-10-25T22:16:03.851108+00:00",
+  "status": "locally_verified_externally_blocked",
+  "artifacts": {
+    "submissions/submission_original.zip": {
+      "sha256": "895c3a9f693947ab096fb3c75120858416594b95c69261b5fc67207fa79722f8",
+      "bytes": 1596
+    },
+    "submissions/submission_context_experimental.zip": {
+      "sha256": "eb52cd786875533e0f506723ed7d5ed06ec0d7d09f05c96dd8512a3ad630a94b",
+      "bytes": 736
+    },
+    "report/informe_v2.pdf": {
+      "sha256": "5510cd7318090db52ae8ec1bf92fd9b8561171cc8b7dad1f18a2ea87ab9aaea1",
+      "bytes": 181781
+    },
+    "report/informe_v3.pdf": {
+      "sha256": "340276581c68b5c563d308c5106bc4a1c14dbdf971fe76080e6305ef416a9d1e",
+      "bytes": 181906
+    },
+    "report/informe_v3.tex": {
+      "sha256": "8b2ea90f2b889bb319d7d2b17e9f73754972703d6f4689f1b3db6aeed15370a1",
+      "bytes": 20442
+    }
+  },
+  "report_pages": 5,
+  "correction": "Withdraw unsupported original-protocol CI; new-protocol point results unchanged.",
+  "local_checks": [
+    "Archive path/import/self-contained checks; 4000 shrinkage draws exact",
+    "Streaming aggregation and Brier tests pass",
+    "5376 contextual API parity cases exact; 528 fallback cases exact; five role manifests disjoint",
+    "NeurIPS 2026 style, pdflatex two passes, no undefined references or overfull boxes"
+  ],
+  "codabench": {
+    "reachable": false,
+    "submission_id": null,
+    "score": null
+  },
+  "openreview": {
+    "receipt": null,
+    "note": "Cannot supply a selected Codabench ID while unavailable"
+  },
+  "organizer": {
+    "last_reply_utc": "2026-10-24T14:20:17Z",
+    "alternative_route_authorized": false
+  },
+  "deadline_utc": "2026-10-31T11:59:00Z",
+  "deadline_source": "https://aims.stanford.edu/competition"
+}

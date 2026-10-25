@@ -13,6 +13,10 @@ reproduce it myself, it is marked as such.
 
 Last update: 2026-10-25.
 
+Correction in report v3: item 4's unsupported original-protocol bootstrap interval is withdrawn.
+`report/informe_v2.pdf` remains the historical deposited file; the corrected report is
+`report/informe_v3.pdf`. Item 5 is a docstring erratum in the unchanged ZIP, not a functional change.
+
 ---
 
 ## Corrected in this update
