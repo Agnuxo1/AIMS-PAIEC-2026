@@ -294,5 +294,24 @@
   "In-person session in Sydney on 2026-12-11, 08:00-10:15 local, if selected for oral or poster. No travel support published.",
   "Consideration for oral or poster requires the technical report and the release of the code used; the code is already public.",
   "Organisers rerun the released method to check reproducibility."
- ]
+ ],
+ "update_2026_10_25": {
+  "codabench_checked_utc": "2026-10-25T09:32:00Z",
+  "codabench_status": "timeout",
+  "organiser_position": "outage acknowledged; no alternative route authorised; participation not accepted",
+  "official_checker": {
+   "submission_original.zip": {
+    "status": 0,
+    "log": "docs/evidence/official_checker_original_20261025.txt"
+   },
+   "submission_context_experimental.zip": {
+    "status": 0,
+    "log": "docs/evidence/official_checker_context_20261025.txt"
+   }
+  },
+  "errata_file": "ERRATA.md",
+  "deposited_material_modified": false,
+  "external_review": "adversarial review, read-only, via API credits (1.75 USD); findings in ERRATA.md",
+  "sprint_closed_in_system": "20261023-predictive-ai-evaluation-competition-sta"
+ }
 }

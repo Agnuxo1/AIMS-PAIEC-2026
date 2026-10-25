@@ -165,8 +165,8 @@ revision `54074453da7b9911be0f48e4c560be547bc84d21` with per-file SHA-256, and
 fetches **5,354,371,887 bytes** across **890 files**:
 
 ```bash
-export AIMS_DATA=/path/with/space        # set AIMS_DATA on Windows too
-python audit/download_pinned.py          # verifies every hash
+python audit/download_pinned.py --data /path/with/space   # verifies every hash
+# (--data is required; the script does not read AIMS_DATA on its own)
 python audit/build_independent.py        # 151 benchmarks, 13,200 pairs
 python audit/evaluate_independent.py     # Table above
 python audit/evaluate_context.py         # conditional extension
@@ -189,6 +189,9 @@ docs/video/    narration script, render scripts, thumbnail and timings
 ```
 
 ## Limitations
+
+Errata, known deviations and what was not reproduced: see [`ERRATA.md`](ERRATA.md).
+
 
 Local validation is not an official score. We report Brier ALC on public
 benchmarks held out from each other, which is a proxy for the private pool. The

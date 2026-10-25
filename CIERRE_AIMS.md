@@ -125,3 +125,21 @@ El archivo `UTILIDADES_HERRAMIENTAS_APIs.txt` quedó expuesto en una sesión ant
 ---
 
 *Documento factual. Cada URL y cada estado de este archivo se comprobó en la sesión del 24-10-2026. Donde algo no está hecho, dice que no lo está.*
+
+---
+
+## 10. Actualización del 25-10-2026: revisión independiente y estado
+
+- **Codabench** sigue sin responder. Comprobado el 25-10 a las 09:32 UTC (tiempo de espera de 12 s). La organización reconoció la caída el 24-10 a las 14:20 UTC, pero **no autorizó una vía alternativa y no acepta la participación** ([registro](docs/evidence/organiser_reply_20261024.json)).
+- **Validador oficial.** Los dos ZIP pasan `check_submission_zip.py` con estado 0. Los logs están en `docs/evidence/official_checker_*_20261025.txt`. Antes esta afirmación no tenía registro.
+- **Revisión adversaria independiente** (Opus, solo lectura, 1,75 USD de créditos API). Encontró defectos en el repositorio. Corregidos aquí: el comando de descarga del README, que fallaba en un clon limpio, y la figura 4, que tenía cifras escritas a mano y contradecía la afirmación de este documento. El resto está listado en [`ERRATA.md`](ERRATA.md).
+- **No se ha modificado** el informe PDF ni los ZIP depositados, porque ya están en poder de la organización. Cualquier versión nueva requiere una decisión de Fran.
+- **Sprint de Stanford AIMS.** Su plazo de 24 h se cumplió el 24-10 a las 21:11 UTC y se cerró en el sistema de concursos. La entrega sigue bloqueada por la plataforma; el cierre del sprint no equivale a una entrega.
+
+**Pendiente de Fran (acciones que no puede hacer el sistema):**
+
+1. Revisar [`ERRATA.md`](ERRATA.md) y decidir si se envía una versión corregida del informe a la organización.
+2. En YouTube Studio: desactivar los subtítulos automáticos en inglés y corregir el idioma del vídeo, que figura como español.
+3. Rotar las claves del fichero expuesto en una sesión anterior.
+4. Si quiere seguir la caída, el canal de la organización es su Discord (AI Measurement Science). Unirse es crear una cuenta, así que lo hace Fran.
+5. Seguir la moderación del perfil de OpenReview. Eso acredita el alta, no la aceptación del informe.

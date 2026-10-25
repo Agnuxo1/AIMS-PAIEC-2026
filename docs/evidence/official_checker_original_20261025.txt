@@ -1,0 +1,1 @@
+OK: submissions\submission_original.zip looks like a valid submission ZIP.
