@@ -183,9 +183,23 @@ def fig_status(repo, out):
     """What is validated locally, what is conditional and what is still pending."""
     fig, ax = plt.subplots(figsize=(7.6, 2.5))
     ax.axis("off")
+    # Every number on this figure is read from results/, not typed here.
+    # (An earlier version hard-coded 0.2368, 0.2060, 133/151 and -0.0026.)
+    s = pd.read_csv(os.path.join(repo, "results", "summary.csv")).set_index("method")
+    u = {d["method"]: d for d in json.load(
+        open(os.path.join(repo, "results", "uncertainty.json"), encoding="utf-8"))}
+    c = {d["method"]: d for d in json.load(
+        open(os.path.join(repo, "results", "context_summary.json"), encoding="utf-8"))}
+    ref = s.loc["empirical_mean", "brier_alc"]
+    ours = s.loc["original_beta3", "brier_alc"]
+    won = u["original_beta3"]["benchmarks_improved"]
+    n_b = u["original_beta3"]["n_benchmarks"]
+    extra = c["fallback_safe_cohort4"]["difference"]
     items = [
-        ("Local validation", "0.2368 → 0.2060 Brier ALC, 133/151 benchmarks", GOOD, "verified"),
-        ("Conditional extension", "−0.0026 more, only with peer labels (unverified)", "#e9c46a", "experimental"),
+        ("Local validation", f"{ref:.4f} → {ours:.4f} Brier ALC, {won}/{n_b} benchmarks",
+         GOOD, "verified"),
+        ("Conditional extension", f"{extra:+.4f} more, only with peer labels (unverified)",
+         "#e9c46a", "experimental"),
         ("Official score", "no submission ID: platform unreachable", MUTED, "pending"),
     ]
     for i, (title, body, colour, tag) in enumerate(items):
