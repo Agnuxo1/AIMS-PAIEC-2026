@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-1b6ca8.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-1b6ca8.svg)](requirements.txt)
 [![CI](https://github.com/Agnuxo1/AIMS-PAIEC-2026/actions/workflows/ci.yml/badge.svg)](https://github.com/Agnuxo1/AIMS-PAIEC-2026/actions/workflows/ci.yml)
-[![Report](https://img.shields.io/badge/report-PDF-c1121f.svg)](report/informe_v2.pdf)
+[![Report](https://img.shields.io/badge/report-PDF-c1121f.svg)](report/informe_v3.pdf)
 
 Francisco Angulo de Lafuente · Independent researcher, Madrid, Spain
 
@@ -32,6 +32,8 @@ evidence for why it is four lines and not four hundred.
   <b><a href="https://youtu.be/dBfUTN5afcQ">Watch the 4-minute explanation</a></b>
   &nbsp;·&nbsp; English narration, no subtitle track
 </p>
+
+**25 October audit update.** The [corrected five-page report](report/informe_v3.pdf) withdraws an original-protocol bootstrap interval that had no reproducible generator. The earlier deposited PDF and both predictor archives remain byte-for-byte unchanged. This is a local technical correction; no Codabench ID, OpenReview receipt or official score has been obtained. [Evidence](docs/evidence/closure_audit_20261025.json).
 
 ## The result
 

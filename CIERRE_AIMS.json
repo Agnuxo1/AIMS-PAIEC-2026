@@ -313,5 +313,13 @@
   "deposited_material_modified": false,
   "external_review": "adversarial review, read-only, via API credits (1.75 USD); findings in ERRATA.md",
   "sprint_closed_in_system": "20261023-predictive-ai-evaluation-competition-sta"
+ },
+ "audit_2026_10_25_evening": {
+  "state": "locally corrected; official submission remains blocked",
+  "evidence": "docs/evidence/closure_audit_20261025.json",
+  "new_report": "report/informe_v3.pdf",
+  "deposited_material_unchanged": true,
+  "submission_id": null,
+  "openreview_receipt": null
  }
 }

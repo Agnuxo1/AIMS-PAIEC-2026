@@ -1,0 +1,354 @@
+\documentclass{article}
+\PassOptionsToPackage{numbers}{natbib}
+\usepackage[preprint]{neurips_2026}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref,url,booktabs,amsmath,amssymb,microtype}
+\title{Predictive evaluation with limited labels:\\
+independent replication, audit, and conditional cross-subject shrinkage}
+\author{Francisco Angulo de Lafuente\\Independent researcher, Madrid, Spain\\
+\texttt{lareliquia.angulo@gmail.com}}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We independently audit and extend a lightweight submission for the Predictive
+AI Evaluation Competition. Reconstructing the original sampling design from
+the released response tables reproduces its empirical-mean reference score
+of 0.2453845 and Beta--Binomial score of 0.2104970 to numerical precision.
+The strongest saved alternatives were already disclosed; we find no observable
+evidence that their better point estimates were concealed. We do find problems
+in the isolation of development data for richer models, eligibility summaries,
+and the scope of previous negative conclusions. A new evaluator uses all
+13,200 eligible subject--benchmark pairs from 151 public benchmarks, eight
+acquisition/evaluation splits, grouped nested validation, and component-level
+uncertainty. It confirms an advantage for the original shrinkage rule:
+0.236814 to 0.205984 against the empirical mean. Three new isolated-evidence
+families do not establish a reliable improvement. A separately registered
+extension uses only supplied labels of other subjects from the same benchmark.
+With simulated four-subject cohorts, a fallback-preserving variant improves
+0.206027 to 0.203465, with a 99\% component-bootstrap interval for the
+difference of $[-0.006257,-0.000551]$. With no peer evidence it is exactly
+the original predictor. This result is conditional on evidence availability;
+neither cohort exposure nor private-test performance has been verified on
+Codabench. All candidates and failed approaches are retained.
+\end{abstract}
+
+\section{Task, estimand, and scope}
+The competition asks for the probability of an observed binary outcome for an
+AI subject and item, given visible attributes and a limited set of revealed
+labels~\cite{competition}. Subjects are configurations, including the model,
+harness, and reasoning settings. Local benchmark names and internal subject
+IDs are used to construct evaluation partitions; the submitted predictor uses
+only the supplied dictionaries and anonymous benchmark identifiers.
+
+At budgets $n\in\{0,1,3,7,15,31\}$, let $B_n$ be the mean squared error over
+all recorded evaluation responses of a subject--benchmark pair. Its score is
+\begin{equation}
+ L=0.1B_0+0.2B_1+0.2B_3+0.2B_7+0.2B_{15}+0.1B_{31}.
+\end{equation}
+The final estimand averages $L$ equally across pairs, irrespective of their
+number of responses. Repeated observations are retained within each pair;
+they do not create additional equally weighted pairs. Lower scores are better.
+Acquisition and evaluation items are disjoint and budgets are nested.
+
+Our results are local revalidation on a public collection. The public
+benchmarks had been inspected during an earlier sprint; the new partitions
+are not previously unobserved scientific data. A new evaluation program and
+a reviewer who did not inspect the new scores provide checks against shared
+implementation errors, not a guarantee against all forms of adaptive analysis.
+No local score in this paper is an official private-test score or ranking.
+
+\section{Independent reconstruction and provenance}
+The audit read the fifteen original analysis scripts, fourteen released
+result files, report, model, and retained development logs. Its principal
+evaluator imports none of those analysis modules and does not deserialize
+the original \texttt{pares.pkl}. It reads the original Parquet tables in
+bounded batches, aggregates counts, successes, and the first observation
+for each subject--item combination, and independently constructs eligibility
+and acquisition trajectories.
+
+\paragraph{Frozen inputs.}
+The local cache records the following dataset revision:
+\begin{center}\small
+\texttt{54074453da7b9911be0f48e4c560be547bc84d21}
+\end{center}
+All 278 public response
+files match their Hugging Face SHA-256 download records; 501 supporting item,
+subject, and benchmark files were also hashed and match. The release manifest
+pins 890 necessary public files, including all public benchmark metadata,
+with a combined size of 5,354,371,887 bytes. The public baseline source
+matches upstream after newline normalization and has an identical Python AST.
+Data are obtained from the permitted measurement database~\cite{data}; no
+outside training data or paid inference service was used.
+
+The old report cited an earlier revision. A historical manifest comparison
+found 32 public response paths absent from that older snapshot and one changed
+response file. This makes the old revision an insufficient reproduction
+instruction. It does not by itself invalidate the reported numbers: the
+14,733 previously aggregated subject--benchmark rows match the independently
+recomputed successes and response counts exactly. Two additional all-zero
+pairs contain 116 responses in total and are ineligible because they have
+60 and one distinct items. The old binary filter excluded them. The current
+binary scan contains 70,193,656 physical rows, of which 68,840,604 have an
+observed response; missing values must not be counted as labels.
+
+\paragraph{Exact replication of the earlier design.}
+Separately from the primary evaluation, we recreated the old six-pair and
+150-evaluation-item sampling rules. Source row order was recovered directly
+from the response tables, rather than inferred from a hash-group output
+ordering. All 769 sampled pairs were reconstructed, including all 496 pairs
+in the original 101-benchmark headline set. Recomputed pair scores differ
+from the saved Beta--Binomial and empirical-mean scores by at most
+$1.11\times10^{-16}$. Their means are respectively 0.2104969827 and
+0.2453845123. Thus the 14.2\% headline gain is a reproducible result for
+that particular local design. It does not establish superiority to stronger
+competitors or to an unknown private-test distribution.
+
+\section{Audit findings and corrections}
+\paragraph{Better saved results were disclosed.}
+The earlier report lists a subject-conditioned empirical-Bayes predictor at
+0.20989535 and a macro hierarchical predictor at 0.21024007, both below the
+submitted predictor's point estimate. The former also heads the README table.
+Their uncertainty and runtime simplicity motivated the earlier choice.
+The retained artifacts provide no evidence of concealment. An audit cannot
+recover deleted or unsaved experiments or establish an author's intent.
+
+\paragraph{Development isolation for richer priors was incomplete.}
+The earlier LOBO procedure excluded the target benchmark but fitted a richer
+prior on every other benchmark, even during development selection. Its
+nominal headline set therefore contributed labels to those fitted priors.
+This is a legitimate transductive evaluation only if explicitly described
+as such; it is not a fully isolated development/headline partition. The
+constant Beta--Binomial rule fits no prior from those aggregates and does
+not directly inherit that fitted-prior defect. The new evaluator separates
+fitting, inner validation, and external testing by benchmark components.
+
+\paragraph{Eligibility and weighting require distinct items.}
+Ninety public pairs have at least 80 recorded responses but fewer than
+80 distinct items. Some old descriptive statistics and empirical-prior filters
+counted them as eligible. On the old headline benchmarks, response-based
+counting gives 11,657 pairs; the correct distinct-item criterion gives
+11,639. The full new population contains 13,200 eligible pairs. The old
+cap of six subjects per benchmark changes the estimand and cannot be repaired
+exactly by merely reweighting those six observations. We remove both that cap
+and the 150-item evaluation cap.
+
+\paragraph{Negative text experiments were narrower than their conclusions.}
+The program called TF--IDF used word and character hashing without inverse
+document frequency. It predicted an item residual, evaluated against an
+in-sample empirical pair mean, with limited training rows and one optimizer
+configuration. Another text model used response-weighted samples and a
+budget-zero endpoint. These experiments are informative failures of those
+specific configurations; they do not establish that transferable item signal
+is absent, that pretrained representations cannot help, or that future
+improvement requires paid runtime language-model calls. We do not relabel
+them as independent successful replications in this audit.
+
+\paragraph{Uncertainty and oracle language.}
+The old interval $[-0.0373,-0.0249]$ belongs to a randomized acquisition run,
+not the headline trajectory. The original report distinguishes them. An
+independent bootstrap interval previously quoted for the headline artifacts
+has no reproducible generator in the released materials and is withdrawn.
+The original-protocol point estimates are retained as a replication;
+uncertainty for the new protocol is reported separately below.
+The older ``sign-flip'' routine was an exact binomial sign test, and zero
+opposite-sign bootstrap samples are not a true probability of zero.
+Finally, a retrospectively fitted per-item oracle is an empirical lower
+score on the observed sample; its within-item variance is not a demonstrated
+irreducible noise floor for new responses.
+
+\section{New evaluation and three initial improvements}
+For each eligible pair, items are canonically ordered and split 50/50 under
+eight SHA-256-derived seeds. One response is drawn uniformly from the recorded
+responses of each acquired item; equivalent Bernoulli draws from that item's
+empirical success fraction avoid expanding repeated records. All evaluation
+responses contribute to scoring. For any predictor constant within a pair,
+the exact sufficient-statistic loss is
+\begin{equation}
+ B(p)=p^2-2pq+q,\qquad q=\frac{\text{evaluation successes}}{\text{evaluation responses}}.
+\end{equation}
+This identity was checked against explicit squared errors on 150 synthetic
+samples. The primary trajectories are invariant to storage row order.
+
+Exact shared content hashes connect the 151 evaluation benchmarks into
+142 components. We keep each component within one of five external folds.
+Inside each external training set, another deterministic component split
+defines fitting and validation roles. Every feature transform and fitted
+model sees only the fitting role; every hyperparameter choice sees only
+inner validation. Public population imbalance is retained: for example,
+\texttt{alignment\_faking} contributes 4,278 pairs and \texttt{sib200}
+contributes 3,341. Folds balance component counts, not pair counts.
+
+The simple controls are the empirical mean and
+\begin{equation}
+ \widehat p=\frac{k+1.5}{n+3},
+\end{equation}
+the posterior mean of a symmetric Beta prior. We claim no novelty for this
+standard shrinkage rule. The first three predeclared improvements are:
+(A) a Beta mean/strength grid; (B) a conditional table indexed by budget and
+success count, regularized and mixed with the original predictor; and
+(C) a ridge prior using visible subject attributes, with categorical and name
+token features. All validation candidates are retained. The table regularizer
+has weight sixteen simulated rows, approximately two training pairs across
+eight seeds, not sixteen independent subjects.
+
+\begin{table}[t]
+\centering\small
+\caption{Independent isolated-pair evaluation. All 13,200 eligible pairs and
+eight seeds; no cross-subject labels. Deltas compare with original Beta--Binomial.
+Intervals are component bootstrap intervals, averaging seeds before resampling.}
+\label{tab:initial}
+\begin{tabular}{lrrl}
+\toprule
+Method & Brier ALC & Delta & 95\% interval for delta\\
+\midrule
+Constant 0.5 & 0.250000 & & \\
+Empirical-mean reference & 0.236814 & & \\
+Original Beta--Binomial & 0.205984 & & \\
+A: tuned Beta prior & 0.205535 & $-0.000449$ & $[-0.005350,+0.003663]$\\
+B: calibration table & 0.205877 & $-0.000107$ & $[-0.000522,+0.000105]$\\
+C: subject ridge prior & 0.216549 & $+0.010565$ & $[+0.001218,+0.017943]$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The original shrinkage rule beats the empirical mean by 0.030830 ALC,
+with a 95\% component-bootstrap interval of $[-0.038426,-0.027214]$ and an
+improvement on 133 of 151 benchmarks. Table~\ref{tab:initial} shows why the
+small point improvements of A and B do not justify promoting either. C
+performs worse. Variation across acquisition seeds does not replace
+uncertainty about transfer to new benchmarks.
+
+\section{Conditional use of cross-subject evidence}
+After inspecting the initial experiments, we separately registered an
+exploratory extension motivated by the documented interface: supplied
+\texttt{labeled} entries can include different subject--benchmark pairs.
+The submitted program can therefore use another visible subject's acquired
+labels when their anonymous benchmark matches. It must never use an unseen
+evaluation label or assume a persistent shared cache.
+
+For a target subject let $(k,n)$ summarize its matching visible attributes,
+and let $(k_o,n_o)$ summarize other supplied subjects on the same benchmark.
+Our fallback-preserving predictor uses
+\begin{equation}
+ m_o=\frac{1.5+k_o}{3+n_o},\quad
+ m=0.5+\rho(m_o-0.5),\quad
+ \widehat p=\frac{k+3m}{n+3}.
+\end{equation}
+With no peer evidence $m_o=m=0.5$, so this is exactly the original predictor.
+A variant that also retunes strength is retained as a separate failed
+candidate: it loses this protective property and worsens isolated-pair loss.
+
+We simulate deterministic random cohorts of four subjects per benchmark as
+the primary availability scenario, with sizes one, two, and eight as
+sensitivities. The final partial block can have fewer subjects. Both methods
+receive the same cohort's acquired labels at each budget. Eight visible
+attribute signatures are shared by 59 internal subject pairs; matching
+dictionary attributes, rather than inaccessible IDs, correctly pools those
+labels for both the original reference and the extension. Thus the cohort
+reference differs slightly from the isolated-ID simulation in
+Table~\ref{tab:initial}; they must not be conflated.
+
+\begin{table}[t]
+\centering\small
+\caption{Conditional availability experiments. The same configuration selected
+in inner validation with cohorts of four is used in the other scenarios.
+These are separate simulated environments, not a choice of the best environment.}
+\label{tab:context}
+\begin{tabular}{rrrrl}
+\toprule
+Subjects/cohort & Original API & Fallback extension & Delta & 95\% interval\\
+\midrule
+1 & 0.205984 & 0.205984 & $0$ & exact probability equality\\
+2 & 0.206010 & 0.204711 & $-0.001298$ & $[-0.003207,-0.000152]$\\
+4 & 0.206027 & 0.203465 & $-0.002562$ & $[-0.005234,-0.000938]$\\
+8 & 0.206030 & 0.202565 & $-0.003465$ & $[-0.006599,-0.001555]$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+For cohorts of four, the relative reduction is 1.24\% against its correctly
+matched API reference, favorable in all eight acquisition seeds. Adjusting
+for the three initial candidates and the two contextual candidates gives
+a 99\% interval of $[-0.006257,-0.000551]$. With retuned strength instead,
+ALC is 0.207251, a worse point estimate than the cohort reference. We retain
+this negative result. The exported fallback candidate uses $\rho=0.5$,
+chosen by the pair-count-weighted mean of logged inner-validation scores
+at fixed strength three. The headline contextual result estimates the
+nested selection procedure; it is not a fresh unbiased test of a fixed
+parameter chosen after fitting to all public development data.
+
+The simulator-to-function correspondence was checked independently on
+5,376 synthetic cases across cohort sizes, mixtures, strengths, visible
+collisions, and partial blocks: maximum error zero. Another 528 valid
+$(n,k)$ states confirm exact fallback. Probability-level equality is tested
+exactly; mathematically identical score reductions are canonicalized only
+after a $10^{-14}$ numerical check to avoid mistaking floating-point noise
+for a nonzero effect.
+
+\section{Inference, limitations, and reproducibility}
+We average the eight seeds within each pair, then bootstrap 10,000 complete
+content components. Each replicate recomputes total score difference divided
+by total pair count, preserving the official pair-weighted estimand rather
+than silently averaging benchmark means. Reported 95\% intervals are
+descriptive; family-adjusted intervals are used when comparing promoted
+candidate families. The grouped sign-randomization calculation uses a
+plus-one correction and requires symmetry assumptions; it is not treated
+as an exact distribution-free statement about transfer.
+
+This bootstrap conditions on fitted cross-validation models; it does not
+retrain the whole selection process for each replicate. Exact content hashes
+do not catch paraphrases or every family relationship. Public-population
+weights may differ from the platform's subject sampling, and binary outcomes
+have heterogeneous meanings across released benchmarks. The inner validation
+sets and folds can be imbalanced by a few large benchmarks. Fitted models
+are not refitted on fit plus validation after selection, which is valid but
+may sacrifice efficiency. We make no claim to exhaust model classes or
+the potential value of pretrained representations.
+
+Most importantly, Codabench was inaccessible during this audit. The interface
+allows peer labels, but their actual simultaneous availability, ordering,
+and cohort sizes are unverified. The contextual result is therefore a
+conditional local improvement and a candidate for platform testing. When no
+such labels are supplied, its output is exactly the original rule. The
+original ZIP is retained alongside the candidate. The development release is
+public, but no Codabench submission ID or official score has been obtained.
+
+The accompanying release contains both single-file predictors, the original
+artifacts, the independent evaluator, grouped split manifests, all inner
+validation candidates, per-pair scores, source hashes, protocols registered
+before their experiments, and the independent review. A pinned downloader
+replaces the earlier unversioned download helper. Inputs remain subject to
+their upstream access conditions and licenses and are not bundled as raw
+content. Python package versions and reproduction commands are recorded in
+the release README. Tests and experiments used CPU with at most four library
+threads; neither GPU nor paid inference was necessary for these results.
+
+Code, protocols, results, and reproduction instructions are publicly available
+at \url{https://github.com/Agnuxo1/AIMS-PAIEC-2026}; the presentation is linked
+from that repository. The immutable initial release is tagged \texttt{v1.0.0}.
+An accepted Codabench submission ID remains pending because the platform is
+unreachable. The organisers were contacted on 24 October 2026 about the
+submission route; no alternative acceptance has been received. The current
+report is a technical preprint, not evidence of admission or a presentation award.
+
+\paragraph{Disclosure.}
+Large language models assisted the original development and this audit,
+including code, writing, and an independent review conducted without viewing
+the new experimental scores. The new data reconstruction and scoring were
+executed with deterministic tools, and intermediate failures are retained:
+one replication attempt incorrectly assumed hash-group output order, and
+two checks required technical fixes for JSON serialization and floating-point
+reduction. These were corrected without changing candidate grids or removing
+unfavorable results. No raw credential file was inspected or included.
+
+\begin{thebibliography}{3}
+\bibitem{competition} Stanford AIMS. Predictive AI Evaluation Competition at NeurIPS 2026.
+\url{https://aims.stanford.edu/competition/}. Accessed 24 October 2026.
+\bibitem{data} AIMS Foundations. Measurement database, frozen revision
+\texttt{54074453}. \url{https://huggingface.co/datasets/aims-foundations/measurement-db}.
+\bibitem{baseline} AIMS Foundations. PAIEC predictor baselines.
+\url{https://github.com/aims-foundations/paiec_baseline}.
+\end{thebibliography}
+\end{document}
