@@ -149,7 +149,7 @@ def gif_codabench(repo, out):
         ax.set_xlabel("Label budget n (log2(1+n) spacing)"); ax.set_ylabel("Mean Brier over sampled pairs")
         ax.set_title("Official formative feedback, built budget by budget"); ax.grid(color=GRID)
         ax.legend(fontsize=8, loc="lower left")
-        fig.text(0.01, 0.01, "Measured on Codabench; each submission sees a newly sampled set of 9 pairs, "
+        fig.text(0.01, 0.01, "Measured on Codabench; each submission sees a new sample of 8-9 pairs, "
                  "so the curves are not a paired comparison.", fontsize=7.5, color=MUTED)
         fig.tight_layout(rect=(0, 0.04, 1, 1))
         frames.append(render(fig)); durations.append(2200 if upto == 6 else 900)
