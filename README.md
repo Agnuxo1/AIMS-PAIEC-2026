@@ -5,7 +5,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-1b6ca8.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-1b6ca8.svg)](requirements.txt)
 [![CI](https://github.com/Agnuxo1/AIMS-PAIEC-2026/actions/workflows/ci.yml/badge.svg)](https://github.com/Agnuxo1/AIMS-PAIEC-2026/actions/workflows/ci.yml)
-[![Report](https://img.shields.io/badge/report-PDF-c1121f.svg)](report/informe_v3.pdf)
+[![Report](https://img.shields.io/badge/report-v4%20PDF-c1121f.svg)](report/informe_v4.pdf)
+[![Codabench](https://img.shields.io/badge/Codabench-1015136%20selected-2a9d8f.svg)](#official-codabench-results)
 
 Francisco Angulo de Lafuente · Independent researcher, Madrid, Spain
 
@@ -19,8 +20,18 @@ averaged with every pair weighted equally. The test items come from benchmarks
 that are **entirely absent from training**, so nothing benchmark-specific can be
 transferred.
 
-Our submission is four lines of arithmetic. Most of this repository is the
-evidence for why it is four lines and not four hundred.
+Our first submission is four lines of arithmetic; our selected submission adds
+one idea on top — **a peer's label on the very item being predicted** — and is
+still about forty lines of pure Python with no training, files or network. Most
+of this repository is the evidence for why it is that small.
+
+| At a glance | |
+|---|---|
+| Selected Codabench submission | **1015136** — `submission_item_peer.zip` (E1) |
+| Earlier Codabench submission | 1013718 — `submission_original.zip`, formative Brier ALC **0.208365** |
+| Local validation, submitted rule vs official reference | 0.236814 → **0.205984** (13,200 pairs, 8 seeds) |
+| E1 vs the submitted rule, cohorts of 2 subjects | **−0.004437** [−0.005139, −0.003741], 8/8 seeds |
+| Technical report | [`report/informe_v4.pdf`](report/informe_v4.pdf), NeurIPS template, 7 pages |
 
 ![Three claims kept apart](docs/figures/fig4_status.png)
 
@@ -33,7 +44,12 @@ evidence for why it is four lines and not four hundred.
   &nbsp;·&nbsp; English narration, no subtitle track
 </p>
 
-**25 October audit update.** The [corrected five-page report](report/informe_v3.pdf) withdraws an original-protocol bootstrap interval that had no reproducible generator. The earlier deposited PDF and both predictor archives remain byte-for-byte unchanged. This is a local technical correction; no Codabench ID, OpenReview receipt or official score has been obtained. [Evidence](docs/evidence/closure_audit_20261025.json).
+**28 October update.** Codabench is reachable again. Both the original rule
+(1013718) and the new same-item predictor (1015136) ran on the platform; the
+[v4 report](report/informe_v4.pdf) adds experiment E1 and the official feedback.
+The 25 October [five-page report](report/informe_v3.pdf) and every earlier
+archive remain byte-for-byte unchanged.
+[Earlier audit evidence](docs/evidence/closure_audit_20261025.json).
 
 ## The result
 
@@ -80,6 +96,67 @@ predict([subject, item], [])                       # 0.5     no evidence
 predict([subject, item], [[[subject, item], 1]])   # 0.625    one success
 predict([subject, item], [[[subject, item], 0]])   # 0.375    one failure
 ```
+
+## Same-item peer evidence (E1) — the selected submission
+
+The official ingestion
+([`tools/streaming_ingestion.py`](https://github.com/aims-foundations/paiec_baseline),
+commit `cc88a95`) hands **one global `labeled` list** to every prediction, and
+the rules draw the 50/50 acquisition/evaluation split **per subject–benchmark
+pair**. So another subject may already have revealed the item you are about to
+predict. Its label, measured against that subject's own rate, says how hard the
+item is.
+
+$$\hat{p} = \mathrm{clip}\Big(\frac{k+3m}{n+3} + \lambda\,\frac{\sum_j \big(y_j - \hat r_j^{(-i)}\big)}{c+\\#\lbrace j\rbrace}\Big),\qquad \lambda = 0.75,\; c = 1$$
+
+where `m` is the benchmark-context prior and `r_j^(-i)` is peer `j`'s
+leave-one-out rate. With no same-item label the shift is zero; with no peer at
+all the output is **exactly** the submitted rule of 1013718.
+
+<p align="center">
+  <img src="docs/figures/gif3_item_peer.gif" alt="A peer's label on the same item moves that item's prediction" width="820">
+</p>
+
+The hypothesis, grid and acceptance rule were
+[pre-registered](experiments/E1/PREREG_E1.md) before the run. A platform-like
+simulator ([`experiments/E1/run_e1.py`](experiments/E1/run_e1.py)) builds cohorts
+of subjects sharing a benchmark, 88–152 items per pair as observed on Codabench,
+independent 50/50 splits and random acquisition, over 8 seeds; λ and c are chosen
+on four content-component folds and scored on the fifth. The same configuration
+won in all five folds.
+
+![E1 results](docs/figures/fig5_e1_item_peer.png)
+
+| Held-out comparison | 2 subjects / benchmark | 4 subjects / benchmark |
+|---|---|---|
+| E1 vs submitted rule | **−0.004437** [−0.005139, −0.003741] · 8/8 seeds · 118/134 | **−0.009450** [−0.010788, −0.008131] · 8/8 · 97/105 |
+| E1 vs benchmark context only | −0.001930 [−0.002305, −0.001546] · 8/8 · 116/134 | −0.005583 [−0.006602, −0.004598] · 8/8 · 92/105 |
+| Residuals without the context prior vs context | +0.000459 [−0.000390, +0.001357] · 0/8 — **rejected** | −0.001998 [−0.003542, −0.000355] |
+
+The shipped [`model.py`](submissions/item_peer/model.py) reproduces the
+simulator **exactly** (216 pair curves, max error 0) and equals the original
+rule when only the target's own labels exist (2,220 checks):
+[`experiments/E1/parity_e1.py`](experiments/E1/parity_e1.py). Every simulated
+pair shares its benchmark with a peer; on Codabench only part of a sample does
+(4 of 9 pairs in 1013718), so expect roughly half the effect there. Full log:
+[`experiments/LOG.md`](experiments/LOG.md) · [`experiments/experiments.csv`](experiments/experiments.csv).
+
+## Official Codabench results
+
+| ID | Archive | Sampled pairs | Brier ALC (formative) | ECE |
+|---|---|---|---|---|
+| 1013718 | `submission_original.zip` | 9 | 0.208365 | 0.136929 |
+| **1015136** | `submission_item_peer.zip` (selected) | — | running on Codabench (28 Oct) | — |
+
+<p align="center">
+  <img src="docs/figures/gif4_codabench_alc.gif" alt="Official formative learning curves, budget by budget" width="760">
+</p>
+
+Each formative evaluation draws a **new** sample of only nine subject–benchmark
+pairs, so the across-pair standard error is about 0.022: these numbers prove the
+archives run on the platform, not which method is better. The final ranking uses
+a common hidden subset for all teams. Per-pair feedback:
+[`docs/evidence/`](docs/evidence/).
 
 ## What did not work
 
@@ -160,6 +237,7 @@ python audit/test_data_and_inference.py
 # 2. Regenerate every figure and animation from the committed results
 python build/make_figures.py --repo . --out docs/figures
 python build/make_gifs.py --out docs/figures
+python build/make_e1_figures.py --repo . --out docs/figures
 ```
 
 Reproducing the scores needs the public dataset. The downloader is pinned to
@@ -172,6 +250,12 @@ python audit/download_pinned.py --data /path/with/space   # verifies every hash
 python audit/build_independent.py        # 151 benchmarks, 13,200 pairs
 python audit/evaluate_independent.py     # Table above
 python audit/evaluate_context.py         # conditional extension
+
+# E1: needs the per-(subject,item) cache written by build_independent.py (audit/raw_cache)
+cp -r audit/raw_cache experiments/E1/raw_cache && cp results/pairs.parquet experiments/E1/
+python experiments/E1/run_e1.py 2        # cohorts of 2 subjects (about one minute on CPU)
+python experiments/E1/run_e1.py 4        # cohorts of 4 subjects
+python experiments/E1/parity_e1.py .     # shipped model.py == simulator, exact fallback
 ```
 
 Accepting the dataset conditions on Hugging Face is required. Raw data, caches,
@@ -180,10 +264,11 @@ environments and credentials are deliberately **not** in this repository.
 ## Layout
 
 ```
-submissions/   submission_original.zip (the entry) and the experimental contextual archive
+submissions/   submission_item_peer.zip (selected, E1), submission_original.zip (1013718) and the contextual archive
 audit/         independent protocol, pinned downloader, evaluators, tests
 results/       every score, candidate, manifest and uncertainty estimate, including the unfavourable ones
-report/        informe_v2.pdf, its LaTeX source and the official style file
+report/        informe_v4.pdf (current), earlier v2/v3, LaTeX sources and the official style file
+experiments/   E1 pre-registration, simulator, parity test, scores, LOG.md and experiments.csv
 legacy_original/  the first delivery, kept intact for provenance
 build/         figure and animation generators
 docs/figures/  figures and GIFs, all regenerable from results/
@@ -197,7 +282,8 @@ Errata, known deviations and what was not reproduced: see [`ERRATA.md`](ERRATA.m
 
 Local validation is not an official score. We report Brier ALC on public
 benchmarks held out from each other, which is a proxy for the private pool. The
-conditional extension depends on an availability we could not verify. The
+E1 simulator assumes how the platform samples subjects and items; the share of
+pairs that meet a peer on Codabench dilutes its effect. The
 hyperparameter grids, the pre-registration locks and the instrumentation
 corrections — including the first failed attempts — are committed alongside the
 results rather than cleaned away.
@@ -206,16 +292,13 @@ results rather than cleaned away.
 
 | Item | State |
 |---|---|
-| Submission archives | Built, both pass the official `check_submission_zip.py` |
-| Technical report | 5 pages, official NeurIPS style, compiled |
-| Codabench submission ID | **None.** The platform has been unreachable from independent networks |
-| Official score | Not obtained |
-| OpenReview profile | Created; professional email confirmed; awaiting manual activation |
-| OpenReview report | Not submitted; profile activation and an accepted Codabench submission ID remain pending |
-| Material deposited with organisers | Updated PDF and both ZIPs emailed in the existing thread on 24 Oct 2026, 09:40 UTC; attachments verified in Sent; acceptance as an alternative route **not confirmed** |
-| Organisers contacted | 24 October 2026, asking for the correct route while the platform is down |
+| Submission archives | Three, all pass the official `check_submission_zip.py` and CI |
+| Codabench | Registered; **1013718** finished (Brier ALC 0.208365); **1015136** (E1) selected for final evaluation |
+| Technical report | v4, 7 pages, official NeurIPS template, compiled without errors |
+| OpenReview | Submission form verified; upload of v4 with ID 1015136 pending the author's login |
+| Earlier e-mail deposit | 24–25 Oct 2026 while Codabench was down; superseded by the platform submissions |
 
-No ranking, acceptance or official score is claimed anywhere in this repository.
+Formative Codabench scores are reported as such; no ranking, acceptance or final score is claimed.
 See [`CIERRE_AIMS.md`](CIERRE_AIMS.md) for the exact state of each deliverable.
 
 ## Citation
