@@ -4,9 +4,9 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{hyperref,url,booktabs,amsmath,amssymb,microtype,graphicx}
-\newcommand{\CBEONE}{\textit{pending}}
-\newcommand{\CBPAIRS}{--}
-\newcommand{\CBECE}{--}
+\newcommand{\CBEONE}{0.185082}
+\newcommand{\CBPAIRS}{8}
+\newcommand{\CBECE}{0.123419}
 \graphicspath{{../docs/figures/}}
 \title{Predictive evaluation with limited labels:\\
 shrinkage, same-item peer evidence, and an audited replication}
@@ -409,7 +409,7 @@ ID & Archive & Pairs & Brier ALC & ECE\\
 Both archives ran to completion (Table~\ref{tab:codabench}). For submission
 1013718, the formative Brier at budgets 0, 1, 3, 7, 15 and 31, averaged over its
 nine pairs, was 0.2500, 0.2284, 0.2142, 0.1975, 0.1869 and 0.1796. The
-per-pair tables are committed with the code. Our selected submission for final
+per-pair tables are committed with the code. Submission 1015136 was scored on a different sample of eight pairs on seven benchmarks, one of which carried two subjects; its budget means were 0.2500, 0.2143, 0.1779, 0.1663, 0.1620 and 0.1599. The gap between the two formative scores is about one standard error and comes mostly from different pairs, so it is not evidence for E1. Our selected submission for final
 evaluation is 1015136, the method of Section~\ref{sec:e1}; it falls back exactly to the
 rule of 1013718 whenever no peer evidence is supplied.
 

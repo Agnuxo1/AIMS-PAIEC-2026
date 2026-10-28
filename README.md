@@ -28,7 +28,8 @@ of this repository is the evidence for why it is that small.
 | At a glance | |
 |---|---|
 | Selected Codabench submission | **1015136** — `submission_item_peer.zip` (E1) |
-| Earlier Codabench submission | 1013718 — `submission_original.zip`, formative Brier ALC **0.208365** |
+| Selected submission, formative score | Brier ALC **0.185082** on 8 sampled pairs (ECE 0.123419) |
+| Earlier Codabench submission | 1013718 — `submission_original.zip`, formative Brier ALC **0.208365** on 9 pairs |
 | Local validation, submitted rule vs official reference | 0.236814 → **0.205984** (13,200 pairs, 8 seeds) |
 | E1 vs the submitted rule, cohorts of 2 subjects | **−0.004437** [−0.005139, −0.003741], 8/8 seeds |
 | Technical report | [`report/informe_v4.pdf`](report/informe_v4.pdf), NeurIPS template, 7 pages |
@@ -146,7 +147,7 @@ pair shares its benchmark with a peer; on Codabench only part of a sample does
 | ID | Archive | Sampled pairs | Brier ALC (formative) | ECE |
 |---|---|---|---|---|
 | 1013718 | `submission_original.zip` | 9 | 0.208365 | 0.136929 |
-| **1015136** | `submission_item_peer.zip` (selected) | — | running on Codabench (28 Oct) | — |
+| **1015136** | `submission_item_peer.zip` (selected) | 8 | 0.185082 | 0.123419 |
 
 <p align="center">
   <img src="docs/figures/gif4_codabench_alc.gif" alt="Official formative learning curves, budget by budget" width="760">
@@ -154,7 +155,8 @@ pair shares its benchmark with a peer; on Codabench only part of a sample does
 
 Each formative evaluation draws a **new** sample of only nine subject–benchmark
 pairs, so the across-pair standard error is about 0.022: these numbers prove the
-archives run on the platform, not which method is better. The final ranking uses
+archives run on the platform, not which method is better (the two samples share
+no subject–benchmark pair). The final ranking uses
 a common hidden subset for all teams. Per-pair feedback:
 [`docs/evidence/`](docs/evidence/).
 
@@ -293,7 +295,7 @@ results rather than cleaned away.
 | Item | State |
 |---|---|
 | Submission archives | Three, all pass the official `check_submission_zip.py` and CI |
-| Codabench | Registered; **1013718** finished (Brier ALC 0.208365); **1015136** (E1) selected for final evaluation |
+| Codabench | Registered; **1013718** finished (0.208365); **1015136** (E1) finished (0.185082) and selected for final evaluation |
 | Technical report | v4, 7 pages, official NeurIPS template, compiled without errors |
 | OpenReview | Submission form verified; upload of v4 with ID 1015136 pending the author's login |
 | Earlier e-mail deposit | 24–25 Oct 2026 while Codabench was down; superseded by the platform submissions |

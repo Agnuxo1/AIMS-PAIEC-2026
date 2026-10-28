@@ -1,7 +1,7 @@
 {
- "generated_utc": "2026-10-28T07:04:21+00:00",
+ "generated_utc": "2026-10-28T07:12:33+00:00",
  "overall_status": "CODABENCH SUBMITTED - OPENREVIEW PENDING AUTHOR LOGIN",
- "status_reason": "Codabench reachable since 2026-10-27; submissions 1013718 (finished) and 1015136 (E1, selected). OpenReview upload waits for the author to log in.",
+ "status_reason": "Codabench: 1013718 and 1015136 finished; 1015136 (E1) selected. OpenReview upload waits for the author to log in.",
  "competition": {
   "name": "Predictive AI Evaluation Competition at NeurIPS 2026",
   "organiser": "Stanford AIMS",
@@ -42,7 +42,7 @@
    "credentials"
   ],
   "commit_note": "Verified base commit before this closure update; the commit containing this file is visible in Git history.",
-  "local_head_at_generation": "be825540ee8eeb1854075b074e78a12f97ad9dbe"
+  "local_head_at_generation": "2105caff96c2cd1f50f10780dac78981b5a0649e"
  },
  "ci": {
   "last_run_id": 40082766428,
@@ -115,8 +115,8 @@
   },
   "technical_report_v4_pdf": {
    "path": "report/informe_v4.pdf",
-   "sha256": "356e6f7e6958865c245743479da6acd1ec20fb2305fd9d28dfe7f501242f7681",
-   "bytes": 277218,
+   "sha256": "4297a779045acc5b97b5a29034e83687a64384890add00ba82464eb61447c703",
+   "bytes": 276875,
    "pages": 7,
    "template": "official NeurIPS style"
   },
@@ -172,6 +172,14 @@
     "formative_brier_alc": 0.2083651983,
     "calibration_ece": 0.1369294318,
     "sampled_pairs": 9,
+    "status": "Finished"
+   },
+   {
+    "id": 1015136,
+    "archive": "submission_item_peer.zip",
+    "formative_brier_alc": 0.1850817606,
+    "calibration_ece": 0.1234189988,
+    "sampled_pairs": 8,
     "status": "Finished"
    }
   ],

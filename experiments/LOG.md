@@ -43,3 +43,9 @@ simulation outputs were reused unchanged and only `analyse()` was re-run (`run_e
 Caveat: these simulations place every pair in a multi-subject cohort. On Codabench only part of
 each sample shares a benchmark (4 of 9 pairs in 1013718), so the expected platform gain is
 diluted roughly in proportion; with no peers the output is identical to E0.
+
+## Codabench 1015136 (28 Oct 2026)
+`submission_item_peer.zip` (E1). Formative Brier ALC **0.185082**, ECE 0.123419, on a new sample of
+8 pairs over 7 benchmarks (one benchmark with 2 subjects). Not a paired comparison with 1013718:
+the samples differ and each has SE ~0.022. Selected as the final entry on the strength of E1.
+Per-pair feedback: `docs/evidence/codabench_1015136_formative.csv`.
