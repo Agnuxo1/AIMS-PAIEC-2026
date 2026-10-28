@@ -1,0 +1,157 @@
+adaptivestep: done 0s
+afrieval: done 2s
+afrimedqa: done 3s
+agentdojo: done 3s
+agentic_review_perturbation: done 3s
+agi_elo: done 4s
+ai2d_test: done 4s
+algotune: done 5s
+alignment_faking: done 7s
+appworld: done 7s
+babilong: done 16s
+bbq: done 18s
+beavertails: done 18s
+benger: done 18s
+bertaqa: done 18s
+bird_sql: done 19s
+brace: done 19s
+braveguard: done 19s
+bridging_gap: done 21s
+causal_axioms: done 21s
+ceval: done 21s
+chatgpt_drift: done 22s
+clasheval: done 22s
+cmmlu: done 23s
+critic_discernment_game: done 23s
+crow: done 24s
+cruxeval: done 24s
+dave: done 24s
+devbench: done 24s
+disco: done 25s
+dtap_bench: done 26s
+editbench: done 26s
+edu_circuit_hw: done 26s
+egoschema: done 26s
+elicitation_game: done 26s
+emoji_attack: done 27s
+engdesign: done 27s
+erbench: done 28s
+evouna: done 28s
+exploitgym: done 28s
+faithcot: done 28s
+fewshot_ttt_bbh: done 29s
+financebench: done 29s
+finegrain_t2i: done 29s
+hallusionbench: done 29s
+harmbench: done 30s
+healthadminbench: done 30s
+helm_afr: done 32s
+helm_bbq: done 33s
+helm_bold: done 33s
+helm_thaiexam: done 33s
+hle: done 33s
+icpc2_code_selector: done 33s
+igakuqa: done 34s
+ikp: done 34s
+interchangeable_token_embeddings: done 37s
+jailbreakbench: done 37s
+judgetuning: done 38s
+kernelbench: done 38s
+kmmlu: done 40s
+kormedmcqa: done 40s
+legal_rag_bench: done 40s
+legalbench: done 40s
+lingoly: done 41s
+liveaopsbench: done 41s
+llm_uncertainty_bench: done 47s
+llmail_inject: done 48s
+llms_lean_formalization: done 49s
+mathconstraint: done 49s
+mathvista_mini: done 49s
+medhelm_ehr_sql: done 49s
+medhelm_head_qa: done 50s
+medhelm_med_mcqa: done 50s
+medhelm_med_qa: done 50s
+medhelm_medbullets: done 50s
+medhelm_medcalc_bench: done 50s
+medhelm_medec: done 50s
+medhelm_medhallu: done 51s
+medhelm_pubmed_qa: done 51s
+medhelm_race_based_med: done 51s
+mergebench: done 51s
+mj_bench: done 51s
+mmbench_v11: done 53s
+mmlu: done 54s
+mmlupro: done 54s
+mmoral_bench: done 55s
+moe_cap: done 55s
+monkey_power_laws: done 55s
+morphkv: done 55s
+mtbbench: done 56s
+multi_moe: done 56s
+multi_swebench: done 56s
+naep_llm_students: done 56s
+naturebench: done 56s
+nester: done 56s
+nyu_ctf_bench: done 56s
+ood_prediction: done 57s
+openbiorq: done 57s
+os_harm: done 58s
+perfcodebench: done 58s
+perumedqa: done 58s
+pku_saferlhf: done 59s
+planbench: done 59s
+preference_dissection: done 59s
+prox: done 60s
+pxplore: done 60s
+real_webagents: done 60s
+realtimeqa: done 60s
+reliancescope: done 60s
+researchcodebench: done 60s
+revolve: done 61s
+risebench: done 61s
+robust_reasoning_benchmark: done 61s
+safeagentbench: done 61s
+sgrades: done 62s
+sib200: done 65s
+sketchjudge: done 65s
+software_world_models: done 65s
+statqa: done 65s
+subjective_qa: done 65s
+sustainable_food: done 66s
+swe_smith: done 66s
+swebench_live: done 66s
+swepolybench: done 66s
+tau2_bench: done 66s
+taubench: done 66s
+tensortrust: done 69s
+truthfulqa_mc: done 69s
+tulu_human_eval: done 69s
+tumlu: done 70s
+visual_riddles: done 70s
+visualwebarena: done 70s
+vl_rewardbench: done 70s
+wikihow_agent: done 71s
+wmt_mqm: done 76s
+workarena: done 76s
+workbench_revisited: done 76s
+worldcentralbanks: done 78s
+Traceback (most recent call last):
+  File "/home/ai/pc/e/AIMS-sprint/exp_e1/run_e1.py", line 158, in <module>
+    main(int(sys.argv[1]) if len(sys.argv) > 1 else 2)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ai/pc/e/AIMS-sprint/exp_e1/run_e1.py", line 116, in main
+    analyse(res, m)
+    ~~~~~~~^^^^^^^^
+  File "/home/ai/pc/e/AIMS-sprint/exp_e1/run_e1.py", line 133, in analyse
+    test = wide[wide.outer_fold == f][['benchmark_id', 'component', 'seed', 'A|0|0', 'B|0|0', best]].copy()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ai/pc/e/AIMS-sprint/exp_e1/.venv/lib/python3.13/site-packages/pandas/core/frame.py", line 4336, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/home/ai/pc/e/AIMS-sprint/exp_e1/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6557, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ai/pc/e/AIMS-sprint/exp_e1/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6609, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['A|0|0', 'B|0|0'] not in index"

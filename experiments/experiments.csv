@@ -1,0 +1,10 @@
+id,date,hypothesis,configuration,commit,metric,value,decision
+E0,2026-10-24,Beta-Binomial shrinkage beats the official empirical mean,"P0=0.5,S=3; 151 benchmarks, 13200 pairs, 8 seeds",be82554,local Brier ALC (diff vs empirical mean),-0.030830 [CI95 -0.038426,-0.027214],accepted (submitted predictor)
+E0-A,2026-10-24,Tuned Beta prior improves E0,"mean/strength grid, nested folds",be82554,local Brier ALC diff,-0.000449 [-0.005350,+0.003663],rejected (inconclusive)
+E0-B,2026-10-24,Calibration table improves E0,"budget x successes table, reg 16",be82554,local Brier ALC diff,-0.000107 [-0.000522,+0.000105],rejected (inconclusive)
+E0-C,2026-10-24,Subject-attribute ridge prior improves E0,"ridge on visible subject attributes",be82554,local Brier ALC diff,+0.010565 [+0.001218,+0.017943],rejected (worse)
+CTX,2026-10-24,Peer labels of the same benchmark improve the prior,"mix 0.5, S 3, cohorts of 4",be82554,local Brier ALC diff,-0.002562 [99% adj -0.006257,-0.000551],accepted as conditional (not submitted until E1)
+CB-1013718,2026-10-27,Execution check of E0 on Codabench,submission_original.zip sha256 895c3a9f...,be82554,Codabench formative Brier ALC (9 pairs),0.208365 (ECE 0.136929; SE across pairs 0.022),recorded
+E1-m2,2026-10-28,Same-item peer residuals lower Brier ALC beyond CTX,"E1(B) lam 0.75 c 1, cohorts of 2, LOFO 5 folds, 8 seeds",this commit,local Brier ALC diff vs E0,-0.004437 [-0.005139,-0.003741]; vs CTX -0.001930 [-0.002305,-0.001546]; 8/8 seeds,accepted
+E1-m4,2026-10-28,Same as E1-m2 with cohorts of 4,"E1(B) lam 0.75 c 1, cohorts of 4",this commit,local Brier ALC diff vs E0,-0.009450 [-0.010788,-0.008131]; vs CTX -0.005583 [-0.006602,-0.004598]; 8/8 seeds,accepted (sensitivity)
+E1-A,2026-10-28,Same-item residuals without benchmark-context prior,"E1(A) lam 0.75 c 1, cohorts of 2",this commit,local Brier ALC diff vs CTX,+0.000459 [-0.000390,+0.001357]; 0/8 seeds,rejected (CTX prior needed)

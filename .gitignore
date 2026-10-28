@@ -15,3 +15,5 @@ env/
 # Local scratch
 /tmp/
 *.tmp
+# E1 per-item cache, rebuilt by audit/build_independent.py
+experiments/E1/raw_cache/

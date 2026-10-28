@@ -1,7 +1,7 @@
 {
- "generated_utc": "2026-10-24T15:01:53.063687+00:00",
- "overall_status": "PENDING - EXTERNALLY BLOCKED",
- "status_reason": "No Codabench submission ID: the submission platform has been unreachable since 2026-10-23. Not delivered, not closed.",
+ "generated_utc": "2026-10-28T07:04:21+00:00",
+ "overall_status": "CODABENCH SUBMITTED - OPENREVIEW PENDING AUTHOR LOGIN",
+ "status_reason": "Codabench reachable since 2026-10-27; submissions 1013718 (finished) and 1015136 (E1, selected). OpenReview upload waits for the author to log in.",
  "competition": {
   "name": "Predictive AI Evaluation Competition at NeurIPS 2026",
   "organiser": "Stanford AIMS",
@@ -24,8 +24,8 @@
   "team_members": [
    "Francisco Angulo de Lafuente"
   ],
-  "codabench_username": null,
-  "codabench_username_note": "Account exists (CodaBench acceptance email dated 2025-10-07) but the username could not be confirmed because the platform is unreachable. Not invented."
+  "codabench_username": "francisco",
+  "codabench_username_note": "Confirmed on the logged-in Codabench session, 2026-10-27."
  },
  "repository": {
   "url": "https://github.com/Agnuxo1/AIMS-PAIEC-2026",
@@ -42,7 +42,7 @@
    "credentials"
   ],
   "commit_note": "Verified base commit before this closure update; the commit containing this file is visible in Git history.",
-  "local_head_at_generation": "16bc039a7c73b7e98417f17d630e40408f1b3837"
+  "local_head_at_generation": "be825540ee8eeb1854075b074e78a12f97ad9dbe"
  },
  "ci": {
   "last_run_id": 40082766428,
@@ -90,18 +90,39 @@
    "docs/figures/fig1_budget_curve.png",
    "docs/figures/fig2_methods.png",
    "docs/figures/fig3_cohorts.png",
-   "docs/figures/fig4_status.png"
+   "docs/figures/fig4_status.png",
+   "docs/figures/fig5_e1_item_peer.png"
   ],
   "gifs": [
    "docs/figures/gif1_shrinkage.gif",
-   "docs/figures/gif2_peers.gif"
+   "docs/figures/gif2_peers.gif",
+   "docs/figures/gif3_item_peer.gif",
+   "docs/figures/gif4_codabench_alc.gif"
   ],
   "gif_static_fallback": "docs/figures/gif1_shrinkage_still.png",
   "figure_generators": [
    "build/make_figures.py",
-   "build/make_gifs.py"
+   "build/make_gifs.py",
+   "build/make_e1_figures.py"
   ],
-  "all_figures_regenerated_from": "results/*.json and results/*.csv"
+  "all_figures_regenerated_from": "results/*.json and results/*.csv",
+  "submission_item_peer.zip": {
+   "path": "submissions/submission_item_peer.zip",
+   "sha256": "2e1d0990307e4c408ce5273d1e7f2ab6f6580ac7df3b5c4d093fd0e80b690f78",
+   "bytes": 1353,
+   "passes_official_checker": true,
+   "status": "selected final entry (E1); returns the original predictor exactly with no peer labels"
+  },
+  "technical_report_v4_pdf": {
+   "path": "report/informe_v4.pdf",
+   "sha256": "356e6f7e6958865c245743479da6acd1ec20fb2305fd9d28dfe7f501242f7681",
+   "bytes": 277218,
+   "pages": 7,
+   "template": "official NeurIPS style"
+  },
+  "technical_report_v4_source": {
+   "path": "report/informe_v4.tex"
+  }
  },
  "video": {
   "url": "https://youtu.be/dBfUTN5afcQ",
@@ -139,15 +160,29 @@
   "proof": "docs/evidence/youtube_sin_subtitulos.png"
  },
  "submission": {
-  "codabench_submission_ids": [],
+  "codabench_submission_ids": [
+   1013718,
+   1015136
+  ],
   "accepted_submission_id": null,
-  "official_scores": [],
-  "final_selection": null,
-  "team_registration_form_submitted": false,
+  "official_scores": [
+   {
+    "id": 1013718,
+    "archive": "submission_original.zip",
+    "formative_brier_alc": 0.2083651983,
+    "calibration_ece": 0.1369294318,
+    "sampled_pairs": 9,
+    "status": "Finished"
+   }
+  ],
+  "final_selection": 1015136,
+  "team_registration_form_submitted": true,
   "team_registration_blocker": "The form requires a Codabench username, which cannot be confirmed while the platform is down.",
   "registration_form_prepared": true,
   "registration_team_name": "Agnuxo1",
-  "registration_form_url": "https://docs.google.com/forms/d/e/1FAIpQLSevCdcDO1TaWqWUY7vRMljoYE97PJXC-X3Vg3ItD3kRi8XUmQ/viewform"
+  "registration_form_url": "https://docs.google.com/forms/d/e/1FAIpQLSevCdcDO1TaWqWUY7vRMljoYE97PJXC-X3Vg3ItD3kRi8XUmQ/viewform",
+  "team_registration_receipt": "Google Forms confirmation page and e-mail, 2026-10-27",
+  "final_selection_rationale": "E1 beats the submitted rule in pre-registered local validation (cohorts of 2: -0.004437, CI95 [-0.005139,-0.003741], 8/8 seeds) and equals it exactly without peer labels. Formative Codabench samples (9 pairs, SE about 0.022) cannot discriminate."
  },
  "openreview": {
   "submitted": false,
@@ -283,12 +318,9 @@
   "pending_owner_action": "Key rotation for the previously exposed credentials file remains the owner's decision; nothing was revoked."
  },
  "next_steps": [
-  "Retry https://www.codabench.org/competitions/17828/ at intervals until 2026-10-30",
-  "On access: confirm the Codabench username, complete the team registration form, upload submission_original.zip, record the submission ID and its state",
-  "If quota and rules allow, also test the contextual archive and check whether peer labels are genuinely supplied, without identifying anonymous subjects or benchmarks",
-  "Select the final entry on the available evidence and document the decision",
-  "Submit the report through OpenReview with the selected submission ID and the public links",
-  "Follow any alternative route the organisers provide and record the receipt"
+  "Author logs in to OpenReview",
+  "Upload report v4 with Codabench ID 1015136 and record the receipt",
+  "Record final formative score of 1015136"
  ],
  "future_obligations": [
   "In-person session in Sydney on 2026-12-11, 08:00-10:15 local, if selected for oral or poster. No travel support published.",
@@ -321,5 +353,13 @@
   "deposited_material_unchanged": true,
   "submission_id": null,
   "openreview_receipt": null
+ },
+ "update_2026_10_28": {
+  "codabench_reachable": true,
+  "rules_reverified": "docs/evidence via closure folder; deadline unchanged 2026-10-31T11:59Z",
+  "max_submissions_per_day": 50,
+  "peer_labels_verified": "official streaming_ingestion.py passes one global labeled list; 1013718 sample had 2 benchmarks with 2 subjects",
+  "experiment": "experiments/E1 (pre-registered, accepted)",
+  "openreview": "form fields verified via public invitation; login by author pending"
  }
 }

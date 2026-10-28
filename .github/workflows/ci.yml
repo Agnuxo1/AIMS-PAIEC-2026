@@ -33,4 +33,5 @@ jobs:
         run: |
           python build/make_figures.py --repo . --out /tmp/figs
           python build/make_gifs.py --out /tmp/figs
+          (cd build && python make_e1_figures.py --repo .. --out /tmp/figs)
           ls -la /tmp/figs

@@ -8,8 +8,8 @@ Checks, for every ZIP in submissions/:
   * predict() returns a finite float in [0, 1] on a battery of edge cases,
     including malformed evidence;
   * the shrinkage identity holds exactly on random (n, k) draws;
-  * the contextual archive returns the original probabilities when no peer
-    labels are supplied.
+  * the contextual and item-peer archives return the original probabilities
+    when no peer labels are supplied.
 
 Exit code 0 means every archive is self-contained and well behaved.
 """
@@ -159,7 +159,7 @@ def main():
 
     orig = next((m for f, m in loaded.items() if "original" in f), None)
     for fname, mod in loaded.items():
-        if orig is not None and "context" in fname:
+        if orig is not None and ("context" in fname or "item_peer" in fname):
             print(f"\n{fname} vs the original")
             fallback(mod, orig, fname)
 
