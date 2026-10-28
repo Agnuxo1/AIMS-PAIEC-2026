@@ -1,0 +1,42 @@
+{
+  "kind": "new_exploratory_shrinkage_interventions_historical_baseline",
+  "n_scenarios": 105600,
+  "n_pairs": 13200,
+  "n_benchmarks": 151,
+  "n_components": 142,
+  "baseline": 0.2059838433113593,
+  "source_sha256": "4fc16cd067698e9d4afc9acb7b96116025c91ab501f648959bd660a51369c359",
+  "results": {
+    "A1_S5": {
+      "brier_alc": 0.2083532348532079,
+      "delta_brier_vs_S3": 0.002369391541848591,
+      "paired_component_ci95": [
+        0.0008220649376677573,
+        0.003200653225238143
+      ],
+      "improved_pairs": 6518,
+      "worsened_pairs": 6682
+    },
+    "A2_S1": {
+      "brier_alc": 0.2090036281412882,
+      "delta_brier_vs_S3": 0.0030197848299288793,
+      "paired_component_ci95": [
+        0.0014368725734566373,
+        0.005949918225642051
+      ],
+      "improved_pairs": 4563,
+      "worsened_pairs": 8637
+    },
+    "A3_increasing_strength": {
+      "brier_alc": 0.20851645486042206,
+      "delta_brier_vs_S3": 0.0025326115490627815,
+      "paired_component_ci95": [
+        0.00097917014107106,
+        0.003365438277708323
+      ],
+      "improved_pairs": 6381,
+      "worsened_pairs": 6819
+    }
+  },
+  "generated_utc": "2026-10-28T09:39:23.413166+00:00"
+}

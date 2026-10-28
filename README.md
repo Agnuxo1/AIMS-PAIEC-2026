@@ -52,6 +52,37 @@ The 25 October [five-page report](report/informe_v3.pdf) and every earlier
 archive remain byte-for-byte unchanged.
 [Earlier audit evidence](docs/evidence/closure_audit_20261025.json).
 
+## 28 October: three reproducible prior-strength interventions
+
+The project now includes a portable experiment runner over its committed
+105,600 scenarios (13,200 subject–benchmark pairs, 151 benchmarks and 142
+dependency components). It reproduces the historical S=3 control **exactly**,
+then compares three fixed alternatives on identical scenarios, with paired
+component-bootstrap intervals and per-pair outcomes retained.
+
+| Prior strength | Mean Brier ALC ↓ | Pairs improved vs S=3 | Pairs worsened |
+|---|---:|---:|---:|
+| S=3 control | **0.205984** | — | — |
+| A1: S=5 | 0.208353 | 6,518 | 6,682 |
+| A2: S=1 | 0.209004 | 4,563 | 8,637 |
+| A3: S(n)=3+sqrt(n) | 0.208516 | 6,381 | 6,819 |
+
+Thousands of local improvements remain visible; none of these alternatives
+improves the global mean. They therefore do not replace S=3 or the selected
+same-item E1 predictor. The positive E1 result above remains a separate,
+same-cohort comparison. These experiments are against the historical control,
+not a new comparison with E1 or a new official submission.
+
+```sh
+python experiments/compare_prior_strengths.py
+```
+
+[Results, intervals and source hash](results/prior_strength_experiments.json) ·
+[All paired outcomes](results/prior_strength_pair_scores.csv).
+Further adaptive selection would require a rule chosen on training components
+and evaluated on reserved components; selecting the improved pairs afterward
+would not be a valid generalisation claim.
+
 ## The result
 
 Under an independent re-evaluation over **151 benchmarks, 13,200 eligible pairs,
