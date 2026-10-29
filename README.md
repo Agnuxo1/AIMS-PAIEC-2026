@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/readme/01-banner.gif" alt="Predictive AI Evaluation: official empirical-mean reference versus the Beta-Binomial rule over 0 to 31 revealed labels" width="100%"></p>
+
 # Predicting whether an AI system will get an item right
 
 **Predictive AI Evaluation Competition — NeurIPS 2026 (Stanford AIMS)**
@@ -52,7 +54,11 @@ The 25 October [five-page report](report/informe_v3.pdf) and every earlier
 archive remain byte-for-byte unchanged.
 [Earlier audit evidence](docs/evidence/closure_audit_20261025.json).
 
+**Contents** — [28 October: three reproducible prior-strength interventions](#28-october-three-reproducible-prior-strength-interventions) · [The result](#the-result) · [The method](#the-method) · [Same-item peer evidence (E1) — the selected submission](#same-item-peer-evidence-e1--the-selected-submission) · [Official Codabench results](#official-codabench-results) · [What did not work](#what-did-not-work) · [A conditional extension, reported separately](#a-conditional-extension-reported-separately) · [Independent audit](#independent-audit) · [Quickstart](#quickstart) · [Layout](#layout) · [Limitations](#limitations) · [Competition status](#competition-status) · [Background](#background) · [Real-world applications](#real-world-applications) · [Possible improvements](#possible-improvements) · [Future work](#future-work) · [Citation](#citation) · [References](#references) · [Licence](#licence)
+
 ## 28 October: three reproducible prior-strength interventions
+
+<p align="center"><img src="docs/readme/02-prior-strength.gif" alt="Forest plot of three prior-strength alternatives against the S = 3 control" width="100%"><br><sub>Animated figure A1 — Change in mean Brier ALC against S = 3. Data: results/prior_strength_experiments.json.</sub></p>
 
 The project now includes a portable experiment runner over its committed
 105,600 scenarios (13,200 subject–benchmark pairs, 151 benchmarks and 142
@@ -106,6 +112,8 @@ ignoring the labels entirely.
 > competitive with other entrants, and we do not claim it is.
 
 ## The method
+
+<p align="center"><img src="docs/readme/03-method-run.gif" alt="Terminal running the README snippet next to the same arithmetic by hand" width="100%"><br><sub>Animated figure A2 — A real run of submissions/original/model.py on the README example.</sub></p>
 
 $$\hat{p} \;=\; \frac{\alpha + k}{\alpha + \beta + n}, \qquad \alpha = P_0 S, \quad \beta = (1 - P_0) S, \qquad P_0 = 0.5,\; S = 3$$
 
@@ -235,6 +243,8 @@ favourable across all eight seeds.
 
 ## Independent audit
 
+<p align="center"><img src="docs/readme/04-audit.gif" alt="Three headline numbers of the audit and four defects paired with how each was handled" width="100%"><br><sub>Animated figure A3 — Audit findings, as listed in this section and in AUDITORIA_COMPLETA.md.</sub></p>
+
 An independent re-derivation reproduced the original 496 headline pairs from the
 Parquet files without executing the original evaluator — maximum per-pair error
 **1.11 × 10⁻¹⁶** — and then found real defects, all of which are documented in
@@ -258,6 +268,8 @@ in the fields the predictor receives, in a keyword screen; and a fifth of
 repeated subject–item observations contain both a success and a failure.
 
 ## Quickstart
+
+<p align="center"><img src="docs/readme/05-quickstart.gif" alt="Terminal running the two offline CI checks" width="100%"><br><sub>Animated figure A4 — A real local run of audit/test_data_and_inference.py and ci/check_submissions.py.</sub></p>
 
 ```bash
 git clone https://github.com/Agnuxo1/AIMS-PAIEC-2026.git
@@ -296,6 +308,8 @@ environments and credentials are deliberately **not** in this repository.
 
 ## Layout
 
+<p align="center"><img src="docs/readme/06-layout.gif" alt="Schematic of how the repository folders feed each other" width="100%"><br><sub>Animated figure A5 — Schematic of the layout below; it is not a data figure.</sub></p>
+
 ```
 submissions/   submission_item_peer.zip (selected, E1), submission_original.zip (1013718) and the contextual archive
 audit/         independent protocol, pinned downloader, evaluators, tests
@@ -310,8 +324,9 @@ docs/video/    narration script, render scripts, thumbnail and timings
 
 ## Limitations
 
-Errata, known deviations and what was not reproduced: see [`ERRATA.md`](ERRATA.md).
+<p align="center"><img src="docs/readme/07-limitations.gif" alt="Six cards listing what the reported numbers do not show" width="100%"><br><sub>Animated figure A6 — Limits stated in this section and in ERRATA.md.</sub></p>
 
+Errata, known deviations and what was not reproduced: see [`ERRATA.md`](ERRATA.md).
 
 Local validation is not an official score. We report Brier ALC on public
 benchmarks held out from each other, which is a proxy for the private pool. The
@@ -323,6 +338,8 @@ results rather than cleaned away.
 
 ## Competition status
 
+<p align="center"><img src="docs/readme/08-status.gif" alt="Ledger of each deliverable with its state" width="100%"><br><sub>Animated figure A7 — The table below and the note under it as a ledger; the deadline is from CIERRE_AIMS.json.</sub></p>
+
 | Item | State |
 |---|---|
 | Submission archives | Three, all pass the official `check_submission_zip.py` and CI |
@@ -333,6 +350,91 @@ results rather than cleaned away.
 
 Formative Codabench scores are reported as such; no ranking, acceptance or final score is claimed.
 See [`CIERRE_AIMS.md`](CIERRE_AIMS.md) for the exact state of each deliverable.
+
+## Background
+
+<p align="center"><img src="docs/readme/09-background.gif" alt="Animated timeline from the Brier score in 1950 to this entry in October 2026" width="100%"><br><sub>Animated figure A8 — Milestones behind the approach. Sources: the reference list at the end of this README.</sub></p>
+
+The task asks for probability forecasts, and the classical way to score them is the Brier score, the squared
+difference between the stated probability and the 0/1 outcome (Brier, 1950, in the list below). It is a strictly
+proper scoring rule, so a forecaster scores best by stating what it believes ([Gneiting & Raftery, 2007](#ref-gneiting2007)). Brier ALC is the area
+under that loss curve over the label budgets 0, 1, 3, 7, 15 and 31 (trapezoid weights 0.1, 0.2, 0.2, 0.2, 0.2, 0.1). The calibration error (ECE) reported next to it in the
+Codabench feedback is the usual summary of how well stated confidence matches outcomes ([Guo et al., 2017](#ref-guo2017)). Predicting an
+AI system's chance of success on a new item sits beside work on whether language models can judge their own answers
+([Kadavath et al., 2022](#ref-kadavath2022)), on predicting benchmark scores from few items ([Polo et al., 2024](#ref-polo2024)) or from scale and model family
+([Ruan et al., 2024](#ref-ruan2024)), and on making AI behaviour more predictable ([Zhou et al., 2023](#ref-zhou2023)).
+
+The method itself is old statistics. Beta-Binomial shrinkage pulls a noisy raw rate towards a prior, the idea behind
+Stein's estimator ([Efron & Morris, 1975](#ref-efron1975)) and empirical Bayes ([Casella, 1985](#ref-casella1985)). Under this metric it matters at the first
+revealed label, where the official reference returns the raw mean (see [The result](#the-result)). Intervals for the new
+protocol and for E1 are paired component bootstrap intervals ([Efron, 1979](#ref-efron1979)), the E1 hypothesis, grid and acceptance rule were
+pre-registered before the run ([Nosek et al., 2018](#ref-nosek2018)), and unfavourable results are kept next to the favourable ones. The
+dated steps of this entry are in [`experiments/LOG.md`](experiments/LOG.md): the independent protocol and the E0
+family on 24 October 2026, Codabench 1013718 on 27 October, and E1 with Codabench 1015136 on 28 October.
+
+The author, Francisco Angulo de Lafuente, is an independent researcher in Madrid. His earlier public work is listed
+in [`docs/AUTHOR.md`](docs/AUTHOR.md): co-authorship of the OpenCLAW-P2P paper ([Angulo de Lafuente et al., 2026](#ref-openclaw2026)), the principal
+architect role in the [P2PCLAW research network](https://www.p2pclaw.com/), and documented patent filings from 2005
+and 2012.
+
+## Real-world applications
+
+<p align="center"><img src="docs/readme/10-applications.gif" alt="Six application cards appearing one after another" width="100%"><br><sub>Animated figure A9 — Potential uses of item-level success prediction. None is validated outside this competition's local evaluation.</sub></p>
+
+These are potential uses that follow from the method, not results of this repository: the evidence here is local
+validation on public benchmarks. Each use would need its own validation on its own data.
+
+- **Cheaper evaluation.** Forecasting how a system will score on unseen items from a handful of labels, so that fewer
+  items need to be graded ([Polo et al., 2024](#ref-polo2024); [Ruan et al., 2024](#ref-ruan2024)).
+- **Routing and triage.** An estimate of the chance that an assistant answers a new query correctly could route the
+  query to a stronger model or to human review, in the spirit of models that judge their own answers
+  ([Kadavath et al., 2022](#ref-kadavath2022)).
+- **Calibration tracking.** Brier ALC and ECE show how well stated confidence matches outcomes as labels arrive
+  ([Guo et al., 2017](#ref-guo2017)).
+- **Benchmark auditing.** Under E1 a peer's label on the same item says how hard that item is; items that many
+  subjects fail could be reviewed for ambiguity or errors. This use is a hypothesis and was not tested here.
+- **Budgeted test design.** The budget curve shows where revealed labels pay off: here the gap to the reference opens
+  at the first label.
+- **Transparent reporting.** Per-pair outcomes, intervals and unfavourable results are kept, which follows the call to report
+  more than aggregate scores ([Burnell et al., 2023](#ref-burnell2023)).
+
+## Possible improvements
+
+<p align="center"><img src="docs/readme/11-improvements.gif" alt="Stated limits on the left turning into proposed next experiments on the right" width="100%"><br><sub>Animated figure A10 — Each proposal targets a limit or negative result reported in this README.</sub></p>
+
+Each item answers a negative result in [What did not work](#what-did-not-work) or a limit in
+[Limitations](#limitations); none is claimed as done.
+
+- **Item-level variation.** The oracle gap is almost entirely variation between items inside a pair, and no extension
+  tried reached it. Item-level models should be fitted on training components and judged on reserved components, under
+  nested folds.
+- **Choice of prior strength.** S = 3 was picked on an earlier development split, and A1–A3 did not beat it. The
+  README already states the condition for going further: a rule chosen on training components and evaluated on
+  reserved ones, never on the pairs it improved.
+- **Peer evidence on the platform.** E1 was simulated, and on Codabench only part of a sample shares a benchmark with a
+  peer (4 of 9 pairs in 1013718). Re-estimating the E1 effect needs the share of such pairs on the common hidden subset.
+- **Larger samples.** A formative sample of 8 or 9 pairs, with a standard error across pairs of about 0.022, cannot
+  separate methods. A larger common subset, reported with paired intervals, could.
+- **Reproducibility gaps.** [`ERRATA.md`](ERRATA.md) lists scripts outside the locks, result files without a generator
+  and an original-protocol replication that needs local paths. Hash locks, generators and a portable replication
+  would close them.
+
+## Future work
+
+<p align="center"><img src="docs/readme/12-roadmap.gif" alt="Roadmap with three completed milestones and three pending steps" width="100%"><br><sub>Animated figure A11 — Completed milestones are documented in this repository; the rest wait on others or are proposed.</sub></p>
+
+The first three steps are recorded in [`CIERRE_AIMS.json`](CIERRE_AIMS.json); the last four are research plans, and
+none is claimed as started:
+
+1. The author logs in to OpenReview, uploads report v4 with Codabench ID 1015136 and records the receipt.
+2. The final-evaluation score of 1015136 is recorded when the organisers publish it. The final ranking uses a
+   common hidden subset, and none is claimed before then.
+3. Consideration for an oral or a poster requires the technical report and the released code, which is already
+   public; the in-person session in Sydney is on 11 December 2026, 08:00–10:15 local. No travel support is published.
+4. Study item-level variation inside a pair under reserved components.
+5. Select the prior strength by nested folds and test the rule on reserved components.
+6. Add hash locks and generators, and make the original-protocol replication portable.
+7. Re-estimate the E1 effect once the share of pairs with peers on the final subset is known.
 
 ## Citation
 
@@ -353,6 +455,18 @@ See [`CIERRE_AIMS.md`](CIERRE_AIMS.md) for the exact state of each deliverable.
 - Public training release `aims-foundations/measurement-db` — <https://huggingface.co/datasets/aims-foundations/measurement-db>
 - Official baseline predictors `aims-foundations/paiec_baseline` — <https://github.com/aims-foundations/paiec_baseline>
 - Brier, G. W. (1950). *Verification of forecasts expressed in terms of probability.* Monthly Weather Review 78(1), 1–3.
+- <a id="ref-gneiting2007"></a>Gneiting, T., & Raftery, A. E. (2007). Strictly Proper Scoring Rules, Prediction, and Estimation. *Journal of the American Statistical Association*, 102(477), 359–378. https://doi.org/10.1198/016214506000001437
+- <a id="ref-guo2017"></a>Guo, C., Pleiss, G., Sun, Y., & Weinberger, K. Q. (2017). On Calibration of Modern Neural Networks. *arXiv* 1706.04599. https://arxiv.org/abs/1706.04599
+- <a id="ref-kadavath2022"></a>Kadavath, S., Conerly, T., Askell, A., et al. (2022). Language Models (Mostly) Know What They Know. *arXiv* 2207.05221. https://arxiv.org/abs/2207.05221
+- <a id="ref-polo2024"></a>Polo, F. M., Weber, L., Choshen, L., et al. (2024). tinyBenchmarks: evaluating LLMs with fewer examples. *arXiv* 2402.14992. https://arxiv.org/abs/2402.14992
+- <a id="ref-ruan2024"></a>Ruan, Y., Maddison, C. J., & Hashimoto, T. (2024). Observational Scaling Laws and the Predictability of Language Model Performance. *arXiv* 2405.10938. https://arxiv.org/abs/2405.10938
+- <a id="ref-zhou2023"></a>Zhou, L., Moreno-Casares, P. A., Martínez-Plumed, F., et al. (2023). Predictable Artificial Intelligence. *arXiv* 2310.06167. https://arxiv.org/abs/2310.06167
+- <a id="ref-efron1975"></a>Efron, B., & Morris, C. (1975). Data Analysis Using Stein's Estimator and its Generalizations. *Journal of the American Statistical Association*, 70(350), 311–319. https://doi.org/10.1080/01621459.1975.10479864
+- <a id="ref-casella1985"></a>Casella, G. (1985). An Introduction to Empirical Bayes Data Analysis. *The American Statistician*, 39(2), 83–87. https://doi.org/10.1080/00031305.1985.10479400
+- <a id="ref-efron1979"></a>Efron, B. (1979). Bootstrap Methods: Another Look at the Jackknife. *The Annals of Statistics*, 7(1), 1–26. https://doi.org/10.1214/aos/1176344552
+- <a id="ref-nosek2018"></a>Nosek, B. A., Ebersole, C. R., DeHaven, A. C., & Mellor, D. T. (2018). The preregistration revolution. *Proceedings of the National Academy of Sciences*, 115(11), 2600–2606. https://doi.org/10.1073/pnas.1708274114
+- <a id="ref-openclaw2026"></a>Angulo de Lafuente, F., Sharma, T., Veselov, V., et al. (2026). OpenCLAW-P2P v7.0-P2PCLAW: Resilient Multi-Layer Persistence, Live Reference Verification, and Production-Scale Evaluation of Decentralized AI Peer Review v7.0 — Mathematical Corrections & Ecosystem Developments Edition. *arXiv* 2604.19792. https://arxiv.org/abs/2604.19792
+- <a id="ref-burnell2023"></a>Burnell, R., Schellaert, W., Burden, J., et al. (2023). Rethink reporting of evaluation results in AI. *Science*, 380(6641), 136–138. https://doi.org/10.1126/science.adf6369
 
 Third-party components and their licences are listed in
 [`THIRD_PARTY.md`](THIRD_PARTY.md). The benchmarks keep their upstream licences;
