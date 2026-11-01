@@ -345,7 +345,7 @@ results rather than cleaned away.
 | Submission archives | Three, all pass the official `check_submission_zip.py` and CI |
 | Codabench | Registered; **1013718** finished (0.208365); **1015136** (E1) finished (0.185082) and selected for final evaluation |
 | Technical report | v4, 7 pages, official NeurIPS template, compiled without errors |
-| OpenReview | Submission form verified; upload of v4 with ID 1015136 pending the author's login |
+| OpenReview | **CONFIRMED** OpenReview submission **#30** on 2026-11-01, [official page](https://openreview.net/forum?id=2wAHKu3pM1), with report v4 and selected Codabench ZIP |
 | Earlier e-mail deposit | 24–25 Oct 2026 while Codabench was down; superseded by the platform submissions |
 
 Formative Codabench scores are reported as such; no ranking, acceptance or final score is claimed.
