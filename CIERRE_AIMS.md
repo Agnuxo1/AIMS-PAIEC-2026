@@ -1,3 +1,28 @@
+# Official PAIEC closure update — 2026-11-01
+
+**STATUS: OFFICIALLY SUBMITTED TO OPENREVIEW AND AUTHOR FORM COMPLETED.**
+
+- Competition: NeurIPS 2026 Predictive AI Evaluation Competition (PAIEC).
+- Accepted by OpenReview on **2026-11-01 00:37 UTC**, submission number **30**.
+- Official author-facing forum URL: https://openreview.net/forum?id=2wAHKu3pM1
+- Manuscript: `report/informe_v4.pdf` (seven pages, NeurIPS 2026 format), SHA-256 `4297a779045acc5b97b5a29034e83687a64384890add00ba82464eb61447c703`.
+- Supplementary file: `submissions/submission_item_peer.zip` (1,353 bytes), SHA-256 `2e1d0990307e4c408ce5273d1e7f2ab6f6580ac7df3b5c4d093fd0e80b690f78`.
+- Selected CoDaBench entry ID **1015136**, formative Brier ALC **0.185082**.
+- Single author: Francisco Angulo de Lafuente (independent researcher).
+- The official PAIEC author information / reviewer-interest Google Form was also submitted on 2026-11-01. The Google Forms confirmation screen said **"Your response has been recorded."** No reviewer availability was offered (0 reports).
+- The team registration was confirmed in the previously retained `registro-confirmado.png` and checkpoint evidence.
+- The OpenReview receipt e-mail states: "Your submission to PAIEC 2026 has been posted. Submission Number: 30." Confirmation e-mail dated 2026-11-01 00:37 UTC.
+
+**Action:** Do not resubmit. Watch only for organiser follow-up, revisions requested before the official deadline, and final results.
+
+---
+
+## Historical snapshot below
+
+The earlier closure log below was written **24 October 2026** before Codabench and OpenReview became accessible. Its "pending" statements are preserved for the audit trail but are **superseded by the verified update above**.
+
+---
+
 # CIERRE_AIMS — estado verificado de cada entregable
 
 **Estado global: PENDIENTE — BLOQUEADO EXTERNAMENTE.**
