@@ -1,3 +1,8 @@
+<!-- Research illustration: conceptual pipeline, not measured results. -->
+![Animated conceptual scientific workflow](assets/hero-workflow.gif)
+
+*Conceptual scientific pipeline (not experimental footage).* [Accessible vector architecture](assets/architecture.svg).
+
 <p align="center"><img src="docs/readme/01-banner.gif" alt="Predictive AI Evaluation: official empirical-mean reference versus the Beta-Binomial rule over 0 to 31 revealed labels" width="100%"></p>
 
 # Predicting whether an AI system will get an item right
