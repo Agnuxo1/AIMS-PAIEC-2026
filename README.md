@@ -485,3 +485,11 @@ Developed with substantial assistance from large language models, for code, for
 prose and as adversarial critics of the analysis. Three rounds of independent
 re-derivation were run before submission and each found errors that were
 corrected.
+
+## Research authorship and citation
+
+**Original research author:** Francisco Angulo de Lafuente. **ORCID:** [https://orcid.org/0009-0001-1634-7063](https://orcid.org/0009-0001-1634-7063). **Attribution documentation updated:** 2026-11-03. **Software license:** [MIT](LICENSE), subject to applicable third-party licenses.
+
+Copyright (c) 2026 Francisco Angulo de Lafuente for original contributions. Please preserve the original copyright and license notices and cite the original research authors when using this research. Do not misrepresent the authorship of the work or of its underlying methods. MIT requires retaining the original copyright and permission notice in copies or substantial portions; scholarly citation is requested but is not an extra MIT licensing condition.
+
+See [research authors](AUTHORS.md), [citation metadata](CITATION.cff), [license](LICENSE), [copyright notes](NOTICE.md), [software metadata](codemeta.json) and [machine-readable provenance](provenance/identity.jsonld). The animated workflow and architecture SVG above are **conceptual illustrations**, not observed experiments. Experimental claims must be supported separately by the documented data and validation.
