@@ -61,6 +61,10 @@ archive remain byte-for-byte unchanged.
 
 **Contents** — [28 October: three reproducible prior-strength interventions](#28-october-three-reproducible-prior-strength-interventions) · [The result](#the-result) · [The method](#the-method) · [Same-item peer evidence (E1) — the selected submission](#same-item-peer-evidence-e1--the-selected-submission) · [Official Codabench results](#official-codabench-results) · [What did not work](#what-did-not-work) · [A conditional extension, reported separately](#a-conditional-extension-reported-separately) · [Independent audit](#independent-audit) · [Quickstart](#quickstart) · [Layout](#layout) · [Limitations](#limitations) · [Competition status](#competition-status) · [Background](#background) · [Real-world applications](#real-world-applications) · [Possible improvements](#possible-improvements) · [Future work](#future-work) · [Citation](#citation) · [References](#references) · [Licence](#licence)
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> The predictor uses simple shrinkage and same-item peer labels to estimate model success without runtime training, network access or model-weight files. Its <a href="#the-result">documented local evaluation</a> reports lower Brier loss than the official empirical-mean reference, making inexpensive, auditable probability estimation a concrete contribution. Potential savings from grading fewer benchmark items remain an application to validate separately.</sub>
+<!-- impact-note:end -->
+
 ## 28 October: three reproducible prior-strength interventions
 
 <p align="center"><img src="docs/readme/02-prior-strength.gif" alt="Forest plot of three prior-strength alternatives against the S = 3 control" width="100%"><br><sub>Animated figure A1 — Change in mean Brier ALC against S = 3. Data: results/prior_strength_experiments.json.</sub></p>
